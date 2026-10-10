@@ -1,0 +1,1653 @@
+{
+  "@@locale": "zh_TW",
+  "appTitle": "鏈上筆記",
+  "tabHome": "首頁",
+  "tabNotes": "筆記",
+  "tabProfile": "我的",
+  "myNotes": "我的筆記",
+  "notesCount": "共 {count} 篇筆記",
+  "@notesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "createNote": "建立筆記",
+  "selectNetwork": "選擇網路",
+  "selectNetworkSubtitle": "選擇您要使用的區塊鏈網路",
+  "chainSelectorMainnetTab": "主網",
+  "chainSelectorTestnetTab": "測試網",
+  "chainSelectorFooterHint": "切換網路後，筆記將儲存在對應的區塊鏈上",
+  "chainSelectorTestnetNoticeTitle": "測試網說明",
+  "chainSelectorTestnetNoticeBody": "測試網用於開發測試，代幣無真實價值",
+  "chainSelectorAllChainsTitle": "全部鏈",
+  "chainSelectorAllChainsSubtitle": "顯示所有鏈的筆記",
+  "@chainSelectorChainIdLabel": {
+    "placeholders": {
+      "chainId": {
+        "type": "int"
+      }
+    }
+  },
+  "chainSelectorChainIdLabel": "鏈 ID：{chainId}",
+  "chainSelectorCurrentBadge": "目前",
+  "@chainSelectorGasLabel": {
+    "placeholders": {
+      "cost": {
+        "type": "String"
+      }
+    }
+  },
+  "chainSelectorGasLabel": "Gas：{cost}",
+  "chainGasCostLevelMedium": "中等",
+  "chainSelectorTestnetChainWarning": "測試網路 · 無真實價值",
+  "viewAll": "查看全部",
+  "aboutUs": "關於我們",
+  "aboutPageTagline": "永久保存 · 不可篡改 · 完全掌控",
+  "@splashVersionLabel": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "splashVersionLabel": "版本 {version}",
+  "aboutPageVersionSection": "版本資訊",
+  "aboutPageCurrentVersion": "目前版本",
+  "photosPermissionDeniedSnack": "無相簿權限，請在系統設定中開啟後重試",
+  "pressBackAgainToExitApp": "再按一次即可退出應用",
+  "@noteEditorOnChainTypeConfirmedSnack": {
+    "placeholders": {
+      "publishAction": {
+        "type": "String"
+      }
+    }
+  },
+  "noteEditorOnChainTypeConfirmedSnack": "已確認上鏈，請儲存或點擊「{publishAction}」繼續",
+  "actionShow": "顯示",
+  "actionHide": "隱藏",
+  "actionSaveToFile": "儲存檔案",
+  "mnemonicExportSecurityConfirmTitle": "安全確認",
+  "mnemonicExportAckSaved": "我已安全保存恢復短語到可靠位置",
+  "mnemonicExportAckUnderstandLoss": "我了解遺失恢復短語將無法恢復筆記帳戶",
+  "mnemonicExportAckNoShare": "我承諾不向任何人洩露恢復短語",
+  "mnemonicExportSafetyTipsTitle": "安全建議",
+  "mnemonicExportSafetyTipPaper": "將恢復短語寫在紙上，存放在安全的地方",
+  "mnemonicExportSafetyTipNoScreenshot": "不要截圖或保存在連網裝置上",
+  "mnemonicExportSafetyTipCheckBackup": "定期檢查備份的完整性",
+  "mnemonicExportFinishCta": "我已安全保存",
+  "aboutPageReleaseDate": "發布日期",
+  "aboutPageBuildNumber": "建置版本",
+  "aboutPageCoreFeatures": "核心特色",
+  "aboutFeatureOnChainTitle": "鏈上儲存",
+  "aboutFeatureOnChainDesc": "SHA-256 雜湊上鏈，永久不可篡改",
+  "aboutFeatureSecureTitle": "資料安全",
+  "aboutFeatureSecureDesc": "端到端加密，您掌握安全密鑰",
+  "aboutFeatureSyncTitle": "即時同步",
+  "aboutFeatureSyncDesc": "多裝置即時同步，隨時隨地存取",
+  "aboutFeatureControlTitle": "完全掌控",
+  "aboutFeatureControlDesc": "去中心化架構，資料完全屬於您",
+  "aboutPageTechStack": "技術棧",
+  "aboutPageContactUs": "聯絡我們",
+  "aboutPageOfficialWebsite": "官方網站",
+  "aboutPageContactEmail": "聯絡信箱",
+  "aboutPageOpenSource": "開源程式碼",
+  "aboutPageCreditsMadeWith": "用心呈現 ",
+  "aboutPageCopyrightNotice": "© {yearBrand}。保留所有權利。",
+  "@aboutPageCopyrightNotice": {
+    "placeholders": {
+      "yearBrand": {
+        "type": "String"
+      }
+    }
+  },
+  "walletManagement": "筆記帳戶管理",
+  "walletCannotDeleteSwitchFirst": "無法刪除目前使用的筆記帳戶，請先切換",
+  "walletViewMnemonicCompleteBackupFirst": "請先完成恢復短語備份後再檢視恢復短語或安全密鑰",
+  "walletDemoPrimaryName": "我的主筆記帳戶",
+  "walletAddressListTitle": "筆記帳戶位址列表",
+  "copyAddressButton": "複製位址",
+  "labelCopied": "已複製",
+  "walletManagementDeleteIrreversible": "此操作無法復原。請確認已備份恢復短語或安全密鑰。",
+  "walletManagementDeleteWarningTitle": "警告：刪除後無法復原",
+  "walletManagementDeleteAssetsLoss": "請確認已妥善保存恢復短語或安全密鑰，否則您的筆記可能永久遺失。",
+  "walletCreateSystemDescription": "系統將為您產生新的筆記帳戶位址與恢復短語",
+  "walletCreateBackupReminderBody": "建立後請立即備份恢復短語，恢復短語是恢復筆記帳戶的唯一憑證。",
+  "walletCreateGenerateSubtitle": "產生新筆記帳戶",
+  "walletAddressCopied": "位址已複製",
+  "walletNameRequired": "筆記帳戶名稱不能為空",
+  "walletNameUpdated": "筆記帳戶名稱已更新",
+  "walletKeepAtLeastOne": "至少需要保留一個筆記帳戶",
+  "walletCannotDeleteCurrent": "無法刪除目前使用中的筆記帳戶",
+  "walletDeleted": "筆記帳戶已刪除",
+  "walletCreated": "筆記帳戶建立成功",
+  "walletImportMnemonicOrKeyRequired": "請輸入恢復短語或安全密鑰",
+  "walletImportSuccess": "筆記帳戶恢復成功",
+  "walletImportedCannotViewMnemonic": "恢復的筆記帳戶無法查看恢復短語",
+  "walletMarkedBackedUp": "已標記為已備份",
+  "walletSwitched": "已切換筆記帳戶",
+  "viewMnemonic": "查看恢復短語",
+  "viewPrivateKey": "查看安全密鑰",
+  "privateKeyExportSelectNetworkHint": "選擇要查看的網路",
+  "privateKeyExportKeepKeySafeHint": "請妥善保管您的安全密鑰",
+  "privateKeyExportSecurityWarningTitle": "安全警告",
+  "privateKeyExportWarnBullet1": "安全密鑰是管理筆記的最高權限憑證",
+  "privateKeyExportWarnBullet2": "任何人取得安全密鑰即可完全管理您的筆記",
+  "privateKeyExportWarnBullet3": "請確保周圍環境安全，無人窺視",
+  "privateKeyExportWarnBullet4": "切勿截圖、拍照或透過網路傳輸安全密鑰",
+  "privateKeyExportSupportedNetworksTitle": "支援的網路",
+  "@privateKeyExportNetworkCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "privateKeyExportNetworkCount": "{count} 個網路",
+  "privateKeyExportViewSafetyTitle": "安全密鑰安全提示",
+  "privateKeyExportViewBullet1": "確保周圍環境安全，無人窺視螢幕",
+  "privateKeyExportViewBullet2": "不要在公共場所或不安全的網路環境下查看",
+  "privateKeyExportViewBullet3": "查看完畢後請儘快關閉此頁面",
+  "privateKeyExportKeySectionTitle": "安全密鑰",
+  "privateKeyExportBip44Hint": "BIP44 以太坊路徑派生的安全密鑰在各 EVM 主網相同，僅網路名稱不同。",
+  "privateKeyExportMaskedPlaceholder": "0x•••••••••••••••••••••••••••••••••",
+  "privateKeyExportDoNotShareInline": "請勿將安全密鑰告知任何人或透過網路傳輸",
+  "@privateKeyExportNetworkAddressLabel": {
+    "placeholders": {
+      "networkName": {
+        "type": "String"
+      }
+    }
+  },
+  "privateKeyExportNetworkAddressLabel": "{networkName} 網路地址",
+  "privateKeyExportImportantReminderTitle": "重要提醒",
+  "privateKeyExportReminderBullet1": "擁有安全密鑰 = 可完全管理該地址下的筆記",
+  "privateKeyExportReminderBullet2": "安全密鑰外洩將導致筆記永久遺失，無法找回",
+  "privateKeyExportReminderBullet3": "官方團隊永遠不會要求您提供安全密鑰",
+  "privateKeyExportReminderBullet4": "建議使用恢復短語作為備份方式，而非安全密鑰",
+  "privateKeyExportBackToList": "返回列表",
+  "privateKeyExportCopySecurityKey": "複製安全密鑰",
+  "mnemonicManagePageTitle": "恢復短語管理",
+  "mnemonicManagePageSubtitle": "請妥善保管恢復短語，切勿洩露",
+  "mnemonicBackupFlowTitle": "備份恢復短語",
+  "@mnemonicBackupFlowStepProgress": {
+    "placeholders": {
+      "step": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "mnemonicBackupFlowStepProgress": "第 {step} 步，共 {total} 步",
+  "mnemonicBackupFlowLoadFailed": "載入失敗",
+  "mnemonicBackupFlowCTAUnderstoodStart": "我已了解，開始備份",
+  "mnemonicBackupFlowCTACopiedContinue": "我已抄寫，繼續驗證",
+  "mnemonicBackupFlowCTAVerifiedContinue": "驗證通過，繼續",
+  "mnemonicBackupFlowCTAPleaseVerify": "請完成驗證",
+  "mnemonicBackupFlowCTAFinish": "完成備份",
+  "mnemonicBackupFlowCTANext": "下一步",
+  "mnemonicBackupFlowFooterCopyHint": "請確認已正確抄寫所有恢復短語後再繼續",
+  "mnemonicBackupFlowStep1Heading": "開始備份前",
+  "mnemonicBackupFlowStep1Subheading": "請仔細閱讀以下安全提示",
+  "mnemonicBackupFlowSecurityTipsTitle": "重要安全提示",
+  "mnemonicBackupFlowSecurityTip1": "恢復短語是恢復筆記帳戶的唯一憑證",
+  "mnemonicBackupFlowSecurityTip2": "任何人取得恢復短語即可管理您的筆記",
+  "mnemonicBackupFlowSecurityTip3": "遺失恢復短語將永久無法恢復筆記帳戶",
+  "mnemonicBackupFlowBackupAdviceTitle": "安全備份建議",
+  "mnemonicBackupFlowBackupAdvice1": "將恢復短語寫在紙上，存放在安全的地方",
+  "mnemonicBackupFlowBackupAdvice2": "不要截圖或保存在連網裝置上",
+  "mnemonicBackupFlowBackupAdvice3": "不要透過網路傳送或分享給任何人",
+  "mnemonicBackupFlowBackupAdvice4": "建議多處備份，分散保管",
+  "mnemonicBackupFlowProcessTitle": "備份流程",
+  "mnemonicBackupFlowProcess1": "檢視並抄寫您的恢復短語",
+  "mnemonicBackupFlowProcess2": "透過驗證確認備份正確",
+  "mnemonicBackupFlowProcess3": "完成備份，保護您的筆記安全",
+  "mnemonicBackupFlowYourMnemonicTitle": "您的恢復短語",
+  "mnemonicBackupFlowYourMnemonicSubtitle": "請依序抄寫並妥善保管",
+  "@mnemonicBackupFlowWordCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "mnemonicBackupFlowWordCount": "{count} 個恢復短語",
+  "mnemonicBackupFlowPleaseNoteTitle": "請注意",
+  "mnemonicBackupFlowStep2NoteBody": "建議使用紙筆抄寫恢復短語，而非截圖或複製到連網裝置。點擊眼睛圖示可顯示或隱藏恢復短語。",
+  "mnemonicBackupFlowVerifyTitle": "驗證恢復短語",
+  "mnemonicBackupFlowVerifySubtitle": "請選擇正確的單字以確認您已正確備份",
+  "@mnemonicBackupFlowVerifyWordQuestion": {
+    "placeholders": {
+      "position": {
+        "type": "int"
+      }
+    }
+  },
+  "mnemonicBackupFlowVerifyWordQuestion": "第 {position} 個單字是？",
+  "mnemonicBackupFlowVerifySuccessTitle": "驗證成功！",
+  "mnemonicBackupFlowVerifySuccessBody": "您已正確備份恢復短語",
+  "mnemonicBackupFlowDoneTitle": "備份完成！",
+  "mnemonicBackupFlowDoneSubtitle": "您的恢復短語已安全備份",
+  "mnemonicBackupFlowDoneSectionTitle": "已完成",
+  "mnemonicBackupFlowDoneCheck1": "檢視並抄寫恢復短語",
+  "mnemonicBackupFlowDoneCheck2": "通過驗證測試",
+  "mnemonicBackupFlowDoneCheck3": "恢復短語已安全保存",
+  "mnemonicBackupFlowDoneSecurityTitle": "安全提醒",
+  "mnemonicBackupFlowDoneSecurity1": "請將恢復短語保存在安全的實體位置",
+  "mnemonicBackupFlowDoneSecurity2": "切勿向任何人透露您的恢復短語",
+  "mnemonicBackupFlowDoneSecurity3": "官方團隊絕不會向您索取恢復短語",
+  "mnemonicBackupFlowDoneSecurity4": "定期檢查備份是否完整可讀",
+  "mnemonicBackupFlowFinalEncouragementTitle": "現在您可以安心使用筆記帳戶了！",
+  "mnemonicBackupFlowFinalEncouragementBody": "您的筆記受到恢復短語的保護",
+  "switchWallet": "切換",
+  "viewAddresses": "檢視位址",
+  "cancel": "取消",
+  "save": "儲存",
+  "confirmDelete": "確認刪除",
+  "createWallet": "建立筆記帳戶",
+  "importWallet": "恢復筆記帳戶",
+  "mnemonicOrPrivateKey": "恢復短語或安全密鑰",
+  "close": "關閉",
+  "copy": "複製",
+  "mnemonicCopied": "恢復短語已複製",
+  "privateKeyCopied": "安全密鑰已複製",
+  "backedUp": "已備份",
+  "editWalletName": "編輯筆記帳戶名稱",
+  "deleteWallet": "刪除筆記帳戶",
+  "confirmDeleteWallet": "確認刪除筆記帳戶",
+  "newWalletCreated": "新筆記帳戶已建立",
+  "cannotDeleteCurrentWallet": "無法刪除目前使用中的筆記帳戶",
+  "edit": "編輯",
+  "createNewWallet": "建立新筆記帳戶",
+  "editWalletNameTitle": "修改筆記帳戶名稱",
+  "noteNotFoundBack": "筆記不存在，請返回",
+  "createNoteNotImplemented": "建立筆記（待實作）",
+  "newWalletCreateSuccess": "新筆記帳戶建立成功！",
+  "restoringFromProvider": "正在從 {provider} 還原筆記帳戶...",
+  "@restoringFromProvider": {
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      }
+    }
+  },
+  "restoredFromProvider": "已從 {provider} 還原筆記帳戶！",
+  "@restoredFromProvider": {
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      }
+    }
+  },
+  "noBackupFoundProvider": "找不到 {provider} 備份，請嘗試其他方式",
+  "@noBackupFoundProvider": {
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      }
+    }
+  },
+  "walletAddressCopiedShort": "筆記帳戶位址已複製",
+  "switchedToChain": "已切換至 {chain}",
+  "@switchedToChain": {
+    "placeholders": {
+      "chain": {
+        "type": "String"
+      }
+    }
+  },
+  "fillAllFields": "請填寫完整資訊",
+  "passwordMismatch": "兩次輸入的新密碼不一致",
+  "passwordMinLength": "密碼長度至少 6 個字元",
+  "passwordChangeSuccess": "密碼已變更",
+  "enterValidEmail": "請輸入有效的電子郵件位址",
+  "verificationCodeSent": "驗證碼已傳送",
+  "enterSixDigitCode": "請輸入 6 位數驗證碼",
+  "emailBindSuccess": "電子郵件已綁定",
+  "emailUnbound": "電子郵件已解除綁定",
+  "logoutNotConnected": "登出（待串接）",
+  "changePassword": "變更密碼",
+  "confirm": "確認",
+  "bindEmail": "綁定電子郵件",
+  "editNoteOpenByRoute": "請透過路由開啟編輯頁",
+  "imageUploadNotConnected": "圖片上傳尚未連接儲存服務",
+  "imageRemoved": "圖片已移除",
+  "titleContentRequired": "標題與內容不能為空",
+  "submittedToChain": "已提交上鏈",
+  "onChainNoteCannotChangeType": "已上鏈的筆記無法變更類型",
+  "setToLocalNote": "已設為本地筆記（不會上鏈）",
+  "setToDraft": "已設為草稿",
+  "editNote": "編輯筆記",
+  "noteDetailEditDisabledOnChain": "已上鏈不可編輯",
+  "noteTypeDraft": "草稿",
+  "noteTypeLocal": "本地",
+  "noteTypeOnChain": "已上鏈",
+  "blockchainVerify": "驗證區塊鏈",
+  "blockchainVerifyTitle": "區塊鏈驗證",
+  "getGas": "取得 {symbol} 燃料費",
+  "@getGas": {
+    "placeholders": {
+      "symbol": {
+        "type": "String"
+      }
+    }
+  },
+  "addressCopied": "位址已複製",
+  "redirectingToFaucet": "正在前往水龍頭網站",
+  "noFaucetForNetwork": "此網路尚無水龍頭",
+  "loginNotImplemented": "登入功能待實作",
+  "forgotPassword": "忘記密碼？",
+  "forgotPasswordNotImplemented": "忘記密碼功能待實作",
+  "noAccountYet": "還沒有筆記帳戶？",
+  "registerNotImplemented": "註冊功能待實作",
+  "registerNow": "立即註冊",
+  "mnemonicVerifySuccess": "恢復短語校驗通過，匯入邏輯由外部實作",
+  "privateKeyVerifySuccess": "安全密鑰校驗通過，匯入邏輯由外部實作",
+  "importSuccess": "筆記帳戶恢復成功！",
+  "cleared": "已清空",
+  "back": "返回",
+  "current": "目前",
+  "imported": "已恢復",
+  "defaultBadge": "預設",
+  "clearSearch": "清除搜尋",
+  "searchNotesHint": "搜尋筆記...",
+  "noMatchNotes": "找不到符合的筆記",
+  "noOnChainNotes": "尚無已上鏈的筆記",
+  "noOffChainNotes": "尚無未上鏈的筆記",
+  "noNotes": "尚無筆記",
+  "tryOtherSearch": "試試其他關鍵字",
+  "startCreateFirstNote": "開始建立您的第一篇筆記",
+  "profileNotConnected": "未連線",
+  "profileSectionAccount": "筆記帳戶管理",
+  "profileNetworkSettingsSubtitle": "設定 RPC 與節點",
+  "profileSectionSecurity": "安全",
+  "profileChangePasswordSubtitle": "保護您的筆記帳戶安全",
+  "profileBindEmailNotBound": "未綁定",
+  "profileBindEmailBadgeBound": "已綁定",
+  "profileSectionPreferences": "偏好設定",
+  "profileNotifications": "通知提醒",
+  "profileDarkMode": "深色模式",
+  "profileLanguage": "語言",
+  "profileSectionMore": "更多",
+  "profileTestPage": "測試頁面",
+  "profileTestPageSubtitle": "功能測試入口",
+  "profileTerms": "服務條款",
+  "profilePrivacy": "隱私權政策",
+  "profileRateUs": "為我們評分",
+  "profileShare": "分享給朋友",
+  "profileShareMessage": "我正在使用這款鏈上筆記 App，推薦給你：\n{url}",
+  "@profileShareMessage": {
+    "placeholders": {
+      "url": {
+        "type": "String"
+      }
+    }
+  },
+  "profileLogoutLabel": "登出",
+  "profileLogoutPending": "登出（待串接）",
+  "@profilePageFooter": {
+    "placeholders": {
+      "appTitle": {
+        "type": "String"
+      },
+      "version": {
+        "type": "String"
+      },
+      "year": {
+        "type": "String"
+      }
+    }
+  },
+  "profilePageFooter": "{appTitle} v{version}\n© {year} 保留所有權利。",
+  "profileAvatarFallback": "ME",
+  "profileDefaultWalletName": "我的筆記帳戶",
+  "profileUserActive": "活躍使用者",
+  "profileUserNormal": "一般使用者",
+  "profileStatNotes": "筆記數",
+  "profileStatOnChain": "已上鏈",
+  "profileStatDays": "天數",
+  "profileBindEmailDialogSubtitle": "請填寫電子郵件並取得驗證碼。",
+  "profileBindEmailFieldEmail": "電子郵件位址",
+  "profileBindEmailFieldCode": "驗證碼",
+  "profileSendVerificationCode": "傳送驗證碼",
+  "profileResendCodeInSeconds": "{seconds} 秒後可重送",
+  "@profileResendCodeInSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "profileUnbindEmail": "解除綁定電子郵件",
+  "languageSelectTitle": "選擇語言",
+  "languageSelectSubtitle": "選擇您偏好的介面語言",
+  "languageNoticeHint": "提示：",
+  "languageNoticeBody": "已支援簡體中文、繁體中文、英語、日語與韓語；其餘語言敬請期待。",
+  "languageCurrentBadge": "目前",
+  "languageSnackbarComingSoon": "敬請期待",
+  "languageSwitchedTo": "語言已切換至 {name}",
+  "@languageSwitchedTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "languageFooterMore": "更多語言即將支援",
+  "changePasswordSameAsOld": "新密碼不能與舊密碼相同",
+  "changePasswordLength632": "新密碼長度為 6-32 位",
+  "walletNoSavedKey": "找不到已儲存的金鑰，請先建立筆記帳戶",
+  "changePasswordWrongOrFailed": "舊密碼錯誤或操作失敗",
+  "passwordMaxLength32": "密碼長度最多為 32 位",
+  "passwordMeetAllRequirements": "請滿足所有密碼要求",
+  "encryptionInitFailed": "加密初始化失敗：{error}",
+  "@encryptionInitFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "passwordVerifyForgotGoReset": "忘記密碼？前往重設",
+  "passwordStrengthWeak": "弱",
+  "passwordStrengthMedium": "中等",
+  "passwordStrengthStrong": "強",
+  "changePasswordPageTitle": "變更密碼",
+  "changePasswordPageSubtitle": "保護您的筆記帳戶安全",
+  "changePasswordSecurityHintTitle": "安全提示",
+  "changePasswordSecurityHintBody": "• 定期變更密碼可提高筆記帳戶安全性\n• 請使用強密碼，包含字母、數字與符號\n• 勿使用生日、電話等易被猜到的密碼",
+  "changePasswordOldLabel": "舊密碼",
+  "changePasswordOldHint": "請輸入舊密碼",
+  "changePasswordNewLabel": "新密碼",
+  "changePasswordNewHint": "請輸入新密碼",
+  "changePasswordStrengthLabel": "密碼強度：",
+  "changePasswordMatchOk": "密碼一致",
+  "changePasswordMatchBad": "密碼不一致",
+  "changePasswordConfirmLabel": "確認新密碼",
+  "changePasswordConfirmHint": "請再次輸入新密碼",
+  "changePasswordRuleLength": "6-32 個字元",
+  "changePasswordRuleCase": "包含大小寫字母",
+  "changePasswordRuleDigit": "包含數字",
+  "changePasswordClear": "清空",
+  "changePasswordSubmit": "確認變更",
+  "validatorOldPasswordRequired": "請輸入舊密碼",
+  "validatorNewPasswordRequired": "請輸入新密碼",
+  "validatorNewPasswordMin6": "至少 6 個字元",
+  "validatorNewPasswordMax32": "最多 32 個字元",
+  "validatorConfirmRequired": "請確認新密碼",
+  "validatorConfirmMismatch": "兩次輸入不一致",
+  "changePasswordRulesTitle": "密碼要求",
+  "loginWelcomeTitle": "歡迎回來",
+  "loginSubtitle": "請登入您的筆記帳戶",
+  "loginEmailOrUsernameLabel": "電子郵件或使用者名稱",
+  "loginEmailOrUsernameHint": "請輸入電子郵件或使用者名稱",
+  "validatorLoginIdRequired": "請輸入電子郵件或使用者名稱",
+  "loginPasswordFieldLabel": "密碼",
+  "loginPasswordFieldHint": "請輸入密碼",
+  "validatorLoginPasswordRequired": "請輸入密碼",
+  "validatorLoginPasswordMin6": "密碼長度至少 6 位",
+  "loginButton": "登入",
+  "createWalletPasswordPageTitle": "設定筆記帳戶密碼",
+  "createWalletPasswordSubtitle": "保護您的筆記安全",
+  "createWalletPasswordWhyTitle": "為什麼需要密碼？",
+  "createWalletPasswordWhyBody": "筆記帳戶密碼用於加密安全密鑰與恢復短語，僅您可存取筆記。請務必記住，遺失後無法復原。",
+  "walletPasswordFieldLabel": "筆記帳戶密碼",
+  "walletPasswordFieldHint": "請輸入 6-32 位密碼",
+  "walletConfirmPasswordFieldLabel": "確認密碼",
+  "walletConfirmPasswordFieldHint": "請再次輸入密碼",
+  "walletPasswordImportantNotice": "重要提示",
+  "walletPasswordWarnBullets": "• 密碼保護筆記帳戶安全\n• 請使用易記但難猜的密碼\n• 建議混合字母、數字與符號\n• 密碼遺失無法找回，請務必記住",
+  "createWalletPasswordSubmitCreate": "確認並建立筆記帳戶",
+  "createWalletPasswordSubmitReset": "確認並重設密碼",
+  "createWalletPasswordFooterAck": "確認即表示您了解密碼的重要性",
+  "walletPasswordRulesHeader": "密碼要求：",
+  "walletPasswordRuleLength632": "6-32 個字元",
+  "walletPasswordRuleLetter": "包含字母",
+  "walletPasswordRuleNumberRecommended": "包含數字（建議）",
+  "walletPasswordRuleMatch": "兩次密碼一致",
+  "walletBootstrapImporting": "恢復筆記帳戶中...",
+  "walletBootstrapInitializing": "初始化筆記帳戶中...",
+  "passwordVerifyTitle": "驗證密碼",
+  "passwordVerifyDescription": "為保障安全，請輸入筆記帳戶密碼以繼續",
+  "passwordVerifyDescExportMnemonic": "檢視並匯出恢復短語前，請輸入筆記帳戶密碼",
+  "passwordVerifyDescExportPrivateKey": "檢視安全密鑰前，請輸入筆記帳戶密碼",
+  "passwordVerifyDescImportWallet": "恢復筆記帳戶前請驗證筆記帳戶密碼",
+  "passwordVerifyDescBackupMnemonic": "備份恢復短語前，請輸入筆記帳戶密碼",
+  "passwordVerifyDescCreateWallet": "建立筆記帳戶前請驗證筆記帳戶密碼",
+  "passwordVerifyDescDeleteWallet": "刪除筆記帳戶前請驗證筆記帳戶密碼",
+  "passwordVerifyDescMintNft": "鑄造 NFT 須驗證筆記帳戶密碼",
+  "passwordVerifyWalletPasswordLabel": "筆記帳戶密碼",
+  "passwordVerifyWalletPasswordHint": "請輸入筆記帳戶密碼",
+  "validatorWalletPasswordRequired": "請輸入密碼",
+  "passwordVerifyNoEncryptedData": "找不到加密資料，請重新設定密碼",
+  "passwordVerifyFailedWithError": "驗證失敗：{error}",
+  "@passwordVerifyFailedWithError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "passwordVerifyLockoutMinutes": "錯誤次數過多，請於 {minutes} 分鐘後再試",
+  "@passwordVerifyLockoutMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "passwordVerifyLockoutHours": "錯誤次數過多，請於 {hours} 小時後再試",
+  "@passwordVerifyLockoutHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "passwordVerifyWrongWithCount": "密碼錯誤（{current}/{max}）",
+  "@passwordVerifyWrongWithCount": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "passwordVerifyAttemptsBanner": "密碼錯誤 {count} 次，剩餘 {remaining} 次機會",
+  "@passwordVerifyAttemptsBanner": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "remaining": {
+        "type": "int"
+      }
+    }
+  },
+  "passwordVerifyLockBanner": "錯誤次數過多，請於 {time} 後再試",
+  "@passwordVerifyLockBanner": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "passwordVerifyDurationHoursMinutes": "{hours} 小時 {minutes} 分鐘",
+  "@passwordVerifyDurationHoursMinutes": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "passwordVerifyDurationMinutes": "{minutes} 分鐘",
+  "@passwordVerifyDurationMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "passwordVerifySecurityTipsTitle": "安全提示",
+  "passwordVerifySecurityTipsBody": "• 密碼長度 6-32 位\n• 請確認環境安全\n• 錯誤 {maxAttempts} 次將暫時鎖定",
+  "@passwordVerifySecurityTipsBody": {
+    "placeholders": {
+      "maxAttempts": {
+        "type": "int"
+      }
+    }
+  },
+  "paste": "貼上",
+  "loadingDefault": "載入中…",
+  "walletLoadingTagline": "BlockNote · 安全 · 可信 · 永久",
+  "walletLoadingStepConnecting": "連接區塊鏈網路…",
+  "walletLoadingStepVerifying": "驗證筆記帳戶資訊…",
+  "walletLoadingStepSyncing": "同步筆記資料…",
+  "walletLoadingStepComplete": "載入完成！",
+  "retry": "重試",
+  "loadFailedWithError": "載入失敗：{error}",
+  "@loadFailedWithError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "selectEvmChainFirst": "請先選擇支援 EVM 的網路",
+  "noteNotFoundShort": "找不到筆記",
+  "createOrSelectWalletFirst": "請先建立或選擇筆記帳戶",
+  "privateKeyDecryptFailedHint": "無法取得安全密鑰，請確認密碼正確。若曾變更密碼，請重新使用恢復短語",
+  "uploadingIpfsAndMinting": "上傳至 IPFS 並鑄造中…",
+  "ipfsFileUploadFailed": "IPFS 檔案上傳失敗：{details}",
+  "@ipfsFileUploadFailed": {
+    "placeholders": {
+      "details": {
+        "type": "String"
+      }
+    }
+  },
+  "onChainSuccessTx": "上鏈成功：{txHash}",
+  "@onChainSuccessTx": {
+    "placeholders": {
+      "txHash": {
+        "type": "String"
+      }
+    }
+  },
+  "draftSavedIpfsRetry": "已儲存為草稿並替換為 IPFS 圖片，可稍後重試上鏈",
+  "mintFailedGasDebug": "餘額不足（Gas）\n{detail}",
+  "@mintFailedGasDebug": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "mintFailedGasUser": "餘額不足，無法支付 Gas，請儲值後再試",
+  "mintFailedGeneric": "上鏈失敗：{error}",
+  "@mintFailedGeneric": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "walletErrNoWalletYet": "請先建立或恢復筆記帳戶",
+  "walletErrUnrecognizedAccount": "無法辨識目前筆記帳戶",
+  "walletErrWalletDataNotFound": "找不到目前筆記帳戶資料",
+  "walletErrImportedMnemonicNoExport": "以恢復短語恢復的筆記帳戶無法在此再次匯出恢復短語",
+  "walletErrImportedMnemonicNoBackup": "以恢復短語恢復的筆記帳戶無需在此備份",
+  "walletErrPrivateKeyWalletNoMnemonic": "以安全密鑰恢復的筆記帳戶沒有恢復短語",
+  "walletErrNoEncryptedMnemonic": "此筆記帳戶沒有本地加密的恢復短語資料",
+  "walletErrDecryptFailed": "解密失敗，請確認密碼正確",
+  "walletErrMissingAddress": "缺少筆記帳戶地址",
+  "walletErrGetPrivateKeyFailed": "無法取得安全密鑰，請確認密碼正確",
+  "exportMnemonicDocTitle": "鏈上筆記 — 恢復短語備份",
+  "exportMnemonicDocTime": "產生時間：{time}",
+  "@exportMnemonicDocTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "exportMnemonicDocLabel": "恢復短語（請妥善保管）：",
+  "exportMnemonicDocSecurity": "⚠️ 安全提示：\n1. 請將此恢復短語保存在安全的地方\n2. 不要與任何人分享\n3. 遺失後將無法恢復筆記帳戶與資料",
+  "exportMnemonicUseCopyOnPlatform": "目前平台請使用複製",
+  "exportMnemonicSavedTo": "已儲存：{path}",
+  "@exportMnemonicSavedTo": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "walletBootstrapCreating": "建立筆記帳戶中…",
+  "chainNameEvm": "EVM 鏈（Ethereum/BSC/Polygon 等）",
+  "chainPkDescEvm": "以 0x 開頭的 64 位十六進位字串，總長度 66 字元",
+  "chainNameBitcoin": "Bitcoin",
+  "chainPkDescBitcoin": "WIF 格式，以 5、K 或 L 開頭，長度 51–52 字元",
+  "chainNameSolana": "Solana",
+  "chainPkDescSolana": "Base58 編碼，長度約 87–88 字元，不含 0、O、I、l",
+  "chainNameTron": "Tron",
+  "chainPkDescTronHex": "64 位十六進位字串（無 0x 前綴）",
+  "chainNameCosmos": "Cosmos",
+  "chainPkDescCosmosHex": "64 位十六進位字串（無 0x 前綴）",
+  "walletPkSubtitleLength": "{count} 位字元",
+  "@walletPkSubtitleLength": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "walletPkSubtitleStartsWith": "以 {prefix} 開頭",
+  "@walletPkSubtitleStartsWith": {
+    "placeholders": {
+      "prefix": {
+        "type": "String"
+      }
+    }
+  },
+  "walletImportSelectChainTitle": "選擇區塊鏈類型",
+  "walletImportEvmOnlyNotice": "暫不支援，請使用 EVM 安全密鑰匯入",
+  "walletImportPageSubtitle": "使用恢復短語或安全密鑰還原筆記帳戶",
+  "walletImportTabMnemonic": "恢復短語",
+  "walletImportTabPrivateKey": "安全密鑰",
+  "walletImportInputMethod": "輸入方式",
+  "walletImportInputSingle": "單字輸入",
+  "walletImportInputPasteFull": "整句貼上",
+  "walletImportWordCountLabel": "恢復短語數量",
+  "walletImportWordCountN": "{n} 個詞",
+  "@walletImportWordCountN": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "walletImportWordCountDialogTitle": "選擇助記詞數量",
+  "walletImportWordCountDialogDesc": "BIP39標準支援多種助記詞長度，安全性隨詞數增加而提升",
+  "walletImportWordCountOptionLabel": "{count}個助記詞",
+  "@walletImportWordCountOptionLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "walletImportWordCountSecurityLabel": "安全級別：",
+  "walletImportWordCountSecurityStandard": "標準",
+  "walletImportWordCountSecurityEnhanced": "增強",
+  "walletImportWordCountSecurityAdvanced": "高級",
+  "walletImportWordCountSecurityProfessional": "專業",
+  "walletImportWordCountSecurityMaximum": "極高",
+  "walletImportWordCountSwitched": "已切換到{n}個詞",
+  "@walletImportWordCountSwitched": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "walletImportWordCountDialogTip": "大多數錢包使用12個詞的助記詞。如果您不確定，請選擇12個詞。",
+  "walletImportEnterMnemonic": "請輸入恢復短語",
+  "walletImportMnemonicPasteTip": "提示：可貼上整句恢復短語，請使用上方「整句貼上」",
+  "walletImportPasteMnemonicPrompt": "請貼上恢復短語",
+  "walletImportMnemonicHintWords": "請貼上 {count} 個恢復短語，以空格分隔",
+  "@walletImportMnemonicHintWords": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "walletImportMnemonicWordFieldHint": "單字",
+  "walletImportMnemonicParagraphExampleHint": "word1 word2 word3 ...",
+  "walletImportPrivateKeyFieldHint": "0x... 或 64 位十六進位",
+  "walletImportPrivateKeyFieldHintShort": "0x...",
+  "walletImportWordProgress": "目前詞數：{current} / {total}",
+  "@walletImportWordProgress": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "walletImportMnemonicSecurityTitle": "安全提示",
+  "walletImportMnemonicSecurityBody": "• 請在安全網路環境操作\n• 恢復短語遺失無法找回\n• 切勿向他人透露恢復短語\n• 我們不會在伺服器儲存您的恢復短語",
+  "walletImportSelectChainSection": "選擇區塊鏈類型",
+  "walletImportTapSwitchChain": "點擊切換鏈類型",
+  "walletImportEnterPrivateKey": "請輸入安全密鑰",
+  "walletImportPkFormatExample": "安全密鑰格式範例",
+  "walletImportPkSevereTitle": "嚴重警告",
+  "walletImportPkSevereBody": "• 安全密鑰是筆記帳戶最高權限\n• 取得安全密鑰者可完全管理您的筆記\n• 請勿在不安全裝置輸入安全密鑰\n• 請勿截圖或透過聊天軟體傳送安全密鑰",
+  "walletImportConfirm": "確認恢復",
+  "walletImportMnemonicNeedCount": "請輸入完整的 {count} 個恢復短語",
+  "@walletImportMnemonicNeedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "walletImportMnemonicWrongCount": "請輸入 {count} 個恢復短語，目前 {current} 個",
+  "@walletImportMnemonicWrongCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "current": {
+        "type": "int"
+      }
+    }
+  },
+  "walletImportMnemonicInvalidWords": "恢復短語格式不正確，請使用小寫英文單字",
+  "walletImportPkEmpty": "請輸入安全密鑰",
+  "walletImportPkNeed0x": "安全密鑰應以 0x 開頭",
+  "walletImportPkNeedWif": "安全密鑰應以 5、K 或 L 開頭",
+  "walletImportPkWifLength": "安全密鑰長度應為 51–52 字元",
+  "walletImportPkLengthExpected": "安全密鑰長度應為 {length} 字元",
+  "@walletImportPkLengthExpected": {
+    "placeholders": {
+      "length": {
+        "type": "int"
+      }
+    }
+  },
+  "walletImportPkInvalidFormat": "安全密鑰格式不正確",
+  "walletImportEvmOnly": "目前僅支援 EVM 安全密鑰匯入",
+  "walletImportDeriveAddressFailed": "無法由安全密鑰推算地址，請檢查格式",
+  "walletImportDuplicatePk": "此安全密鑰對應地址已存在，請勿重複恢復",
+  "walletImportDuplicateMnemonic": "此恢復短語對應筆記帳戶已恢復，請勿重複恢復",
+  "walletImportInvalidPrivateKeyRetry": "安全密鑰無效，請檢查後重試",
+  "walletImportInvalidMnemonicRetry": "恢復短語無效，請檢查後重試",
+  "clipboardEmpty": "剪貼簿為空",
+  "mnemonicViewLengthTitle": "恢復短語長度",
+  "mnemonicViewInputMode": "輸入方式",
+  "mnemonicViewSingleWord": "單字輸入",
+  "mnemonicViewFullPaste": "整段貼上",
+  "mnemonicViewImportCta": "使用恢復短語",
+  "mnemonicViewEnterOrdered": "請依序輸入 {count} 個恢復短語",
+  "@mnemonicViewEnterOrdered": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "mnemonicViewPasteHint": "請貼上完整恢復短語，詞與詞之間以空格分隔",
+  "mnemonicCountMismatch": "請輸入 {expected} 個恢復短語，目前 {current} 個",
+  "@mnemonicCountMismatch": {
+    "placeholders": {
+      "expected": {
+        "type": "int"
+      },
+      "current": {
+        "type": "int"
+      }
+    }
+  },
+  "mnemonicInvalidBip39": "無效的恢復短語，請檢查拼寫",
+  "walletSelectorTitle": "我的筆記帳戶",
+  "walletSelectorSubtitle": "管理您的所有筆記帳戶",
+  "walletNumberedName": "筆記帳戶 {n}",
+  "@walletNumberedName": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "walletDefaultCreatedNameFirst": "我的筆記帳戶",
+  "walletDefaultCreatedNameNumbered": "我的筆記帳戶{n}",
+  "@walletDefaultCreatedNameNumbered": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "walletDefaultPrivateKeyNameFirst": "我的安全密鑰筆記帳戶",
+  "walletDefaultPrivateKeyNameNumbered": "我的安全密鑰筆記帳戶{n}",
+  "@walletDefaultPrivateKeyNameNumbered": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "walletBackupNotYet": "尚未備份筆記帳戶",
+  "walletBackupPromptLine1": "尚未備份筆記帳戶",
+  "walletBackupPromptLine2": "點此立即備份恢復短語",
+  "walletDeleteConfirmTitle": "確認刪除筆記帳戶",
+  "walletDeleteConfirmLine1": "刪除後無法復原，請確認已備份恢復短語。",
+  "walletDeleteConfirmLine2Notes": "此筆記帳戶關聯的本機筆記資料也會一併刪除。",
+  "walletDeleteCannotCurrent": "⚠️ 無法刪除目前使用的筆記帳戶",
+  "walletDeleteLastHint": "刪除後將無筆記帳戶，將返回引導頁重新建立或恢復。",
+  "walletEditNameSubtitle": "為筆記帳戶設定容易辨識的名稱",
+  "walletNameFieldLabel": "筆記帳戶名稱",
+  "walletNameFieldHint": "輸入筆記帳戶名稱",
+  "networkNodeAdd": "新增節點",
+  "networkNodeTest": "測試",
+  "networkNodeSetDefault": "設為預設",
+  "networkNodeOnline": "線上",
+  "networkNodeOffline": "離線",
+  "networkNodeConnectionFailed": "節點連線失敗",
+  "networkRpcUrlInvalid": "請輸入有效的 HTTP 或 HTTPS RPC URL",
+  "networkNodeDuplicate": "此節點已存在",
+  "networkNodeNameRpcRequired": "請輸入節點名稱與 RPC URL",
+  "networkNodeAdded": "節點新增成功",
+  "networkRpcCopied": "已複製 RPC URL",
+  "networkNodeSwitched": "已切換至此節點",
+  "networkNodeDeleted": "節點已刪除",
+  "networkSettingsTitle": "網路設定",
+  "networkSettingsSubtitle": "設定區塊鏈網路節點",
+  "networkLoadFailed": "載入失敗：{message}",
+  "@networkLoadFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "networkSectionMainnet": "主網",
+  "networkSectionTestnet": "測試網路",
+  "networkTestnetListHint": "應用程式內資料來源（ChainDatas）中標示為 testnet 的網路會出現在此清單。",
+  "networkCountNetworks": "{count} 個網路",
+  "@networkCountNetworks": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "networkAboutNodesTitle": "關於網路節點",
+  "networkAboutNodesBullet1": "RPC 節點是連接區塊鏈網路的入口",
+  "networkAboutNodesBullet2": "您可以新增自訂節點以提升速度或可靠性",
+  "networkAboutNodesBullet3": "建議使用可信的公開節點或自行架設的節點",
+  "networkStatusConnectionOk": "連線正常",
+  "networkStatusConnectionError": "連線異常",
+  "networkStatusCustomized": "已自訂",
+  "networkNodeCountLabel": "{count} 個節點",
+  "@networkNodeCountLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "networkAllNodesTitle": "所有節點（{count}）",
+  "@networkAllNodesTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "networkDetailHeaderNodeCount": "共有 {count} 個節點",
+  "@networkDetailHeaderNodeCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "networkQuickAddTitle": "快速新增節點",
+  "networkQuickAddLine1": "點選任一網路進入詳情頁，即可新增自訂 RPC 節點。",
+  "networkQuickAddLine2": "可新增多個節點；系統會保留清單以供後續擴充（例如自動選擇最快節點）。",
+  "networkNodeProbeOk": "節點連線正常",
+  "networkNodeProbeOkLatency": "節點連線正常，延遲 {ms} ms",
+  "@networkNodeProbeOkLatency": {
+    "placeholders": {
+      "ms": {
+        "type": "int"
+      }
+    }
+  },
+  "networkCurrentNodeTitle": "目前使用的節點",
+  "networkNodeActiveBadge": "活躍",
+  "networkNoNodeSelected": "未選擇節點",
+  "networkNodeLatencyMs": "延遲 {ms} ms",
+  "@networkNodeLatencyMs": {
+    "placeholders": {
+      "ms": {
+        "type": "int"
+      }
+    }
+  },
+  "networkAddRpcDialogTitle": "新增 RPC 節點",
+  "networkAddRpcDialogSubtitle": "為 {networkName} 網路新增自訂 RPC 節點",
+  "@networkAddRpcDialogSubtitle": {
+    "placeholders": {
+      "networkName": {
+        "type": "String"
+      }
+    }
+  },
+  "networkNodeNameLabel": "節點名稱",
+  "networkNodeNameHint": "例如：自訂節點 1",
+  "networkRpcUrlLabel": "RPC URL",
+  "networkRpcUrlHint": "https://…",
+  "networkExampleRpcLabel": "範例 RPC URL",
+  "networkConfirmAddNode": "確認新增",
+  "networkTipsTitle": "使用提示",
+  "networkTipsLine1": "建議新增多個節點作為備援",
+  "networkTipsLine2": "測試節點以查看連線狀態與延遲",
+  "networkTipsLine3": "延遲較低的節點通常可加快交易",
+  "networkTipsLine4": "預設節點（內建）無法刪除",
+  "networkNodeInUseBadge": "使用中",
+  "networkCannotDeleteDefaultNode": "預設節點無法刪除",
+  "networkDeleteSwitchNodeFirst": "請先切換到其他節點再刪除",
+  "homeFiatApprox": "≈ {amount}",
+  "@homeFiatApprox": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "homeUnitPrice": "單價：{price}",
+  "@homeUnitPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "homeUnitPriceUnavailable": "單價：--",
+  "homeTransactionHistory": "創建筆記記錄",
+  "homeTransactionHistoryNotConfigured": "創建筆記記錄功能未設定",
+  "transactionHistorySubtitle": "檢視您的所有創建筆記記錄",
+  "transactionHistoryStatTotal": "總計",
+  "transactionHistoryStatSuccess": "成功",
+  "transactionHistoryStatPending": "待確認",
+  "transactionHistoryStatFailed": "失敗",
+  "transactionHistoryFilterAll": "全部",
+  "transactionHistoryFilterSend": "創建筆記",
+  "transactionHistoryFilterReceive": "接收",
+  "transactionHistorySelectChain": "選擇網路",
+  "transactionHistoryCopied": "已複製到剪貼簿",
+  "transactionHistoryExplorerInvalidUrl": "無效的瀏覽器連結",
+  "transactionHistoryExplorerLaunchFailed": "無法開啟瀏覽器，請檢查系統設定",
+  "@transactionHistoryExplorerOpenError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "transactionHistoryExplorerOpenError": "開啟失敗：{error}",
+  "transactionHistoryRefreshed": "創建筆記記錄已更新",
+  "transactionHistoryTimeJustNow": "剛剛",
+  "@transactionHistoryTimeMinutesAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "transactionHistoryTimeMinutesAgo": "{count, plural, other{{count} 分鐘前}}",
+  "@transactionHistoryTimeHoursAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "transactionHistoryTimeHoursAgo": "{count, plural, other{{count} 小時前}}",
+  "@transactionHistoryTimeDaysAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "transactionHistoryTimeDaysAgo": "{count, plural, other{{count} 天前}}",
+  "transactionHistoryEmptyTitle": "暫無創建筆記記錄",
+  "transactionHistoryEmptyHintFiltered": "沒有找到相符的創建筆記記錄",
+  "transactionHistoryEmptyHintAll": "目前沒有任何創建筆記記錄",
+  "transactionHistoryTypeSend": "創建筆記",
+  "transactionHistoryTypeReceive": "接收",
+  "transactionHistoryStatusSuccess": "成功",
+  "transactionHistoryStatusFailed": "失敗",
+  "transactionHistoryStatusPending": "待確認",
+  "transactionHistoryDetailFrom": "發送方",
+  "transactionHistoryDetailTo": "接收方",
+  "transactionHistoryDetailTxHash": "上鏈雜湊",
+  "transactionHistoryDetailBlock": "區塊高度",
+  "@transactionHistoryGasLine": {
+    "placeholders": {
+      "fee": {
+        "type": "String"
+      },
+      "symbol": {
+        "type": "String"
+      }
+    }
+  },
+  "transactionHistoryGasLine": "Gas: {fee} {symbol}",
+  "homeGasBalanceTitle": "{symbol} 燃料費餘額",
+  "@homeGasBalanceTitle": {
+    "placeholders": {
+      "symbol": {
+        "type": "String"
+      }
+    }
+  },
+  "homeTotalAssets": "總餘額",
+  "homeRefreshBalance": "重新整理餘額",
+  "homeGetGas": "取得燃料費",
+  "homeGasHelp": "燃料費用於支付交易上鏈的 Gas 費用，請確保餘額充足",
+  "@getGasDialogTitle": {
+    "placeholders": {
+      "symbol": {
+        "type": "String"
+      }
+    }
+  },
+  "getGasDialogTitle": "取得 {symbol} 燃料費",
+  "@getGasDialogSubtitle": {
+    "placeholders": {
+      "chainName": {
+        "type": "String"
+      }
+    }
+  },
+  "getGasDialogSubtitle": "選擇一種方式為您的 {chainName} 筆記帳戶充值",
+  "getGasOptionReceiveTitle": "接收代幣",
+  "getGasBadgeRecommended": "推薦",
+  "@getGasReceiveHint": {
+    "placeholders": {
+      "symbol": {
+        "type": "String"
+      }
+    }
+  },
+  "getGasReceiveHint": "從其他筆記帳戶或交易所轉入 {symbol}",
+  "getGasWalletAddressLabel": "筆記帳戶地址",
+  "getGasShowQr": "二維碼",
+  "getGasHideQr": "隱藏",
+  "@getGasTransferWarning": {
+    "placeholders": {
+      "chainName": {
+        "type": "String"
+      }
+    }
+  },
+  "getGasTransferWarning": "請確保轉帳網路為 {chainName}，否則筆記可能遺失",
+  "getGasFaucetTitle": "測試網水龍頭",
+  "getGasBadgeFree": "免費",
+  "@getGasFaucetHint": {
+    "placeholders": {
+      "symbol": {
+        "type": "String"
+      }
+    }
+  },
+  "getGasFaucetHint": "從水龍頭免費領取測試網 {symbol}",
+  "@getGasFaucetOpen": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "getGasFaucetOpen": "前往水龍頭連結 {index}",
+  "getGasBuyExchangeTitle": "從交易所購買",
+  "getGasBadgeComingSoon": "即將推出",
+  "@getGasBuyExchangeHint": {
+    "placeholders": {
+      "symbol": {
+        "type": "String"
+      }
+    }
+  },
+  "getGasBuyExchangeHint": "透過交易所購買 {symbol} 並提領到筆記帳戶",
+  "getGasDialogCancel": "取消",
+  "getGasAddressCopied": "地址已複製",
+  "getGasInvalidLink": "無效的連結",
+  "getGasCouldNotOpenLink": "無法開啟連結，請確認已安裝瀏覽器",
+  "@getGasOpenFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "getGasOpenFailed": "開啟失敗：{error}",
+  "homeRecentNotes": "最近筆記",
+  "homeRefreshRecentNotes": "重新整理最近筆記",
+  "homeLoadingOnChainNotes": "正在載入鏈上筆記",
+  "homeSyncingOnChainNotes": "正在同步鏈上筆記…",
+  "homeNoNotesInLastMonth": "最近一個月都沒有筆記了",
+  "homeCreateNewNotePrompt": "快來建立您的新筆記",
+  "notesAllChains": "全部鏈",
+  "notesSwitchedToAllChains": "已切換到全部鏈",
+  "notesFilterAll": "全部",
+  "notesFilterOnChain": "已上鏈",
+  "notesFilterOffChain": "未上鏈",
+  "notesSortNewest": "最新",
+  "notesSortUpdated": "更新",
+  "notesSortOldest": "最早",
+  "notesSortTitle": "標題",
+  "notesTimelineNoteCount": "{count} 篇",
+  "@notesTimelineNoteCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "noteStatsTotalNotes": "總筆記",
+  "noteStatsOnChainCount": "已上鏈",
+  "noteStatsImages": "圖片數",
+  "noteStatsChars": "總字數",
+  "noteDeleteNote": "刪除筆記",
+  "noteDeleteConfirmTitle": "刪除筆記？",
+  "noteDeleteConfirmBody": "確定要刪除這則筆記嗎？刪除後無法復原。",
+  "noteDeletedSnackbar": "筆記已刪除",
+  "noteDeleteFailed": "刪除失敗：{error}",
+  "@noteDeleteFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "noteUpdatedAt": "更新於 {date}",
+  "@noteUpdatedAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "noteCreatedAt": "建立於 {date}",
+  "@noteCreatedAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "noteNoContent": "暫無內容",
+  "noteEditorCreateNewNote": "建立新筆記",
+  "noteEditorChainLine": "{chainName} 鏈",
+  "@noteEditorChainLine": {
+    "placeholders": {
+      "chainName": {
+        "type": "String"
+      }
+    }
+  },
+  "noteEditorSelectChainToPublish": "選擇鏈後可上鏈",
+  "noteEditorSave": "儲存",
+  "noteEditorSaving": "儲存中",
+  "noteTitleLabel": "標題",
+  "noteTitleHint": "為筆記取個標題…",
+  "noteCoverImages": "封面圖片（可選）",
+  "noteCoverAdd": "新增封面",
+  "noteCoverUploading": "上傳中",
+  "noteCoverTapUpload": "點擊上傳封面圖片",
+  "noteCoverFormatsHint": "支援 JPG、PNG 等格式",
+  "noteRichTextGuideTitle": "富文字編輯功能",
+  "noteRichTextHeadingLabel": "標題：",
+  "noteRichTextHeadingBody": "點選工具列「標題」按鈕插入數字標題。",
+  "noteRichTextListLabel": "清單：",
+  "noteRichTextListBody": "插入專案符號或編號清單。",
+  "noteRichTextEmojiLabel": "Emoji：",
+  "noteRichTextEmojiBody": "快速插入常用表情與狀態標記。",
+  "noteRichTextTemplateLabel": "範本：",
+  "noteRichTextTemplateBody": "選擇預設範本快速開始撰寫。",
+  "noteRichTextImageLabel": "圖片：",
+  "noteRichTextImageBody": "點選工具列圖片按鈕，直接插入到內文。",
+  "noteRichTextPreviewHint": "提示：切換到「預覽」可查看排版效果。",
+  "noteEditorContentPlaceholder": "在這裡記錄想法、靈感、計畫…\n\n提示：使用工具列可快速插入：\n• 標題與清單\n• Emoji 與特殊符號\n• 快速範本\n• 圖片\n\n支援富文字格式，詳情頁會自動美化顯示！",
+  "noteTipsTitle": "創作提示",
+  "noteTipsBody": "• 為筆記取個有意義的標題\n• 記錄想法、計畫或重要資訊\n• 可新增圖片讓內容更豐富\n• 儲存後可選擇上鏈永久保存",
+  "noteReadyTitle": "準備就緒",
+  "noteReadyBody": "內容已填寫，點選右上角「儲存」即可建立筆記。",
+  "noteTypeSectionLabel": "筆記類型：",
+  "notePublishToChain": "發布到鏈上",
+  "notePublishing": "上鏈中…",
+  "noteOnChainPublished": "已上鏈",
+  "selectBlockchainFirst": "請先選擇區塊鏈網路",
+  "noteImageAdded": "已新增圖片",
+  "noteImagePickFailed": "選擇圖片失敗",
+  "noteSavedToLocal": "已儲存到本機",
+  "notePublishFailedKeptDraft": "上鏈失敗，已儲存為草稿",
+  "noteSavedAsDraft": "已儲存為草稿",
+  "richTextPreviewMode": "預覽模式",
+  "richTextEditMode": "編輯模式",
+  "richTextPreview": "預覽",
+  "richTextEdit": "編輯",
+  "richTextLineCount": "{count} 行",
+  "@richTextLineCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "richTextCharCount": "{count} 字元",
+  "@richTextCharCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "richTextToolbarBottomHint": "提示：使用工具列快速插入格式，或手動輸入 emoji 與特殊符號。",
+  "richTextToolbarHeading": "標題",
+  "richTextTooltipInsertHeading": "插入標題",
+  "richTextTooltipBulletList": "插入清單",
+  "richTextTooltipNumberedList": "插入編號清單",
+  "richTextTooltipStatusMarkers": "插入狀態標記",
+  "richTextToolbarEmojiMenu": "表情",
+  "richTextTooltipInsertEmoji": "插入表情",
+  "richTextToolbarTemplate": "範本",
+  "richTextTooltipQuickTemplate": "快速範本",
+  "richTextTooltipAddImage": "新增圖片",
+  "richTextMdImageAlt": "圖片",
+  "richTextInsertNumberedHeading": "\n1️⃣ 標題\n",
+  "richTextInsertBulletLines": "\n• 清單項 1\n• 清單項 2\n• 清單項 3\n",
+  "richTextInsertNumberedLines": "\n1. 第一項\n2. 第二項\n3. 第三項\n",
+  "richTextInsertStatusMarkers": "\n🟢 已完成\n🔵 進行中\n🟡 待處理\n",
+  "richTextEmojiGroupNumberedTitle": "數字標題",
+  "richTextEmojiGroupStatus": "狀態標記",
+  "richTextEmojiGroupSymbols": "常用符號",
+  "richTextEmojiGroupEmoji": "表情",
+  "richTextEmojiHeadingWord": "標題",
+  "richTextEmojiBodyWord": "內容",
+  "richTextTplStandardNoteName": "📝 標準筆記",
+  "richTextTplStandardNoteBody": "標題\n\n主要內容：\n• 要點 1\n• 要點 2\n• 要點 3\n\n總結：\n",
+  "richTextTplTaskName": "✅ 任務清單",
+  "richTextTplTaskBody": "任務清單\n\n今日任務：\n✓ 已完成\n✗ 未完成\n→ 進行中\n\n備註：\n",
+  "richTextTplStudyName": "📚 學習筆記",
+  "richTextTplStudyBody": "學習筆記 - 主題\n\n1️⃣ 關鍵概念\n• 概念 1：說明\n• 概念 2：說明\n\n2️⃣ 重點整理\n• 要點 1\n• 要點 2\n\n3️⃣ 實作應用\n",
+  "richTextTplIdeaName": "💡 靈感紀錄",
+  "richTextTplIdeaBody": "💡 靈感紀錄\n\n想法：\n🟢 核心想法描述\n\n優勢：\n• 優點 1\n• 優點 2\n\n下一步：\n→ 行動計畫\n",
+  "richTextTplProjectName": "📊 專案規劃",
+  "richTextTplProjectBody": "專案規劃\n\n🎯 目標：\n\n📝 計畫：\n1. 第一步\n2. 第二步\n3. 第三步\n\n⏰ 時間線：\n",
+  "gasPreviewTitle": "Gas 費用預覽",
+  "gasPreviewSubtitle": "請選擇 Gas 速度一併確認上鏈。",
+  "gasPreviewLoading": "正在取得 Gas 費用…",
+  "gasPreviewPickSpeed": "選擇 Gas 速度",
+  "gasPreviewLiveRates": "即時費率",
+  "gasSpeedSlow": "慢速",
+  "gasSpeedStandard": "標準",
+  "gasSpeedFast": "快速",
+  "gasTimeSlow": "約 3–5 分鐘",
+  "gasTimeStandard": "約 1–2 分鐘",
+  "gasTimeFast": "約 15–30 秒",
+  "gasDescSlow": "baseFee×1.1；小費 = max(30 Gwei, 網路建議) + 3 Gwei",
+  "gasDescStandard": "baseFee×1.25；小費 = max(30 Gwei, 網路建議) + 8 Gwei",
+  "gasDescFast": "baseFee×1.5；小費 = max(30 Gwei, 網路建議) + 20 Gwei",
+  "gasLabelGasPrice": "Gas 價格",
+  "gasLabelEstCost": "預計費用",
+  "gasRecommendedBadge": "推薦",
+  "gasPreviewGweiMax": "{value} Gwei（上限）",
+  "@gasPreviewGweiMax": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "gasFeeBreakdownTitle": "費用明細",
+  "gasFeeRowBase": "基礎費用",
+  "gasFeeRowPriority": "優先費用",
+  "gasFeeRowNoteSize": "筆記大小",
+  "gasFeeRowTotal": "總費用",
+  "gasFeeNoteSizeKb": "{kb} KB",
+  "@gasFeeNoteSizeKb": {
+    "placeholders": {
+      "kb": {
+        "type": "String"
+      }
+    }
+  },
+  "gasWarningTitle": "溫馨提示",
+  "gasWarningBody": "• Gas 費用由區塊鏈網路收取，與應用程式無關\n• 實際費用可能因網路壅塞略有浮動\n• 上鏈後的筆記無法刪除或修改",
+  "gasConfirmOnChain": "確認上鏈",
+  "gasOnChainConfirmDialogTitle": "上鏈後無法修改",
+  "gasOnChainConfirmDialogBody": "目前筆記將寫入區塊鏈（IPFS + 鏈上存證），\n一經送出即無法刪除或修改，請確認內容無誤後再繼續。",
+  "gasOnChainConfirmDialogQuestion": "是否確認上鏈？",
+  "onChainConfirmParamSummarySectionTitle": "參數摘要",
+  "noteOnChainParamJsonKeyNetwork": "網路",
+  "noteOnChainParamJsonKeyChainId": "鏈 ID",
+  "noteOnChainParamJsonKeyFeeToken": "Gas 支付代幣",
+  "noteOnChainParamJsonKeySender": "發起地址（你的筆記帳戶）",
+  "noteOnChainParamJsonKeyContract": "合約地址",
+  "noteOnChainParamJsonKeyContractName": "合約名稱",
+  "noteOnChainParamJsonKeyFunction": "呼叫方法",
+  "noteOnChainParamJsonKeyNoteTitle": "筆記標題",
+  "noteOnChainParamJsonKeyContentSha256": "正文指紋 SHA-256",
+  "noteOnChainParamJsonGroupMintCall": "上鏈調用（合約參數）",
+  "noteOnChainParamJsonGroupContext": "當前可核對資訊",
+  "noteOnChainParamJsonValueUriPending": "安全驗證確認並上傳至 IPFS 後填入實際 ipfs:// 位址",
+  "noteOnChainConfirmPageTitle": "確認筆記上鏈",
+  "noteOnChainConfirmPageSubtitle": "將筆記永久儲存到區塊鏈",
+  "noteOnChainConfirmNoExplorer": "目前網路未設定區塊瀏覽器，無法查看合約",
+  "noteOnChainConfirmMintStatusUncertain": "上鏈狀態異常，請稍後在筆記或瀏覽器中核對",
+  "noteOnChainConfirmSignButton": "確認並安全驗證",
+  "noteOnChainConfirmTipTitle": "上鏈提示",
+  "noteOnChainConfirmTipBody": "• 上鏈後無法修改或刪除筆記\n• 筆記將永久上鏈，歸你所有\n• 需要支付少量 Gas 費用，僅一次",
+  "noteOnChainConfirmNoteContentSection": "筆記內容",
+  "noteOnChainConfirmNoteTitleLabel": "標題",
+  "noteOnChainConfirmContentPreview": "內容預覽",
+  "noteOnChainConfirmNoteHashLabel": "筆記雜湊 (SHA-256)",
+  "noteOnChainConfirmChainDetailsSection": "上鏈詳情",
+  "noteOnChainConfirmMyWallet": "我的筆記帳戶",
+  "noteOnChainConfirmTargetContract": "目標合約",
+  "noteOnChainConfirmContractOwnershipHint": "合約負責鑄造筆記（NFT），筆記（NFT）最終歸屬於你的筆記帳戶，你擁有筆記的永久所有權",
+  "noteOnChainConfirmNoteRecipientAddress": "筆記接收地址：{address}",
+  "@noteOnChainConfirmNoteRecipientAddress": {
+    "placeholders": {
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "noteOnChainConfirmNetworkFee": "網路費用",
+  "noteOnChainConfirmGasPriceLabel": "Gas 單價",
+  "noteOnChainConfirmGasLimitLabel": "Gas 上限",
+  "noteOnChainConfirmOnChainFee": "上鏈費用",
+  "noteOnChainConfirmGasOnlyHint": "僅需支付 Gas",
+  "noteOnChainConfirmAdvancedSection": "進階詳情",
+  "noteOnChainConfirmNonceLabel": "Nonce",
+  "noteOnChainConfirmNetworkLabel": "網路",
+  "noteOnChainConfirmGasSlow": "慢速",
+  "noteOnChainConfirmGasNormal": "標準",
+  "noteOnChainConfirmGasFast": "快速",
+  "noteOnChainConfirmGasTimeSlow": "約 5 分鐘",
+  "noteOnChainConfirmGasTimeNormal": "約 1 分鐘",
+  "noteOnChainConfirmGasTimeFast": "約 15 秒",
+  "saveOptionsTitle": "選擇儲存方式",
+  "saveOptionsSubtitle": "依需求選擇合適的儲存方式",
+  "saveOnChainTitle": "上鏈儲存",
+  "saveOnChainDescription": "永久儲存在區塊鏈，不可篡改",
+  "saveOnChainFeature1": "永久儲存",
+  "saveOnChainFeature2": "可驗證",
+  "saveOnChainFeature3": "去中心化",
+  "ipfsUploadConfirmTitle": "上傳到 IPFS",
+  "ipfsUploadConfirmBody": "目前筆記含有本機圖片，上鏈前需先上傳至去中心化儲存（IPFS）。上傳後可在後續步驟寫入區塊鏈。\n\n是否將相關內容上傳到 IPFS 並繼續？",
+  "saveBadgeSecure": "安全",
+  "saveDraftTitle": "儲存為草稿",
+  "saveDraftDescription": "稍後再編輯，不佔用鏈上資源",
+  "saveDraftFeature1": "隨時編輯",
+  "saveDraftFeature2": "本機儲存",
+  "saveDraftFeature3": "快速儲存",
+  "saveBadgeRecommended": "推薦",
+  "saveLocalTitle": "儲存到本機",
+  "saveLocalDescription": "完成編輯，僅儲存在裝置上",
+  "saveLocalFeature1": "離線可用",
+  "saveLocalFeature2": "即時儲存",
+  "saveLocalFeature3": "零費用",
+  "saveWillPublishToChain": "將儲存到 {chainName}",
+  "@saveWillPublishToChain": {
+    "placeholders": {
+      "chainName": {
+        "type": "String"
+      }
+    }
+  },
+  "guideWelcomeTitle": "歡迎使用鏈上筆記",
+  "guideWelcomeSubtitle": "開始之前，讓我們設定您的數位筆記帳戶",
+  "guideSecurityTitle": "您的資料，您做主",
+  "guideSecurityBody": "筆記帳戶安全密鑰完全由您掌控，我們不會在伺服器上儲存任何敏感資訊。請務必妥善保管恢復短語與安全密鑰。",
+  "guideCreateWalletTitle": "建立新筆記帳戶",
+  "guideCreateWalletSubtitle": "全新開始，系統將為您產生新的筆記帳戶地址與恢復短語",
+  "guideRecommendedNewUser": "推薦新使用者",
+  "guideImportWalletTitle": "恢復現有筆記帳戶",
+  "guideImportWalletSubtitle": "使用恢復短語或安全密鑰恢復您已有的筆記帳戶",
+  "guideTagMnemonic": "恢復短語",
+  "guideTagPrivateKey": "安全密鑰",
+  "guideICloudRestoreTitle": "從 iCloud 還原",
+  "guideICloudRestoreSubtitle": "若您先前在 iCloud 備份過筆記帳戶，可快速還原",
+  "guideBadgeIosOnly": "僅限 iOS 裝置",
+  "guideGoogleRestoreTitle": "從 Google Drive 還原",
+  "guideGoogleRestoreSubtitle": "若您先前在 Google Drive 備份過筆記帳戶，可快速還原",
+  "guideBadgeAllDevices": "支援所有裝置",
+  "guideFooterHint": "選擇任一方式繼續使用鏈上筆記\n您的安全密鑰將安全儲存在本機裝置中",
+  "guideProviderICloud": "iCloud",
+  "guideProviderGoogleDrive": "Google Drive",
+  "guideLoadingWalletMessage": "載入筆記帳戶…",
+  "googlePlayReviewModeTapHint": "再點擊 {remaining} 次進入審核模式",
+  "@googlePlayReviewModeTapHint": {
+    "placeholders": {
+      "remaining": {
+        "type": "int"
+      }
+    }
+  },
+  "helpCenter": "說明中心",
+  "helpCenterSubtitle": "常見問題與使用指南",
+  "helpSectionQuickGuide": "快速指南",
+  "helpSectionFaq": "常見問題",
+  "helpSearchHint": "搜尋問題…",
+  "helpCategoryAll": "全部",
+  "helpCategoryBasics": "基礎使用",
+  "helpCategoryBlockchain": "區塊鏈",
+  "helpCategoryWalletSecurity": "筆記帳戶安全",
+  "helpCategoryWalletMgmt": "筆記帳戶管理",
+  "helpCategoryAdvanced": "進階功能",
+  "helpCategoryCommon": "常見問題",
+  "helpComingSoon": "敬請期待",
+  "helpEmptyTitle": "找不到相關問題",
+  "helpEmptySubtitle": "試試其他關鍵字或聯絡客服",
+  "helpContactTitle": "聯絡客服",
+  "helpContactSubtitle": "找不到答案？請寄信給我們",
+  "helpContactSendFeedback": "傳送意見",
+  "helpContactYourEmailOptional": "您的電子郵件（選填）",
+  "helpContactEmailHint": "",
+  "helpContactMessageLabel": "意見內容",
+  "helpContactMessageHint": "請描述您遇到的問題或建議…",
+  "helpContactSending": "傳送中…",
+  "helpContactSend": "傳送",
+  "helpCopySupportEmail": "已複製電子郵件地址",
+  "helpFeedbackEmpty": "請輸入意見內容",
+  "helpFeedbackThanks": "感謝您的意見！",
+  "helpFeedbackMailFailed": "無法開啟郵件，請稍後再試",
+  "helpFeedbackMailSubject": "使用者意見",
+  "helpQuickGuide1Title": "快速入門",
+  "helpQuickGuide1Desc": "5 分鐘了解鏈上筆記的基本功能",
+  "helpQuickGuide2Title": "建立第一篇筆記",
+  "helpQuickGuide2Desc": "建立並上鏈儲存筆記的步驟說明",
+  "helpQuickGuide3Title": "備份恢復短語",
+  "helpQuickGuide3Desc": "確保您的筆記與資料安全",
+  "helpQuickGuide4Title": "管理多個筆記帳戶",
+  "helpQuickGuide4Desc": "建立、恢復與切換筆記帳戶",
+  "helpFaq1Question": "什么是鏈上笔记？",
+  "helpFaq1Answer": "鏈上笔记是一个基于區塊鏈技术的笔记应用。您可以将笔记永久保存到區塊鏈上，實現数据的不可篡改和永久保存。笔记一旦上鏈，任何人都无法修改或删除，确保内容的真实性和可追溯性。",
+  "helpFaq2Question": "如何创建一条新笔记？",
+  "helpFaq2Answer": "您可以通過以下方式创建笔记：\n1. 在首页點擊“创建笔记”按钮\n2. 在笔记頁面點擊右下角的“+”按钮\n3. 创建后可以添加标题、内容和图片",
+  "helpFaq3Question": "笔记有哪些保存方式？",
+  "helpFaq3Answer": "系统提供三种保存方式：\n1. 保存为草稿：本地保存，可随时编辑\n2. 保存到本地：完成编辑，本地存储\n3. 上鏈保存：永久保存到區塊鏈，不可修改\n\n建议先保存为草稿，确认内容无误后再選择上鏈保存。",
+  "helpFaq4Question": "什么是上鏈保存？需要付费吗？",
+  "helpFaq4Answer": "上鏈保存是指将笔记内容通過區塊鏈技术永久存储。上鏈需要支付 Gas 费用（網路手续费），这是由區塊鏈網路收取的，并非应用费用。不同區塊鏈網路的 Gas 费用不同，通常 L2 網路（如 Arbitrum、Optimism）的费用更低。",
+  "helpFaq5Question": "支持哪些區塊鏈網路？",
+  "helpFaq5Answer": "目前支持 8 条主流區塊鏈：\n• Ethereum（以太坊主网）\n• BSC（幣安智能鏈）\n• Polygon（马蹄鏈）\n• Arbitrum（L2 網路）\n• Optimism（L2 網路）\n• Avalanche（雪崩鏈）\n• Fantom（FTM 鏈）\n• Base（Base 鏈）\n\n您可以在首页随时切换網路。",
+  "helpFaq6Question": "如何驗證笔记是否真的上鏈了？",
+  "helpFaq6Answer": "笔记上鏈后会生成區塊鏈哈希值（Hash），您可以：\n1. 在笔记详情页查看哈希值\n2. 點擊“驗證”按钮查看完整的區塊鏈信息\n3. 复制哈希值到对应鏈的區塊鏈瀏覽器查询\n\n系统会显示该笔记在區塊鏈上的完整記錄。",
+  "helpFaq7Question": "什么是恢復短語？为什么要备份？",
+  "helpFaq7Answer": "恢復短語是恢復筆記帳戶的唯一憑證，通常由 12 個英文單詞組成。它是您筆記帳戶的「主密鑰」。\n\n重要性：\n• 恢復短語遺失 = 筆記帳戶永久遺失\n• 恢復短語外洩 = 筆記可能永久遺失或被他人管理\n• 應用程式無法幫您找回恢復短語\n\n務必妥善保管，建議抄寫在紙上保存在安全的地方。",
+  "helpFaq8Question": "如何备份恢復短語？",
+  "helpFaq8Answer": "备份恢復短語的步骤：\n1. 進入“我的”頁面\n2. 點擊“备份恢復短語”\n3. 阅读安全提示\n4. 抄写 12 个恢復短語\n5. 按顺序驗證恢復短語\n6. 完成备份\n\n注意：请在安全的环境下备份，确保无人窥视。",
+  "helpFaq9Question": "安全密鑰和恢復短語有什麼區別？",
+  "helpFaq9Answer": "恢復短語和安全密鑰都可以恢復筆記帳戶，但有所不同：\n\n恢復短語：\n• 12 個英文單詞\n• 易於抄寫和記憶\n• 可以派生多個安全密鑰\n• 推薦的備份方式\n\n安全密鑰：\n• 64 位十六進制字串\n• 難以記憶\n• 對應單個地址\n• 適合進階用戶",
+  "helpFaq10Question": "如何切换筆記帳戶？",
+  "helpFaq10Answer": "切换筆記帳戶的方法：\n1. 點擊首页顶部的筆記帳戶地址\n2. 在弹出的筆記帳戶選择器中選择要切换的筆記帳戶\n3. 或點擊“筆記帳戶管理”建立/恢復新筆記帳戶\n\n系统支持管理多个筆記帳戶，可随时切换。",
+  "helpFaq11Question": "如何查看不同鏈的地址？",
+  "helpFaq11Answer": "在“我的筆記帳戶”頁面：\n1. 點擊筆記帳戶卡片右侧的下拉箭头\n2. 会展開显示所有支持的 8 条鏈\n3. 每条鏈都显示对应的地址\n4. 點擊地址可以快速复制\n\n注意：同一个筆記帳戶在不同鏈上的地址是相同的（EVM 兼容鏈）。",
+  "helpFaq12Question": "如何自定义 RPC 节点？",
+  "helpFaq12Answer": "自定义 RPC 节点的步骤：\n1. 進入“我的”→“網路設定”\n2. 選择要配置的網路\n3. 點擊“添加节点”按钮\n4. 输入节点名称和 RPC URL\n5. 测试连接\n6. 设为默认节点\n\n自定义节点可以提高连接速度和稳定性。",
+  "helpFaq13Question": "富文本编辑器支持哪些格式？",
+  "helpFaq13Answer": "富文本编辑器支持多种格式：\n• 粗体、斜体、下划线\n• 标题（H1-H3）\n• 有序列表、无序列表\n• 引用块\n• 代码块\n• 图片上传\n\n使用工具栏按钮即可快速格式化文本。",
+  "helpFaq14Question": "上鏈后的笔记可以修改或删除吗？",
+  "helpFaq14Answer": "不可以。这正是區塊鏈技术的特点：\n\n上鏈后：\n• 内容永久保存\n• 无法修改\n• 无法删除\n• 任何人都无法篡改\n\n因此建议：\n1. 先保存为草稿反复修改\n2. 确认无误后再上鏈\n3. 敏感信息不要上鏈",
+  "helpFaq15Question": "为什么上鏈需要等待？",
+  "helpFaq15Answer": "Gas 费用确认后，笔记会提交到區塊鏈網路。等待时间取决于：\n\n1. 網路拥堵程度\n2. 您選择的 Gas 速度\n   • 快速：15-30 秒\n   • 标准：1-2 分鐘\n   • 慢速：3-5 分鐘\n3. 区块确认时间\n\n通常 1-2 分鐘即可完成。",
+  "helpFaq16Question": "忘记密码怎么办？",
+  "helpFaq16Answer": "如果忘记密码：\n\n1. 可以使用恢復短語重新恢復筆記帳戶\n2. 恢復後重新設定密码\n3. 原有的笔记数据会保留\n\n重要提醒：\n• 密码用于本地加密\n• 恢復短語是最终凭证\n• 务必备份恢復短語",
+  "@helpFeedbackMailBody": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      },
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "helpFeedbackMailBody": "聯絡電子郵件：{email}\n\n{message}",
+  "termsOfServiceLastUpdatedLabel": "最近更新",
+  "termsOfServiceIntroTitle": "重要提示",
+  "@termsOfServiceIntroBody": {
+    "placeholders": {
+      "privacyDoc": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfServiceIntroBody": "請仔細閱讀本服務條款及{privacyDoc}。使用本服務即表示您理解並同意相關規則。若不同意，請勿使用本服務。",
+  "termsOfServiceHelpTitle": "需要協助？",
+  "termsOfServiceHelpBody": "若對本條款有疑問，請前往應用程式內說明中心，或透過設定中的意見回饋、電子郵件與我們聯絡。我們將於合理時間內盡力答覆。",
+  "termsOfServiceHelpMailFeedback": "電子郵件意見回饋",
+  "@termsOfServiceSection01Body": {
+    "placeholders": {
+      "appTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfServiceSection01Title": "1. 接受服務條款",
+  "termsOfServiceSection01Body": "歡迎使用「{appTitle}」（以下簡稱「本服務」）。使用前請仔細閱讀本服務條款（以下簡稱「本條款」）。\n您點選同意、註冊、登入或實際使用本服務，即視為已閱讀並同意受本條款約束。若不同意，請停止使用本服務。\n我們可能適時修訂本條款，修訂後經應用程式內公告或更新後繼續使用即視為接受修訂版本。",
+  "termsOfServiceSection02Title": "2. 服務說明",
+  "termsOfServiceSection02Body": "本服務為結合本機儲存與區塊鏈能力的筆記類應用：您可在裝置上建立、編輯與管理筆記，並可依自身選擇進行與鏈上相關的操作（例如交易、雜湊或中繼資料等，具體以應用程式內流程與提示為準）。\n目前實作特點包括（可能隨版本更新）：\n• 本機儲存：筆記等資料主要保存在您的裝置（如本機資料庫）；解除安裝應用程式可能導致本機資料遺失，請自行備份。\n• 鏈上相關能力：您可自願發起鏈上操作以實現存證、同步或展示等目的；鏈上紀錄通常公開且難以刪除。\n• 多鏈支援：支援多條 EVM 相容網路，具體以應用程式內清單為準。\n• 筆記帳戶：由您在裝置內產生或匯入金鑰材料；金鑰與恢復短語由您本人保管。\n本服務僅提供技術工具與中立的軟體能力，不對您筆記內容的合法性、準確性、完整性或適用於任何特定目的作擔保。",
+  "termsOfServiceSection03Title": "3. 使用者帳號與安全",
+  "termsOfServiceSection03Body": "3.1 筆記帳戶與憑證：建立或恢復筆記帳戶後，系統會在裝置端管理位址與金鑰材料。恢復短語、安全密鑰是恢復筆記的唯一起效憑據之一，請務必離線備份並妥善保密。\n3.2 安全責任：凡使用您裝置上已解鎖的應用程式與筆記帳戶所進行之操作，均視為由您或您授權環境下進行；因洩露恢復短語／安全密鑰、裝置遺失、惡意軟體、釣魚或未依提示操作導致之損失，由您自行承擔。\n3.3 安全建議：\n• 切勿向任何人洩露恢復短語或安全密鑰\n• 為應用程式設定強度高之密碼並啟用系統提供的鎖定畫面／生物辨識（若可用）\n• 在可信網路環境下備份恢復短語，並驗證備份正確性\n• 警惕仿冒應用程式與釣魚連結\n3.4 我們及工作人員不會以任何理由向您索取完整恢復短語或安全密鑰。如遇此類請求，請拒絕並透過官方管道回饋。",
+  "@termsOfServiceSection04Body": {
+    "placeholders": {
+      "appTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfServiceSection04Title": "4. 區塊鏈交易與費用",
+  "termsOfServiceSection04Body": "4.1 Gas 與網路費：在鏈上發起交易須向區塊鏈網路支付手續費（Gas 等）。費用由網路收取，與「{appTitle}」作為軟體提供方無商業上之代收關係；費率與額度由網路與當時壅塞狀況決定。\n4.2 確認時間：交易須經網路確認，時間取決於網路狀態與您選擇之費率策略；我們不保證具體確認時長。\n4.3 失敗與扣費：因餘額不足、RPC 異常、使用者撤銷、合約回滾等原因可能導致交易失敗；部分情況下已消耗之網路費仍無法退還，以網路規則為準。\n4.4 不可逆性：鏈上交易一經足夠確認，通常不可撤銷或篡改。請在簽章與廣播前核對網路、金額與合約互動內容。\n4.5 您對您主動發起之全部鏈上操作及相應後果自行負責。因區塊鏈協定、第三方節點、智慧型合約或您自身操作失誤造成之損失，我們於法律法規允許範圍內不承擔責任。",
+  "termsOfServiceSection05Title": "5. 使用者行為規範",
+  "termsOfServiceSection05Body": "使用本服務時，您不得：\n• 製作、上傳、傳播違法違規、侵權、誹謗、猥褻、暴力、仇恨或侵害他人合法權益之內容\n• 利用本服務從事詐欺、洗錢、非法募資、侵犯智慧財產權或其他監管機構禁止之行為\n• 對本服務或相關基礎設施進行未經授權之存取、探測、干擾或破壞\n• 大量爬取、濫用介面或影響其他使用者正常使用（除非我們書面允許）\n• 利用本服務大量傳送騷擾或未經授權之商業訊息\n若您違反前款，我們得視情節採取警示、限制功能、中止或終止向您提供服務等措施，並得於依法或依監管部門要求時配合提供必要資訊。",
+  "termsOfServiceSection06Title": "6. 智慧財產權",
+  "termsOfServiceSection06Body": "6.1 本服務本身：包括但不限於用戶端軟體、介面設計、標識與文件之著作權、商標權等歸我們或權利人所有。未經許可，您不得複製、反向工程、破解或商業性再發行本服務核心程式碼（法律允許之合理使用除外）。\n6.2 您的內容：您對自行創作之筆記等內容保留權利；本條款不將該等權利移轉予我們。\n6.3 為向您提供同步、展示、備份、鏈上提交等技術實作所必要範圍內，您授予我們非獨占、可撤回（於服務條款允許終止使用範圍內）、免授權金之使用授權，僅限於運行與改善本服務之目的。\n6.4 未經書面許可，您不得以容易引起混淆之方式使用我們的商標、應用程式名稱或圖示。",
+  "termsOfServiceSection07Title": "7. 免責聲明",
+  "termsOfServiceSection07Body": "7.1 「現狀」提供：於適用法律允許之最大範圍內，本服務依「現狀」及「可用」基礎提供。我們不對服務持續不中斷、無錯誤、滿足您所有需求或與其他軟硬體完全相容作明示或默示擔保。\n7.2 資料與安全：我們會採取合理技術與管理措施，但無法保證因不可抗力、裝置遺失、病毒、第三方攻擊或區塊鏈／IPFS 等外部系統導致之資料外洩、遺失或服務中斷不會發生。\n7.3 第三方：本服務可能依賴區塊鏈節點、閘道、去中心化儲存、推播等第三方服務；對其可用性、準確性或合規性我們不作擔保，相關風險由您自行評估。\n7.4 鏈上筆記與協定風險：鏈上筆記及相關協定具有網路異常、合約漏洞、治理分叉等固有風險；您應自行了解並承擔。\n7.5 責任限制：除法律強制規定外，我們對任何間接、附帶、懲罰性或後果性損害不承擔責任；我們之總賠償額以您就爭議服務向我們已實際支付金額為上限（若為零則以零為限）。",
+  "termsOfServiceSection08Title": "8. 服務變更、中止與終止",
+  "termsOfServiceSection08Body": "8.1 我們得因業務調整、合規要求或技術原因修改、暫停或終止部分或全部功能；將於可行時透過應用程式內提示等方式告知。\n8.2 您可隨時停止使用並解除安裝本服務；重要資料請務必提前自行匯出或備份。\n8.3 若您嚴重違反本條款，我們得中止或終止向您提供服務。\n8.4 服務終止後，除法律另有要求外，我們沒有義務繼續保存或向您返還已儲存在鏈上、第三方網路或您本機已由您處置之資料。",
+  "termsOfServiceSection09Title": "9. 法律適用與爭議解決",
+  "termsOfServiceSection09Body": "9.1 本條款之訂立、效力、解釋與履行適用中華人民共和國大陸地區法律（僅為本條款目的，不包括衝突法規則導致適用域外法之情形，法律法規另有規定者除外）。\n9.2 因本條款引起之爭議，雙方應先行友好協商。\n9.3 協商不成者，任何一方得向有管轄權之人民法院提起訴訟（可約定為我們主要辦事機構所在地法院，如與強制性管轄規則衝突，以法律為準）。",
+  "@termsOfServiceSection10Body": {
+    "placeholders": {
+      "privacyDoc": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfServiceSection10Title": "10. 其他",
+  "termsOfServiceSection10Body": "10.1 完整協議：本條款與{privacyDoc}（如有）及應用程式內專項規則共同構成您使用本服務之主要規則；衝突時，就專項事項以專項規則為準（不得違反強制性法律）。\n10.2 可分割：若某條款被認定無效或不可執行，其餘條款仍為有效，且應於合法範圍內盡可能接近原意作出解釋。\n10.3 不棄權：我們未及時行使權利不構成對該權利之放棄。\n10.4 聯絡我們：除法律法規另有強制性管道外，您可透過應用程式內「說明中心」或意見回饋就本條款提出詢問。",
+  "@termsOfServiceFooterLine1": {
+    "placeholders": {
+      "appTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfServiceFooterLine1": "感謝您信任並使用{appTitle}。",
+  "connectEvmAccountFirst": "請先連接 EVM 筆記帳戶",
+  "createAccountFailedRetry": "建立筆記帳戶失敗，請稍後重試",
+  "@createAccountFailedWithError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "createAccountFailedWithError": "建立筆記帳戶失敗：{error}",
+  "transactionHistoryConnectEvm": "請選擇網路並確保已連接 EVM 筆記帳戶",
+  "transactionHistoryUnsupportedNetwork": "目前網路暫不支援創建筆記記錄列表（請切換至常見 EVM 網路）",
+  "securityVerificationFailed": "安全驗證失敗",
+  "walletImportPrivateKeyHint": "請輸入您的安全密鑰，請勿洩露給他人",
+  "walletImportPrivateKeySubmit": "匯入安全密鑰"
+}

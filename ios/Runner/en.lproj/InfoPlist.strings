@@ -1,0 +1,5 @@
+/* Localized app name (shown under icon). Match Android values/strings.xml */
+CFBundleDisplayName = "ChainNotes";
+NSCameraUsageDescription = "Used to take photos and insert them into your notes.";
+NSPhotoLibraryAddUsageDescription = "Used to save images to your photo library.";
+NSPhotoLibraryUsageDescription = "Used to choose photos for note covers or to insert into notes.";

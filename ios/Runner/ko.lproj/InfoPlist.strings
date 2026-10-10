@@ -1,0 +1,5 @@
+/* Match Android values-ko */
+CFBundleDisplayName = "온체인 노트";
+NSCameraUsageDescription = "노트에 삽입할 사진을 촬영하기 위해 사용합니다.";
+NSPhotoLibraryAddUsageDescription = "이미지를 사진 보관함에 저장하기 위해 사용합니다.";
+NSPhotoLibraryUsageDescription = "노트 표지 또는 본문에 넣을 사진을 선택하기 위해 사용합니다.";

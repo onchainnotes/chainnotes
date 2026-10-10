@@ -1,0 +1,5 @@
+/* Match Android values-ja */
+CFBundleDisplayName = "オンチェーンノート";
+NSCameraUsageDescription = "ノートに挿入する写真を撮影するために使用します。";
+NSPhotoLibraryAddUsageDescription = "画像をフォトライブラリに保存するために使用します。";
+NSPhotoLibraryUsageDescription = "ノートのカバーや本文に挿入する写真を選択するために使用します。";

@@ -1,0 +1,17 @@
+name: lib_base
+description: 基础库，包含通用工具类、基础服务和通用功能
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: 0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0

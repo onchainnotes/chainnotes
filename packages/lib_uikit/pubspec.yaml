@@ -1,0 +1,21 @@
+name: lib_uikit
+description: UI组件库，包含可复用的UI组件和样式
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cached_network_image: ^3.4.1
+  flutter_svg: ^2.0.16+1
+  http: ^1.6.0
+  lib_base:
+    path: ../lib_base
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0

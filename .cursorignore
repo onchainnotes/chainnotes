@@ -1,0 +1,82 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub/
+build/
+
+# Generated files
+**/*.g.dart
+**/*.freezed.dart
+**/*.gen.dart
+**/*.mocks.dart
+**/*.config.dart
+
+# Android
+android/.gradle/
+android/build/
+**/build/
+
+# iOS
+ios/Pods/
+ios/build/
+
+# macOS
+macos/Pods/
+macos/build/
+
+# Linux
+linux/build/
+
+# Windows
+windows/build/
+
+# Web
+web/build/
+
+# IDE
+.idea/
+.vscode/
+
+# Git
+.git/
+
+# Logs
+*.log
+
+# Flutter cache
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Symbol / temp
+*.lock
+*.tmp
+
+# Large binary folders
+**/jniLibs/
+**/*.so
+**/*.a
+**/*.framework
+
+# Realm generated/native
+**/realm/
+
+# CocoaPods
+Pods/
+
+# Gradle cache
+.gradle/
+
+# Node
+node_modules/
+
+# Firebase
+firebase_export/
+
+# Coverage
+coverage/
+
+# Generated localization
+**/generated/
+
+# Optional: ignore huge third-party packages
+packages/flutter_trust_wallet_core/

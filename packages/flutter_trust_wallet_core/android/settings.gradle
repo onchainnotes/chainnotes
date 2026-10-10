@@ -1,0 +1,15 @@
+rootProject.name = 'flutter_trust_wallet_core'
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        maven {
+            url 'https://weixuefeng-maven.pkg.coding.net/repository/ab-wallet/wallet-core/'
+            credentials {
+                username = "wallet-core-1747129113554"
+                password = "e0399ca744f4e2f667314f211b7b58b8b3b08a8b"
+            }
+        }
+        google()
+        mavenCentral()
+    }
+}

@@ -1,0 +1,1653 @@
+{
+  "@@locale": "en",
+  "appTitle": "ChainNotes",
+  "tabHome": "Home",
+  "tabNotes": "Notes",
+  "tabProfile": "Me",
+  "myNotes": "My Notes",
+  "notesCount": "{count} notes",
+  "@notesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "createNote": "Create Note",
+  "selectNetwork": "Select Network",
+  "selectNetworkSubtitle": "Choose the blockchain network you want to use",
+  "chainSelectorMainnetTab": "Mainnet",
+  "chainSelectorTestnetTab": "Testnet",
+  "chainSelectorFooterHint": "After you switch networks, notes are saved on the corresponding blockchain.",
+  "chainSelectorTestnetNoticeTitle": "About testnets",
+  "chainSelectorTestnetNoticeBody": "Testnets are for development and testing; tokens have no real value.",
+  "chainSelectorAllChainsTitle": "All chains",
+  "chainSelectorAllChainsSubtitle": "Show notes from all chains",
+  "@chainSelectorChainIdLabel": {
+    "placeholders": {
+      "chainId": {
+        "type": "int"
+      }
+    }
+  },
+  "chainSelectorChainIdLabel": "Chain ID: {chainId}",
+  "chainSelectorCurrentBadge": "Current",
+  "@chainSelectorGasLabel": {
+    "placeholders": {
+      "cost": {
+        "type": "String"
+      }
+    }
+  },
+  "chainSelectorGasLabel": "Gas: {cost}",
+  "chainGasCostLevelMedium": "Medium",
+  "chainSelectorTestnetChainWarning": "Testnet — no real value",
+  "viewAll": "View All",
+  "aboutUs": "About Us",
+  "aboutPageTagline": "Permanent storage · Tamper-proof · Full control",
+  "@splashVersionLabel": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "splashVersionLabel": "Version {version}",
+  "aboutPageVersionSection": "Version info",
+  "aboutPageCurrentVersion": "Current version",
+  "photosPermissionDeniedSnack": "Photo library access is required. Enable it in Settings and try again.",
+  "pressBackAgainToExitApp": "Press back again to exit",
+  "@noteEditorOnChainTypeConfirmedSnack": {
+    "placeholders": {
+      "publishAction": {
+        "type": "String"
+      }
+    }
+  },
+  "noteEditorOnChainTypeConfirmedSnack": "On-chain type confirmed. Save the note or tap \"{publishAction}\" to continue.",
+  "actionShow": "Show",
+  "actionHide": "Hide",
+  "actionSaveToFile": "Save to file",
+  "mnemonicExportSecurityConfirmTitle": "Security confirmation",
+  "mnemonicExportAckSaved": "I have securely backed up my recovery phrase",
+  "mnemonicExportAckUnderstandLoss": "I understand that losing my recovery phrase means I cannot recover this note account",
+  "mnemonicExportAckNoShare": "I will not share my recovery phrase with anyone",
+  "mnemonicExportSafetyTipsTitle": "Safety tips",
+  "mnemonicExportSafetyTipPaper": "Write your recovery phrase on paper and store it in a safe place",
+  "mnemonicExportSafetyTipNoScreenshot": "Do not screenshot or store it on internet-connected devices",
+  "mnemonicExportSafetyTipCheckBackup": "Check your backup periodically to make sure it is intact",
+  "mnemonicExportFinishCta": "I have backed up securely",
+  "aboutPageReleaseDate": "Release date",
+  "aboutPageBuildNumber": "Build number",
+  "aboutPageCoreFeatures": "Core features",
+  "aboutFeatureOnChainTitle": "On-chain storage",
+  "aboutFeatureOnChainDesc": "SHA-256 hashes on-chain, permanently immutable.",
+  "aboutFeatureSecureTitle": "Data security",
+  "aboutFeatureSecureDesc": "End-to-end encryption; you control your keys.",
+  "aboutFeatureSyncTitle": "Instant sync",
+  "aboutFeatureSyncDesc": "Real-time sync across devices, access anywhere.",
+  "aboutFeatureControlTitle": "Full control",
+  "aboutFeatureControlDesc": "Decentralized architecture; your data stays yours.",
+  "aboutPageTechStack": "Tech stack",
+  "aboutPageContactUs": "Contact us",
+  "aboutPageOfficialWebsite": "Official website",
+  "aboutPageContactEmail": "Contact email",
+  "aboutPageOpenSource": "Open source",
+  "aboutPageCreditsMadeWith": "Made with ",
+  "aboutPageCopyrightNotice": "© {yearBrand}. All rights reserved.",
+  "@aboutPageCopyrightNotice": {
+    "placeholders": {
+      "yearBrand": {
+        "type": "String"
+      }
+    }
+  },
+  "walletManagement": "Note account Management",
+  "walletCannotDeleteSwitchFirst": "Cannot delete the note account in use. Switch to another note account first.",
+  "walletViewMnemonicCompleteBackupFirst": "Complete the recovery phrase backup flow before viewing your recovery phrase or security key.",
+  "walletDemoPrimaryName": "My primary note account",
+  "walletAddressListTitle": "Note account addresses",
+  "copyAddressButton": "Copy address",
+  "labelCopied": "Copied",
+  "walletManagementDeleteIrreversible": "This cannot be undone. Make sure you have backed up your recovery phrase or security key.",
+  "walletManagementDeleteWarningTitle": "Warning: cannot be recovered after deletion",
+  "walletManagementDeleteAssetsLoss": "If you have not saved your recovery phrase or security key, you may permanently lose access to your notes.",
+  "walletCreateSystemDescription": "A new note account address and recovery phrase will be generated for you.",
+  "walletCreateBackupReminderBody": "Back up your recovery phrase immediately after creation. It is the only way to recover your note account.",
+  "walletCreateGenerateSubtitle": "Generate a new note account",
+  "walletAddressCopied": "Address copied",
+  "walletNameRequired": "Note account name is required",
+  "walletNameUpdated": "Note account name updated",
+  "walletKeepAtLeastOne": "At least one note account must be kept",
+  "walletCannotDeleteCurrent": "Cannot delete the note account in use",
+  "walletDeleted": "Note account deleted",
+  "walletCreated": "Note account created",
+  "walletImportMnemonicOrKeyRequired": "Please enter recovery phrase or security key",
+  "walletImportSuccess": "Note account restored successfully",
+  "walletImportedCannotViewMnemonic": "Restored note account cannot view recovery phrase",
+  "walletMarkedBackedUp": "Marked as backed up",
+  "walletSwitched": "Note account switched",
+  "viewMnemonic": "View Recovery phrase",
+  "viewPrivateKey": "View security key",
+  "privateKeyExportSelectNetworkHint": "Select a network to view",
+  "privateKeyExportKeepKeySafeHint": "Keep your security key secure",
+  "privateKeyExportSecurityWarningTitle": "Security warning",
+  "privateKeyExportWarnBullet1": "Your security key is the highest-level credential for managing your notes",
+  "privateKeyExportWarnBullet2": "Anyone who obtains your security key can fully manage your notes",
+  "privateKeyExportWarnBullet3": "Ensure your surroundings are safe and no one is watching",
+  "privateKeyExportWarnBullet4": "Never screenshot, photograph, or transmit your security key over a network",
+  "privateKeyExportSupportedNetworksTitle": "Supported networks",
+  "@privateKeyExportNetworkCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "privateKeyExportNetworkCount": "{count} networks",
+  "privateKeyExportViewSafetyTitle": "Security key safety tips",
+  "privateKeyExportViewBullet1": "Ensure your surroundings are safe and no one can see your screen",
+  "privateKeyExportViewBullet2": "Do not view in public places or on untrusted networks",
+  "privateKeyExportViewBullet3": "Close this page as soon as you are done viewing",
+  "privateKeyExportKeySectionTitle": "Security key",
+  "privateKeyExportBip44Hint": "The security key derived via the BIP44 Ethereum path is the same across EVM mainnets; only the network name differs.",
+  "privateKeyExportMaskedPlaceholder": "0x•••••••••••••••••••••••••••••••••",
+  "privateKeyExportDoNotShareInline": "Never tell anyone your security key or send it over a network",
+  "@privateKeyExportNetworkAddressLabel": {
+    "placeholders": {
+      "networkName": {
+        "type": "String"
+      }
+    }
+  },
+  "privateKeyExportNetworkAddressLabel": "{networkName} network address",
+  "privateKeyExportImportantReminderTitle": "Important",
+  "privateKeyExportReminderBullet1": "Having the security key means you can fully manage notes for this address",
+  "privateKeyExportReminderBullet2": "A leaked security key can cause permanent loss of notes with no recovery",
+  "privateKeyExportReminderBullet3": "Our team will never ask you for your security key",
+  "privateKeyExportReminderBullet4": "We recommend backing up with a recovery phrase rather than exporting the security key",
+  "privateKeyExportBackToList": "Back to list",
+  "privateKeyExportCopySecurityKey": "Copy security key",
+  "mnemonicManagePageTitle": "Recovery phrase",
+  "mnemonicManagePageSubtitle": "Keep your recovery phrase safe — never share it",
+  "mnemonicBackupFlowTitle": "Back up recovery phrase",
+  "@mnemonicBackupFlowStepProgress": {
+    "placeholders": {
+      "step": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "mnemonicBackupFlowStepProgress": "Step {step} of {total}",
+  "mnemonicBackupFlowLoadFailed": "Load failed",
+  "mnemonicBackupFlowCTAUnderstoodStart": "I understand, start backup",
+  "mnemonicBackupFlowCTACopiedContinue": "I've written them down, continue",
+  "mnemonicBackupFlowCTAVerifiedContinue": "Verified, continue",
+  "mnemonicBackupFlowCTAPleaseVerify": "Complete verification first",
+  "mnemonicBackupFlowCTAFinish": "Finish backup",
+  "mnemonicBackupFlowCTANext": "Next",
+  "mnemonicBackupFlowFooterCopyHint": "Make sure you have correctly written down every word before continuing",
+  "mnemonicBackupFlowStep1Heading": "Before you start",
+  "mnemonicBackupFlowStep1Subheading": "Please read the following security tips carefully",
+  "mnemonicBackupFlowSecurityTipsTitle": "Important security tips",
+  "mnemonicBackupFlowSecurityTip1": "Your recovery phrase is the only way to recover this note account",
+  "mnemonicBackupFlowSecurityTip2": "Anyone with your recovery phrase can manage your notes",
+  "mnemonicBackupFlowSecurityTip3": "If you lose your recovery phrase, your note account cannot be recovered",
+  "mnemonicBackupFlowBackupAdviceTitle": "How to back up safely",
+  "mnemonicBackupFlowBackupAdvice1": "Write the recovery phrase on paper and store it somewhere safe",
+  "mnemonicBackupFlowBackupAdvice2": "Do not screenshot or store it on internet-connected devices",
+  "mnemonicBackupFlowBackupAdvice3": "Never send it over the network or share it with anyone",
+  "mnemonicBackupFlowBackupAdvice4": "Consider multiple copies in separate secure places",
+  "mnemonicBackupFlowProcessTitle": "Backup steps",
+  "mnemonicBackupFlowProcess1": "View and write down your recovery phrase",
+  "mnemonicBackupFlowProcess2": "Confirm your backup with verification",
+  "mnemonicBackupFlowProcess3": "Finish backup to protect your notes",
+  "mnemonicBackupFlowYourMnemonicTitle": "Your recovery phrase",
+  "mnemonicBackupFlowYourMnemonicSubtitle": "Write down every word in order and keep it safe",
+  "@mnemonicBackupFlowWordCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "mnemonicBackupFlowWordCount": "{count} words",
+  "mnemonicBackupFlowPleaseNoteTitle": "Please note",
+  "mnemonicBackupFlowStep2NoteBody": "We recommend writing your recovery phrase on paper instead of screenshots or copying to connected devices. Tap the eye icon to show or hide the words.",
+  "mnemonicBackupFlowVerifyTitle": "Verify recovery phrase",
+  "mnemonicBackupFlowVerifySubtitle": "Select the correct words to confirm you backed them up correctly",
+  "@mnemonicBackupFlowVerifyWordQuestion": {
+    "placeholders": {
+      "position": {
+        "type": "int"
+      }
+    }
+  },
+  "mnemonicBackupFlowVerifyWordQuestion": "Which word is in position {position}?",
+  "mnemonicBackupFlowVerifySuccessTitle": "Verified!",
+  "mnemonicBackupFlowVerifySuccessBody": "You have backed up your recovery phrase correctly",
+  "mnemonicBackupFlowDoneTitle": "Backup complete!",
+  "mnemonicBackupFlowDoneSubtitle": "Your recovery phrase is backed up safely",
+  "mnemonicBackupFlowDoneSectionTitle": "Done",
+  "mnemonicBackupFlowDoneCheck1": "Viewed and wrote down the recovery phrase",
+  "mnemonicBackupFlowDoneCheck2": "Passed the verification",
+  "mnemonicBackupFlowDoneCheck3": "Recovery phrase stored securely",
+  "mnemonicBackupFlowDoneSecurityTitle": "Security reminder",
+  "mnemonicBackupFlowDoneSecurity1": "Keep the recovery phrase in a safe physical place",
+  "mnemonicBackupFlowDoneSecurity2": "Never reveal your recovery phrase to anyone",
+  "mnemonicBackupFlowDoneSecurity3": "Official staff will never ask for your recovery phrase",
+  "mnemonicBackupFlowDoneSecurity4": "Check periodically that your backup is intact and readable",
+  "mnemonicBackupFlowFinalEncouragementTitle": "You're ready to use your note account!",
+  "mnemonicBackupFlowFinalEncouragementBody": "Your notes are protected by your recovery phrase",
+  "switchWallet": "Switch",
+  "viewAddresses": "View Addresses",
+  "cancel": "Cancel",
+  "save": "Save",
+  "confirmDelete": "Confirm Delete",
+  "createWallet": "Create Note account",
+  "importWallet": "Restore Note account",
+  "mnemonicOrPrivateKey": "Recovery phrase or security key",
+  "close": "Close",
+  "copy": "Copy",
+  "mnemonicCopied": "Recovery phrase copied",
+  "privateKeyCopied": "Security key copied",
+  "backedUp": "Backed Up",
+  "editWalletName": "Edit Note account Name",
+  "deleteWallet": "Delete Note account",
+  "confirmDeleteWallet": "Confirm Delete Note account",
+  "newWalletCreated": "New note account created",
+  "cannotDeleteCurrentWallet": "Cannot delete the note account in use",
+  "edit": "Edit",
+  "createNewWallet": "Create New Note account",
+  "editWalletNameTitle": "Edit Note account Name",
+  "noteNotFoundBack": "Note not found, go back",
+  "createNoteNotImplemented": "Create note (not implemented)",
+  "newWalletCreateSuccess": "New note account created successfully!",
+  "restoringFromProvider": "Restoring from {provider}...",
+  "@restoringFromProvider": {
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      }
+    }
+  },
+  "restoredFromProvider": "Restored from {provider}!",
+  "@restoredFromProvider": {
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      }
+    }
+  },
+  "noBackupFoundProvider": "No {provider} backup found, try another way",
+  "@noBackupFoundProvider": {
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      }
+    }
+  },
+  "walletAddressCopiedShort": "Address copied",
+  "switchedToChain": "Switched to {chain}",
+  "@switchedToChain": {
+    "placeholders": {
+      "chain": {
+        "type": "String"
+      }
+    }
+  },
+  "fillAllFields": "Please fill in all fields",
+  "passwordMismatch": "The two new passwords do not match",
+  "passwordMinLength": "Password must be at least 6 characters",
+  "passwordChangeSuccess": "Password changed successfully",
+  "enterValidEmail": "Please enter a valid email address",
+  "verificationCodeSent": "Verification code sent",
+  "enterSixDigitCode": "Please enter the 6-digit code",
+  "emailBindSuccess": "Email bound successfully",
+  "emailUnbound": "Email unbound",
+  "logoutNotConnected": "Logout (not connected)",
+  "changePassword": "Change Password",
+  "confirm": "Confirm",
+  "bindEmail": "Bind Email",
+  "editNoteOpenByRoute": "Please open edit page via route",
+  "imageUploadNotConnected": "Image upload not connected to storage",
+  "imageRemoved": "Image removed",
+  "titleContentRequired": "Title and content are required",
+  "submittedToChain": "Submitted to chain",
+  "onChainNoteCannotChangeType": "On-chain notes cannot change type",
+  "setToLocalNote": "Set as local note (will not be on chain)",
+  "setToDraft": "Set as draft",
+  "editNote": "Edit Note",
+  "noteDetailEditDisabledOnChain": "On-chain notes cannot be edited",
+  "noteTypeDraft": "Draft",
+  "noteTypeLocal": "Local",
+  "noteTypeOnChain": "On Chain",
+  "blockchainVerify": "Verify on Blockchain",
+  "blockchainVerifyTitle": "Blockchain Verification",
+  "getGas": "Get {symbol} Gas",
+  "@getGas": {
+    "placeholders": {
+      "symbol": {
+        "type": "String"
+      }
+    }
+  },
+  "addressCopied": "Address copied",
+  "redirectingToFaucet": "Redirecting to faucet...",
+  "noFaucetForNetwork": "No faucet for this network",
+  "loginNotImplemented": "Login not implemented",
+  "forgotPassword": "Forgot password?",
+  "forgotPasswordNotImplemented": "Forgot password not implemented",
+  "noAccountYet": "No note account yet?",
+  "registerNotImplemented": "Register not implemented",
+  "registerNow": "Register now",
+  "mnemonicVerifySuccess": "Recovery phrase verified, import logic handled externally",
+  "privateKeyVerifySuccess": "Security key verified, import logic handled externally",
+  "importSuccess": "Restore successful!",
+  "cleared": "Cleared",
+  "back": "Back",
+  "current": "Current",
+  "imported": "Restored",
+  "defaultBadge": "Default",
+  "clearSearch": "Clear search",
+  "searchNotesHint": "Search notes...",
+  "noMatchNotes": "No matching notes",
+  "noOnChainNotes": "No on-chain notes yet",
+  "noOffChainNotes": "No off-chain notes yet",
+  "noNotes": "No notes yet",
+  "tryOtherSearch": "Try other keywords",
+  "startCreateFirstNote": "Create your first note",
+  "profileNotConnected": "Not connected",
+  "profileSectionAccount": "Note account",
+  "profileNetworkSettingsSubtitle": "Configure RPC & nodes",
+  "profileSectionSecurity": "Security",
+  "profileChangePasswordSubtitle": "Protect your note account",
+  "profileBindEmailNotBound": "Not bound",
+  "profileBindEmailBadgeBound": "Bound",
+  "profileSectionPreferences": "Preferences",
+  "profileNotifications": "Notifications",
+  "profileDarkMode": "Dark mode",
+  "profileLanguage": "Language",
+  "profileSectionMore": "More",
+  "profileTestPage": "Test page",
+  "profileTestPageSubtitle": "Feature test entry",
+  "profileTerms": "Terms of Service",
+  "profilePrivacy": "Privacy Policy",
+  "profileRateUs": "Rate us",
+  "profileShare": "Share with friends",
+  "profileShareMessage": "I'm using On Chain Notes — an on-chain notes app I like. Check it out:\n{url}",
+  "@profileShareMessage": {
+    "placeholders": {
+      "url": {
+        "type": "String"
+      }
+    }
+  },
+  "profileLogoutLabel": "Logout",
+  "profileLogoutPending": "Logout (coming soon)",
+  "@profilePageFooter": {
+    "placeholders": {
+      "appTitle": {
+        "type": "String"
+      },
+      "version": {
+        "type": "String"
+      },
+      "year": {
+        "type": "String"
+      }
+    }
+  },
+  "profilePageFooter": "{appTitle} v{version}\n© {year} All rights reserved.",
+  "profileAvatarFallback": "ME",
+  "profileDefaultWalletName": "My note account",
+  "profileUserActive": "Active user",
+  "profileUserNormal": "Standard user",
+  "profileStatNotes": "Notes",
+  "profileStatOnChain": "On-chain",
+  "profileStatDays": "Days",
+  "profileBindEmailDialogSubtitle": "Enter your email and verification code.",
+  "profileBindEmailFieldEmail": "Email address",
+  "profileBindEmailFieldCode": "Verification code",
+  "profileSendVerificationCode": "Send code",
+  "profileResendCodeInSeconds": "Resend in {seconds}s",
+  "@profileResendCodeInSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "profileUnbindEmail": "Unbind email",
+  "languageSelectTitle": "Language",
+  "languageSelectSubtitle": "Select your preferred language",
+  "languageNoticeHint": "Note",
+  "languageNoticeBody": "Simplified Chinese, Traditional Chinese, English, Japanese, and Korean are supported; more languages coming soon.",
+  "languageCurrentBadge": "Current",
+  "languageSnackbarComingSoon": "Coming soon",
+  "languageSwitchedTo": "Switched to {name}",
+  "@languageSwitchedTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "languageFooterMore": "More languages coming soon",
+  "changePasswordSameAsOld": "New password cannot be the same as the old password",
+  "changePasswordLength632": "New password must be 6–32 characters",
+  "walletNoSavedKey": "No saved key found. Create an note account first.",
+  "changePasswordWrongOrFailed": "Wrong old password or operation failed",
+  "passwordMaxLength32": "Password must be at most 32 characters",
+  "passwordMeetAllRequirements": "Please meet all password requirements",
+  "encryptionInitFailed": "Encryption init failed: {error}",
+  "@encryptionInitFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "passwordVerifyForgotGoReset": "Forgot password? Reset",
+  "passwordStrengthWeak": "Weak",
+  "passwordStrengthMedium": "Medium",
+  "passwordStrengthStrong": "Strong",
+  "changePasswordPageTitle": "Change password",
+  "changePasswordPageSubtitle": "Protect your note account",
+  "changePasswordSecurityHintTitle": "Security tips",
+  "changePasswordSecurityHintBody": "• Change your password regularly\n• Use a strong password with letters and numbers\n• Avoid birthdays or phone numbers",
+  "changePasswordOldLabel": "Current password",
+  "changePasswordOldHint": "Enter current password",
+  "changePasswordNewLabel": "New password",
+  "changePasswordNewHint": "Enter new password",
+  "changePasswordStrengthLabel": "Password strength:",
+  "changePasswordMatchOk": "Passwords match",
+  "changePasswordMatchBad": "Passwords do not match",
+  "changePasswordConfirmLabel": "Confirm new password",
+  "changePasswordConfirmHint": "Enter new password again",
+  "changePasswordRuleLength": "6–32 characters",
+  "changePasswordRuleCase": "Upper & lower case letters",
+  "changePasswordRuleDigit": "Include a number",
+  "changePasswordClear": "Clear",
+  "changePasswordSubmit": "Confirm change",
+  "validatorOldPasswordRequired": "Enter current password",
+  "validatorNewPasswordRequired": "Enter new password",
+  "validatorNewPasswordMin6": "At least 6 characters",
+  "validatorNewPasswordMax32": "At most 32 characters",
+  "validatorConfirmRequired": "Confirm new password",
+  "validatorConfirmMismatch": "Passwords do not match",
+  "changePasswordRulesTitle": "Password requirements",
+  "loginWelcomeTitle": "Welcome back",
+  "loginSubtitle": "Sign in to your note account",
+  "loginEmailOrUsernameLabel": "Email or username",
+  "loginEmailOrUsernameHint": "Enter email or username",
+  "validatorLoginIdRequired": "Enter email or username",
+  "loginPasswordFieldLabel": "Password",
+  "loginPasswordFieldHint": "Enter your password",
+  "validatorLoginPasswordRequired": "Enter password",
+  "validatorLoginPasswordMin6": "Password must be at least 6 characters",
+  "loginButton": "Sign in",
+  "createWalletPasswordPageTitle": "Set note account password",
+  "createWalletPasswordSubtitle": "Protect your notes",
+  "createWalletPasswordWhyTitle": "Why a password?",
+  "createWalletPasswordWhyBody": "Your note account password encrypts security keys and recovery phrases so only you can access your notes. Remember it — it cannot be recovered if lost.",
+  "walletPasswordFieldLabel": "Note account password",
+  "walletPasswordFieldHint": "Enter 6–32 characters",
+  "walletConfirmPasswordFieldLabel": "Confirm password",
+  "walletConfirmPasswordFieldHint": "Enter password again",
+  "walletPasswordImportantNotice": "Important",
+  "walletPasswordWarnBullets": "• The password protects your note account\n• Use something memorable but hard to guess\n• Mix letters, numbers, and symbols\n• If lost, it cannot be recovered — remember it",
+  "createWalletPasswordSubmitCreate": "Confirm and create note account",
+  "createWalletPasswordSubmitReset": "Confirm and reset password",
+  "createWalletPasswordFooterAck": "By confirming you understand how important your password is",
+  "walletPasswordRulesHeader": "Requirements:",
+  "walletPasswordRuleLength632": "6–32 characters",
+  "walletPasswordRuleLetter": "Contains letters",
+  "walletPasswordRuleNumberRecommended": "Contains numbers (recommended)",
+  "walletPasswordRuleMatch": "Passwords match",
+  "walletBootstrapImporting": "Restoring note account...",
+  "walletBootstrapInitializing": "Initializing note account...",
+  "passwordVerifyTitle": "Verify password",
+  "passwordVerifyDescription": "For your security, enter your note account password to continue.",
+  "passwordVerifyDescExportMnemonic": "Enter your note account password before viewing and exporting the recovery phrase.",
+  "passwordVerifyDescExportPrivateKey": "Enter your note account password before viewing your security key.",
+  "passwordVerifyDescImportWallet": "Enter your note account password before restoring the note account.",
+  "passwordVerifyDescBackupMnemonic": "Enter your note account password before backing up the recovery phrase.",
+  "passwordVerifyDescCreateWallet": "Enter your note account password before creating an note account.",
+  "passwordVerifyDescDeleteWallet": "Enter your note account password before deleting the note account.",
+  "passwordVerifyDescMintNft": "Enter your note account password to mint an NFT.",
+  "passwordVerifyWalletPasswordLabel": "Note account password",
+  "passwordVerifyWalletPasswordHint": "Enter note account password",
+  "validatorWalletPasswordRequired": "Enter password",
+  "passwordVerifyNoEncryptedData": "No encrypted data found. Set your password again.",
+  "passwordVerifyFailedWithError": "Verification failed: {error}",
+  "@passwordVerifyFailedWithError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "passwordVerifyLockoutMinutes": "Too many attempts. Try again in {minutes} minutes.",
+  "@passwordVerifyLockoutMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "passwordVerifyLockoutHours": "Too many attempts. Try again in {hours} hours.",
+  "@passwordVerifyLockoutHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "passwordVerifyWrongWithCount": "Wrong password ({current}/{max})",
+  "@passwordVerifyWrongWithCount": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "passwordVerifyAttemptsBanner": "Wrong {count} time(s). {remaining} attempt(s) left.",
+  "@passwordVerifyAttemptsBanner": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "remaining": {
+        "type": "int"
+      }
+    }
+  },
+  "passwordVerifyLockBanner": "Too many attempts. Try again after {time}.",
+  "@passwordVerifyLockBanner": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "passwordVerifyDurationHoursMinutes": "{hours} h {minutes} m",
+  "@passwordVerifyDurationHoursMinutes": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "passwordVerifyDurationMinutes": "{minutes} min",
+  "@passwordVerifyDurationMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "passwordVerifySecurityTipsTitle": "Security tips",
+  "passwordVerifySecurityTipsBody": "• Password length 6–32\n• Ensure your surroundings are safe\n• {maxAttempts} wrong attempts will temporarily lock",
+  "@passwordVerifySecurityTipsBody": {
+    "placeholders": {
+      "maxAttempts": {
+        "type": "int"
+      }
+    }
+  },
+  "paste": "Paste",
+  "loadingDefault": "Loading…",
+  "walletLoadingTagline": "BlockNote · Secure · Trusted · Permanent",
+  "walletLoadingStepConnecting": "Connecting to the network…",
+  "walletLoadingStepVerifying": "Verifying note account…",
+  "walletLoadingStepSyncing": "Syncing your notes…",
+  "walletLoadingStepComplete": "Almost done…",
+  "retry": "Retry",
+  "loadFailedWithError": "Load failed: {error}",
+  "@loadFailedWithError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "selectEvmChainFirst": "Please select an EVM-supported network first",
+  "noteNotFoundShort": "Note not found",
+  "createOrSelectWalletFirst": "Please create or select an note account first",
+  "privateKeyDecryptFailedHint": "Could not get security key. Check your password. If you changed it, re-enter your recovery phrase.",
+  "uploadingIpfsAndMinting": "Uploading to IPFS and minting…",
+  "ipfsFileUploadFailed": "IPFS file upload failed: {details}",
+  "@ipfsFileUploadFailed": {
+    "placeholders": {
+      "details": {
+        "type": "String"
+      }
+    }
+  },
+  "onChainSuccessTx": "On-chain success: {txHash}",
+  "@onChainSuccessTx": {
+    "placeholders": {
+      "txHash": {
+        "type": "String"
+      }
+    }
+  },
+  "draftSavedIpfsRetry": "Saved as draft with IPFS images. You can retry publishing anytime.",
+  "mintFailedGasDebug": "Insufficient balance (gas)\n{detail}",
+  "@mintFailedGasDebug": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "mintFailedGasUser": "Insufficient balance for gas. Add funds and try again.",
+  "mintFailedGeneric": "Publish failed: {error}",
+  "@mintFailedGeneric": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "walletErrNoWalletYet": "Create or restore an note account first",
+  "walletErrUnrecognizedAccount": "Cannot recognize the current note account",
+  "walletErrWalletDataNotFound": "Note account data not found",
+  "walletErrImportedMnemonicNoExport": "Recovery phrase-imported note accounts cannot export the recovery phrase here again",
+  "walletErrImportedMnemonicNoBackup": "Recovery phrase-imported note accounts do not need backup here",
+  "walletErrPrivateKeyWalletNoMnemonic": "Security key–imported note accounts have no recovery phrase",
+  "walletErrNoEncryptedMnemonic": "No locally encrypted recovery phrase for this note account",
+  "walletErrDecryptFailed": "Decryption failed. Check your password",
+  "walletErrMissingAddress": "Missing note account address",
+  "walletErrGetPrivateKeyFailed": "Could not get security key. Check your password",
+  "exportMnemonicDocTitle": "On Chain Notes — Recovery phrase backup",
+  "exportMnemonicDocTime": "Generated: {time}",
+  "@exportMnemonicDocTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "exportMnemonicDocLabel": "Recovery phrase (keep safe):",
+  "exportMnemonicDocSecurity": "⚠️ Security tips:\n1. Store this recovery phrase in a safe place\n2. Never share it with anyone\n3. If lost, your note account cannot be recovered",
+  "exportMnemonicUseCopyOnPlatform": "Please use Copy on this platform",
+  "exportMnemonicSavedTo": "Saved: {path}",
+  "@exportMnemonicSavedTo": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "walletBootstrapCreating": "Creating note account…",
+  "chainNameEvm": "EVM (Ethereum / BSC / Polygon, etc.)",
+  "chainPkDescEvm": "64 hexadecimal characters with 0x prefix, 66 characters total",
+  "chainNameBitcoin": "Bitcoin",
+  "chainPkDescBitcoin": "WIF format, starts with 5, K, or L, 51–52 characters",
+  "chainNameSolana": "Solana",
+  "chainPkDescSolana": "Base58, about 87–88 characters, no 0, O, I, or l",
+  "chainNameTron": "Tron",
+  "chainPkDescTronHex": "64 hexadecimal characters (no 0x prefix)",
+  "chainNameCosmos": "Cosmos",
+  "chainPkDescCosmosHex": "64 hexadecimal characters (no 0x prefix)",
+  "walletPkSubtitleLength": "{count} characters",
+  "@walletPkSubtitleLength": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "walletPkSubtitleStartsWith": "Starts with {prefix}",
+  "@walletPkSubtitleStartsWith": {
+    "placeholders": {
+      "prefix": {
+        "type": "String"
+      }
+    }
+  },
+  "walletImportSelectChainTitle": "Select blockchain type",
+  "walletImportEvmOnlyNotice": "Not supported yet. Use EVM security key import.",
+  "walletImportPageSubtitle": "Restore your note account with a recovery phrase or security key",
+  "walletImportTabMnemonic": "Recovery phrase",
+  "walletImportTabPrivateKey": "Security key",
+  "walletImportInputMethod": "Input method",
+  "walletImportInputSingle": "Word by word",
+  "walletImportInputPasteFull": "Paste full phrase",
+  "walletImportWordCountLabel": "Recovery phrase length",
+  "walletImportWordCountN": "{n} words",
+  "@walletImportWordCountN": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "walletImportWordCountDialogTitle": "Select mnemonic length",
+  "walletImportWordCountDialogDesc": "BIP39 supports several mnemonic lengths; security increases with more words.",
+  "walletImportWordCountOptionLabel": "{count} words",
+  "@walletImportWordCountOptionLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "walletImportWordCountSecurityLabel": "Security: ",
+  "walletImportWordCountSecurityStandard": "Standard",
+  "walletImportWordCountSecurityEnhanced": "Enhanced",
+  "walletImportWordCountSecurityAdvanced": "Advanced",
+  "walletImportWordCountSecurityProfessional": "Professional",
+  "walletImportWordCountSecurityMaximum": "Maximum",
+  "walletImportWordCountSwitched": "Switched to {n} words",
+  "@walletImportWordCountSwitched": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "walletImportWordCountDialogTip": "Most wallets use 12 words. If you are unsure, choose 12 words.",
+  "walletImportEnterMnemonic": "Enter recovery phrase",
+  "walletImportMnemonicPasteTip": "Tip: you can paste the full phrase; use “Paste full phrase” above",
+  "walletImportPasteMnemonicPrompt": "Paste your recovery phrase",
+  "walletImportMnemonicHintWords": "Paste your {count} words separated by spaces",
+  "@walletImportMnemonicHintWords": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "walletImportMnemonicWordFieldHint": "word",
+  "walletImportMnemonicParagraphExampleHint": "word1 word2 word3 ...",
+  "walletImportPrivateKeyFieldHint": "0x... or 64 hex characters",
+  "walletImportPrivateKeyFieldHintShort": "0x...",
+  "walletImportWordProgress": "Current words: {current} / {total}",
+  "@walletImportWordProgress": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "walletImportMnemonicSecurityTitle": "Security tips",
+  "walletImportMnemonicSecurityBody": "• Use a secure network\n• If the recovery phrase is lost, it cannot be recovered\n• Never share your recovery phrase\n• We do not store your recovery phrase on servers",
+  "walletImportSelectChainSection": "Select blockchain type",
+  "walletImportTapSwitchChain": "Tap to switch chain type",
+  "walletImportEnterPrivateKey": "Enter security key",
+  "walletImportPkFormatExample": "Security key format example",
+  "walletImportPkSevereTitle": "Critical warning",
+  "walletImportPkSevereBody": "• The security key grants full control of your note account\n• Anyone with it can fully manage your notes\n• Do not enter it on unsafe devices\n• Do not screenshot or send via chat apps",
+  "walletImportConfirm": "Confirm restore",
+  "walletImportMnemonicNeedCount": "Enter all {count} recovery phrase words",
+  "@walletImportMnemonicNeedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "walletImportMnemonicWrongCount": "Enter {count} words (currently {current})",
+  "@walletImportMnemonicWrongCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "current": {
+        "type": "int"
+      }
+    }
+  },
+  "walletImportMnemonicInvalidWords": "Invalid recovery phrase words; use lowercase English words",
+  "walletImportPkEmpty": "Enter security key",
+  "walletImportPkNeed0x": "Security key should start with 0x",
+  "walletImportPkNeedWif": "Security key should start with 5, K, or L",
+  "walletImportPkWifLength": "Security key length should be 51–52 characters",
+  "walletImportPkLengthExpected": "Security key length should be {length} characters",
+  "@walletImportPkLengthExpected": {
+    "placeholders": {
+      "length": {
+        "type": "int"
+      }
+    }
+  },
+  "walletImportPkInvalidFormat": "Invalid security key format",
+  "walletImportEvmOnly": "Only EVM security key import is supported",
+  "walletImportDeriveAddressFailed": "Could not derive address from security key; check format",
+  "walletImportDuplicatePk": "This address already exists. Do not restore again",
+  "walletImportDuplicateMnemonic": "This note account is already restored. Do not restore again",
+  "walletImportInvalidPrivateKeyRetry": "Invalid security key. Check and try again",
+  "walletImportInvalidMnemonicRetry": "Invalid recovery phrase. Check and try again",
+  "clipboardEmpty": "Clipboard is empty",
+  "mnemonicViewLengthTitle": "Recovery phrase length",
+  "mnemonicViewInputMode": "Input mode",
+  "mnemonicViewSingleWord": "Word by word",
+  "mnemonicViewFullPaste": "Paste paragraph",
+  "mnemonicViewImportCta": "Use recovery phrase",
+  "mnemonicViewEnterOrdered": "Enter {count} words in order",
+  "@mnemonicViewEnterOrdered": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "mnemonicViewPasteHint": "Paste the full recovery phrase, words separated by spaces",
+  "mnemonicCountMismatch": "Enter {expected} words (currently {current})",
+  "@mnemonicCountMismatch": {
+    "placeholders": {
+      "expected": {
+        "type": "int"
+      },
+      "current": {
+        "type": "int"
+      }
+    }
+  },
+  "mnemonicInvalidBip39": "Invalid recovery phrase; check spelling",
+  "walletSelectorTitle": "My note accounts",
+  "walletSelectorSubtitle": "Manage all your note accounts",
+  "walletNumberedName": "Note account {n}",
+  "@walletNumberedName": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "walletDefaultCreatedNameFirst": "My Note account",
+  "walletDefaultCreatedNameNumbered": "My Note account {n}",
+  "@walletDefaultCreatedNameNumbered": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "walletDefaultPrivateKeyNameFirst": "My security key note account",
+  "walletDefaultPrivateKeyNameNumbered": "My security key note account {n}",
+  "@walletDefaultPrivateKeyNameNumbered": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "walletBackupNotYet": "Not backed up",
+  "walletBackupPromptLine1": "Back up your note account",
+  "walletBackupPromptLine2": "Tap to back up your recovery phrase now",
+  "walletDeleteConfirmTitle": "Delete note account?",
+  "walletDeleteConfirmLine1": "This cannot be undone. Make sure you have backed up your recovery phrase.",
+  "walletDeleteConfirmLine2Notes": "Local notes linked to this note account will also be removed.",
+  "walletDeleteCannotCurrent": "Cannot delete the note account in use",
+  "walletDeleteLastHint": "No note account will remain; you will return to onboarding to create or restore.",
+  "walletEditNameSubtitle": "Choose an easy-to-recognize name",
+  "walletNameFieldLabel": "Note account name",
+  "walletNameFieldHint": "Enter note account name",
+  "networkNodeAdd": "Add node",
+  "networkNodeTest": "Test",
+  "networkNodeSetDefault": "Set as default",
+  "networkNodeOnline": "Online",
+  "networkNodeOffline": "Offline",
+  "networkNodeConnectionFailed": "Node connection failed",
+  "networkRpcUrlInvalid": "Enter a valid HTTP or HTTPS RPC URL.",
+  "networkNodeDuplicate": "This RPC URL is already in the list.",
+  "networkNodeNameRpcRequired": "Enter node name and RPC URL",
+  "networkNodeAdded": "Node added",
+  "networkRpcCopied": "RPC URL copied",
+  "networkNodeSwitched": "Switched to this node",
+  "networkNodeDeleted": "Node deleted",
+  "networkSettingsTitle": "Network settings",
+  "networkSettingsSubtitle": "Configure blockchain RPC nodes",
+  "networkLoadFailed": "Load failed: {message}",
+  "@networkLoadFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "networkSectionMainnet": "Mainnet",
+  "networkSectionTestnet": "Testnets",
+  "networkTestnetListHint": "Chains marked as testnet in the app data source are listed here.",
+  "networkCountNetworks": "{count} networks",
+  "@networkCountNetworks": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "networkAboutNodesTitle": "About RPC nodes",
+  "networkAboutNodesBullet1": "RPC nodes are your gateway to the blockchain network.",
+  "networkAboutNodesBullet2": "Add custom nodes to improve speed or reliability.",
+  "networkAboutNodesBullet3": "Prefer trusted public nodes or nodes you run yourself.",
+  "networkStatusConnectionOk": "Connected",
+  "networkStatusConnectionError": "Connection issue",
+  "networkStatusCustomized": "Customized",
+  "networkNodeCountLabel": "{count} nodes",
+  "@networkNodeCountLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "networkAllNodesTitle": "All nodes ({count})",
+  "@networkAllNodesTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "networkDetailHeaderNodeCount": "Total {count} nodes",
+  "@networkDetailHeaderNodeCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "networkQuickAddTitle": "Quick add nodes",
+  "networkQuickAddLine1": "Tap a network to open its details and add custom RPC URLs.",
+  "networkQuickAddLine2": "You can add multiple nodes; the list is kept for future improvements (e.g. picking the fastest).",
+  "networkNodeProbeOk": "Node connection OK",
+  "networkNodeProbeOkLatency": "Node connection OK, latency {ms} ms",
+  "@networkNodeProbeOkLatency": {
+    "placeholders": {
+      "ms": {
+        "type": "int"
+      }
+    }
+  },
+  "networkCurrentNodeTitle": "Current node",
+  "networkNodeActiveBadge": "Active",
+  "networkNoNodeSelected": "No node selected",
+  "networkNodeLatencyMs": "{ms} ms",
+  "@networkNodeLatencyMs": {
+    "placeholders": {
+      "ms": {
+        "type": "int"
+      }
+    }
+  },
+  "networkAddRpcDialogTitle": "Add RPC node",
+  "networkAddRpcDialogSubtitle": "Add a custom RPC node for the {networkName} network.",
+  "@networkAddRpcDialogSubtitle": {
+    "placeholders": {
+      "networkName": {
+        "type": "String"
+      }
+    }
+  },
+  "networkNodeNameLabel": "Node name",
+  "networkNodeNameHint": "e.g. My node 1",
+  "networkRpcUrlLabel": "RPC URL",
+  "networkRpcUrlHint": "https://…",
+  "networkExampleRpcLabel": "Example RPC URL",
+  "networkConfirmAddNode": "Add node",
+  "networkTipsTitle": "Tips",
+  "networkTipsLine1": "Add several nodes as backups.",
+  "networkTipsLine2": "Test a node to see connection status and latency.",
+  "networkTipsLine3": "Lower latency often means faster transactions.",
+  "networkTipsLine4": "Built-in default nodes cannot be deleted.",
+  "networkNodeInUseBadge": "In use",
+  "networkCannotDeleteDefaultNode": "Default nodes cannot be deleted.",
+  "networkDeleteSwitchNodeFirst": "Switch to another node before deleting this one.",
+  "homeFiatApprox": "≈ {amount}",
+  "@homeFiatApprox": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "homeUnitPrice": "Unit price: {price}",
+  "@homeUnitPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "homeUnitPriceUnavailable": "Unit price: --",
+  "homeTransactionHistory": "Note creation records",
+  "homeTransactionHistoryNotConfigured": "Note creation records are not configured",
+  "transactionHistorySubtitle": "View all your note creation records",
+  "transactionHistoryStatTotal": "Total",
+  "transactionHistoryStatSuccess": "Success",
+  "transactionHistoryStatPending": "Pending",
+  "transactionHistoryStatFailed": "Failed",
+  "transactionHistoryFilterAll": "All",
+  "transactionHistoryFilterSend": "Note created",
+  "transactionHistoryFilterReceive": "Received",
+  "transactionHistorySelectChain": "Select network",
+  "transactionHistoryCopied": "Copied to clipboard",
+  "transactionHistoryExplorerInvalidUrl": "Invalid explorer link",
+  "transactionHistoryExplorerLaunchFailed": "Could not open the browser. Check system settings.",
+  "@transactionHistoryExplorerOpenError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "transactionHistoryExplorerOpenError": "Could not open: {error}",
+  "transactionHistoryRefreshed": "Note creation records updated",
+  "transactionHistoryTimeJustNow": "Just now",
+  "@transactionHistoryTimeMinutesAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "transactionHistoryTimeMinutesAgo": "{count, plural, =1{1 minute ago} other{{count} minutes ago}}",
+  "@transactionHistoryTimeHoursAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "transactionHistoryTimeHoursAgo": "{count, plural, =1{1 hour ago} other{{count} hours ago}}",
+  "@transactionHistoryTimeDaysAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "transactionHistoryTimeDaysAgo": "{count, plural, =1{1 day ago} other{{count} days ago}}",
+  "transactionHistoryEmptyTitle": "No note creation records yet",
+  "transactionHistoryEmptyHintFiltered": "No note creation records match this filter",
+  "transactionHistoryEmptyHintAll": "You have no note creation records yet",
+  "transactionHistoryTypeSend": "Note created",
+  "transactionHistoryTypeReceive": "Received",
+  "transactionHistoryStatusSuccess": "Success",
+  "transactionHistoryStatusFailed": "Failed",
+  "transactionHistoryStatusPending": "Pending",
+  "transactionHistoryDetailFrom": "From",
+  "transactionHistoryDetailTo": "To",
+  "transactionHistoryDetailTxHash": "On-chain hash",
+  "transactionHistoryDetailBlock": "Block",
+  "@transactionHistoryGasLine": {
+    "placeholders": {
+      "fee": {
+        "type": "String"
+      },
+      "symbol": {
+        "type": "String"
+      }
+    }
+  },
+  "transactionHistoryGasLine": "Gas: {fee} {symbol}",
+  "homeGasBalanceTitle": "{symbol} gas balance",
+  "@homeGasBalanceTitle": {
+    "placeholders": {
+      "symbol": {
+        "type": "String"
+      }
+    }
+  },
+  "homeTotalAssets": "Total balance",
+  "homeRefreshBalance": "Refresh balance",
+  "homeGetGas": "Get gas",
+  "homeGasHelp": "Gas is required to send transactions on-chain. Please keep enough balance.",
+  "@getGasDialogTitle": {
+    "placeholders": {
+      "symbol": {
+        "type": "String"
+      }
+    }
+  },
+  "getGasDialogTitle": "Get {symbol} for gas",
+  "@getGasDialogSubtitle": {
+    "placeholders": {
+      "chainName": {
+        "type": "String"
+      }
+    }
+  },
+  "getGasDialogSubtitle": "Choose a way to add funds to your {chainName} note account",
+  "getGasOptionReceiveTitle": "Receive tokens",
+  "getGasBadgeRecommended": "Recommended",
+  "@getGasReceiveHint": {
+    "placeholders": {
+      "symbol": {
+        "type": "String"
+      }
+    }
+  },
+  "getGasReceiveHint": "Transfer {symbol} from another note account or exchange",
+  "getGasWalletAddressLabel": "Note account address",
+  "getGasShowQr": "QR code",
+  "getGasHideQr": "Hide",
+  "@getGasTransferWarning": {
+    "placeholders": {
+      "chainName": {
+        "type": "String"
+      }
+    }
+  },
+  "getGasTransferWarning": "Use network {chainName} for transfers, or notes may be lost.",
+  "getGasFaucetTitle": "Testnet faucet",
+  "getGasBadgeFree": "Free",
+  "@getGasFaucetHint": {
+    "placeholders": {
+      "symbol": {
+        "type": "String"
+      }
+    }
+  },
+  "getGasFaucetHint": "Claim free testnet {symbol} from a faucet",
+  "@getGasFaucetOpen": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "getGasFaucetOpen": "Open faucet {index}",
+  "getGasBuyExchangeTitle": "Buy on an exchange",
+  "getGasBadgeComingSoon": "Coming soon",
+  "@getGasBuyExchangeHint": {
+    "placeholders": {
+      "symbol": {
+        "type": "String"
+      }
+    }
+  },
+  "getGasBuyExchangeHint": "Buy {symbol} on an exchange and withdraw to your note account",
+  "getGasDialogCancel": "Cancel",
+  "getGasAddressCopied": "Address copied",
+  "getGasInvalidLink": "Invalid link",
+  "getGasCouldNotOpenLink": "Could not open the link. Check that a browser is available.",
+  "@getGasOpenFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "getGasOpenFailed": "Could not open: {error}",
+  "homeRecentNotes": "Recent notes",
+  "homeRefreshRecentNotes": "Refresh recent notes",
+  "homeLoadingOnChainNotes": "Loading on-chain notes",
+  "homeSyncingOnChainNotes": "Syncing on-chain notes…",
+  "homeNoNotesInLastMonth": "No notes in the last month",
+  "homeCreateNewNotePrompt": "Create a new note",
+  "notesAllChains": "All chains",
+  "notesSwitchedToAllChains": "Switched to all chains",
+  "notesFilterAll": "All",
+  "notesFilterOnChain": "On-chain",
+  "notesFilterOffChain": "Not on-chain",
+  "notesSortNewest": "Newest",
+  "notesSortUpdated": "Updated",
+  "notesSortOldest": "Oldest",
+  "notesSortTitle": "Title",
+  "notesTimelineNoteCount": "{count} notes",
+  "@notesTimelineNoteCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "noteStatsTotalNotes": "Total notes",
+  "noteStatsOnChainCount": "On-chain",
+  "noteStatsImages": "Images",
+  "noteStatsChars": "Characters",
+  "noteDeleteNote": "Delete note",
+  "noteDeleteConfirmTitle": "Delete note?",
+  "noteDeleteConfirmBody": "Delete this note? This cannot be undone.",
+  "noteDeletedSnackbar": "Note deleted",
+  "noteDeleteFailed": "Delete failed: {error}",
+  "@noteDeleteFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "noteUpdatedAt": "Updated {date}",
+  "@noteUpdatedAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "noteCreatedAt": "Created {date}",
+  "@noteCreatedAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "noteNoContent": "No content yet",
+  "noteEditorCreateNewNote": "Create new note",
+  "noteEditorChainLine": "{chainName} network",
+  "@noteEditorChainLine": {
+    "placeholders": {
+      "chainName": {
+        "type": "String"
+      }
+    }
+  },
+  "noteEditorSelectChainToPublish": "Select a network to publish on-chain",
+  "noteEditorSave": "Save",
+  "noteEditorSaving": "Saving…",
+  "noteTitleLabel": "Title",
+  "noteTitleHint": "Give your note a title…",
+  "noteCoverImages": "Cover image (optional)",
+  "noteCoverAdd": "Add cover",
+  "noteCoverUploading": "Uploading…",
+  "noteCoverTapUpload": "Tap to upload a cover image",
+  "noteCoverFormatsHint": "JPG, PNG, and other formats supported",
+  "noteRichTextGuideTitle": "Rich text tools",
+  "noteRichTextHeadingLabel": "Headings:",
+  "noteRichTextHeadingBody": "Use the toolbar “Heading” to insert numbered headings.",
+  "noteRichTextListLabel": "Lists:",
+  "noteRichTextListBody": "Insert bullets or numbered lists.",
+  "noteRichTextEmojiLabel": "Emoji:",
+  "noteRichTextEmojiBody": "Insert common emoji and markers quickly.",
+  "noteRichTextTemplateLabel": "Templates:",
+  "noteRichTextTemplateBody": "Pick a preset template to start writing.",
+  "noteRichTextImageLabel": "Images:",
+  "noteRichTextImageBody": "Use the image button in the toolbar to insert into the body.",
+  "noteRichTextPreviewHint": "Tip: switch to “Preview” to see formatted output.",
+  "noteEditorContentPlaceholder": "Write your ideas, inspiration, and plans…\n\nTip: the toolbar can quickly insert:\n• Headings and lists\n• Emoji and symbols\n• Quick templates\n• Images\n\nRich text is supported; the detail page renders it nicely.",
+  "noteTipsTitle": "Writing tips",
+  "noteTipsBody": "• Use a meaningful title\n• Capture ideas, plans, or important information\n• Add images to enrich your note\n• After saving you can publish on-chain for permanent storage",
+  "noteReadyTitle": "Ready",
+  "noteReadyBody": "Content looks good. Tap “Save” at the top right to create your note.",
+  "noteTypeSectionLabel": "Note type:",
+  "notePublishToChain": "Publish on-chain",
+  "notePublishing": "Publishing…",
+  "noteOnChainPublished": "Published on-chain",
+  "selectBlockchainFirst": "Please select a blockchain network first",
+  "noteImageAdded": "Image added",
+  "noteImagePickFailed": "Could not pick image",
+  "noteSavedToLocal": "Saved locally",
+  "notePublishFailedKeptDraft": "Publish failed; saved as draft",
+  "noteSavedAsDraft": "Saved as draft",
+  "richTextPreviewMode": "Preview mode",
+  "richTextEditMode": "Edit mode",
+  "richTextPreview": "Preview",
+  "richTextEdit": "Edit",
+  "richTextLineCount": "{count} lines",
+  "@richTextLineCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "richTextCharCount": "{count} characters",
+  "@richTextCharCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "richTextToolbarBottomHint": "Tip: use the toolbar for quick formatting, or type emoji and symbols manually.",
+  "richTextToolbarHeading": "Heading",
+  "richTextTooltipInsertHeading": "Insert heading",
+  "richTextTooltipBulletList": "Insert bullet list",
+  "richTextTooltipNumberedList": "Insert numbered list",
+  "richTextTooltipStatusMarkers": "Insert status markers",
+  "richTextToolbarEmojiMenu": "Emoji",
+  "richTextTooltipInsertEmoji": "Insert emoji",
+  "richTextToolbarTemplate": "Template",
+  "richTextTooltipQuickTemplate": "Quick templates",
+  "richTextTooltipAddImage": "Add image",
+  "richTextMdImageAlt": "Image",
+  "richTextInsertNumberedHeading": "\n1️⃣ Title\n",
+  "richTextInsertBulletLines": "\n• List item 1\n• List item 2\n• List item 3\n",
+  "richTextInsertNumberedLines": "\n1. First item\n2. Second item\n3. Third item\n",
+  "richTextInsertStatusMarkers": "\n🟢 Done\n🔵 In progress\n🟡 Pending\n",
+  "richTextEmojiGroupNumberedTitle": "Numbered titles",
+  "richTextEmojiGroupStatus": "Status markers",
+  "richTextEmojiGroupSymbols": "Common symbols",
+  "richTextEmojiGroupEmoji": "Emoji",
+  "richTextEmojiHeadingWord": "Title",
+  "richTextEmojiBodyWord": "Text",
+  "richTextTplStandardNoteName": "📝 Standard note",
+  "richTextTplStandardNoteBody": "Title\n\nMain content:\n• Point 1\n• Point 2\n• Point 3\n\nSummary:\n",
+  "richTextTplTaskName": "✅ Task list",
+  "richTextTplTaskBody": "Task list\n\nToday:\n✓ Completed\n✗ Not done\n→ In progress\n\nNotes:\n",
+  "richTextTplStudyName": "📚 Study notes",
+  "richTextTplStudyBody": "Study notes - Topic\n\n1️⃣ Key ideas\n• Idea 1: details\n• Idea 2: details\n\n2️⃣ Summary\n• Takeaway 1\n• Takeaway 2\n\n3️⃣ Practice\n",
+  "richTextTplIdeaName": "💡 Idea capture",
+  "richTextTplIdeaBody": "💡 Idea capture\n\nThought:\n🟢 Core idea\n\nPros:\n• Pro 1\n• Pro 2\n\nNext:\n→ Next step\n",
+  "richTextTplProjectName": "📊 Project plan",
+  "richTextTplProjectBody": "Project plan\n\n🎯 Goal:\n\n📝 Steps:\n1. Step one\n2. Step two\n3. Step three\n\n⏰ Timeline:\n",
+  "gasPreviewTitle": "Gas fee preview",
+  "gasPreviewSubtitle": "Choose a gas speed and confirm to publish on-chain.",
+  "gasPreviewLoading": "Fetching gas fees…",
+  "gasPreviewPickSpeed": "Gas speed",
+  "gasPreviewLiveRates": "Live estimates",
+  "gasSpeedSlow": "Slow",
+  "gasSpeedStandard": "Standard",
+  "gasSpeedFast": "Fast",
+  "gasTimeSlow": "~3–5 min",
+  "gasTimeStandard": "~1–2 min",
+  "gasTimeFast": "~15–30 sec",
+  "gasDescSlow": "baseFee×1.1; priority fee = max(30 Gwei, suggested) + 3 Gwei.",
+  "gasDescStandard": "baseFee×1.25; priority fee = max(30 Gwei, suggested) + 8 Gwei.",
+  "gasDescFast": "baseFee×1.5; priority fee = max(30 Gwei, suggested) + 20 Gwei.",
+  "gasLabelGasPrice": "Gas price",
+  "gasLabelEstCost": "Est. cost",
+  "gasRecommendedBadge": "Recommended",
+  "gasPreviewGweiMax": "{value} Gwei (max)",
+  "@gasPreviewGweiMax": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "gasFeeBreakdownTitle": "Fee breakdown",
+  "gasFeeRowBase": "Base fee",
+  "gasFeeRowPriority": "Priority fee",
+  "gasFeeRowNoteSize": "Note size",
+  "gasFeeRowTotal": "Total",
+  "gasFeeNoteSizeKb": "{kb} KB",
+  "@gasFeeNoteSizeKb": {
+    "placeholders": {
+      "kb": {
+        "type": "String"
+      }
+    }
+  },
+  "gasWarningTitle": "Before you continue",
+  "gasWarningBody": "• Gas is paid to the network, not to this app.\n• Actual cost may vary slightly with congestion.\n• On-chain notes cannot be deleted or edited afterward.",
+  "gasConfirmOnChain": "Confirm on-chain",
+  "gasOnChainConfirmDialogTitle": "Cannot be changed after on-chain",
+  "gasOnChainConfirmDialogBody": "This note will be written to the blockchain (IPFS + on-chain attestation).\nOnce submitted, it cannot be deleted or edited. Please make sure the content is correct before continuing.",
+  "gasOnChainConfirmDialogQuestion": "Publish on-chain?",
+  "onChainConfirmParamSummarySectionTitle": "Call parameters",
+  "noteOnChainParamJsonKeyNetwork": "Network",
+  "noteOnChainParamJsonKeyChainId": "Chain ID",
+  "noteOnChainParamJsonKeyFeeToken": "Gas token",
+  "noteOnChainParamJsonKeySender": "Sender (your note account)",
+  "noteOnChainParamJsonKeyContract": "Contract address",
+  "noteOnChainParamJsonKeyContractName": "Contract name",
+  "noteOnChainParamJsonKeyFunction": "Function",
+  "noteOnChainParamJsonKeyNoteTitle": "Note title",
+  "noteOnChainParamJsonKeyContentSha256": "Note body fingerprint (SHA-256)",
+  "noteOnChainParamJsonGroupMintCall": "On-chain call (contract args)",
+  "noteOnChainParamJsonGroupContext": "Details you can verify now",
+  "noteOnChainParamJsonValueUriPending": "Actual ipfs:// values are filled after you sign and content is uploaded to IPFS",
+  "noteOnChainConfirmPageTitle": "Confirm publishing on-chain",
+  "noteOnChainConfirmPageSubtitle": "Save this note permanently on the blockchain",
+  "noteOnChainConfirmNoExplorer": "This network has no block explorer configured; cannot open the contract.",
+  "noteOnChainConfirmMintStatusUncertain": "On-chain status is unclear. Check the note or a block explorer later.",
+  "noteOnChainConfirmSignButton": "Confirm verification",
+  "noteOnChainConfirmTipTitle": "Before you publish",
+  "noteOnChainConfirmTipBody": "• After publishing, the note cannot be edited or deleted\n• Your note will be on-chain permanently and belongs to you\n• A small gas fee is required, one time only",
+  "noteOnChainConfirmNoteContentSection": "Note content",
+  "noteOnChainConfirmNoteTitleLabel": "Title",
+  "noteOnChainConfirmContentPreview": "Content preview",
+  "noteOnChainConfirmNoteHashLabel": "Note hash (SHA-256)",
+  "noteOnChainConfirmChainDetailsSection": "On-chain details",
+  "noteOnChainConfirmMyWallet": "My note account",
+  "noteOnChainConfirmTargetContract": "Target contract",
+  "noteOnChainConfirmContractOwnershipHint": "The contract mints your note (NFT). The note (NFT) belongs to your note account—you hold permanent ownership of the note.",
+  "noteOnChainConfirmNoteRecipientAddress": "Note recipient address: {address}",
+  "@noteOnChainConfirmNoteRecipientAddress": {
+    "placeholders": {
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "noteOnChainConfirmNetworkFee": "Network fee",
+  "noteOnChainConfirmGasPriceLabel": "Gas price",
+  "noteOnChainConfirmGasLimitLabel": "Gas limit",
+  "noteOnChainConfirmOnChainFee": "On-chain fee",
+  "noteOnChainConfirmGasOnlyHint": "Gas only",
+  "noteOnChainConfirmAdvancedSection": "Advanced",
+  "noteOnChainConfirmNonceLabel": "Nonce",
+  "noteOnChainConfirmNetworkLabel": "Network",
+  "noteOnChainConfirmGasSlow": "Slow",
+  "noteOnChainConfirmGasNormal": "Standard",
+  "noteOnChainConfirmGasFast": "Fast",
+  "noteOnChainConfirmGasTimeSlow": "~5 min",
+  "noteOnChainConfirmGasTimeNormal": "~1 min",
+  "noteOnChainConfirmGasTimeFast": "~15 sec",
+  "saveOptionsTitle": "Choose how to save",
+  "saveOptionsSubtitle": "Pick the option that fits what you need.",
+  "saveOnChainTitle": "Save on-chain",
+  "saveOnChainDescription": "Permanent on the blockchain; tamper-resistant.",
+  "saveOnChainFeature1": "Permanent",
+  "saveOnChainFeature2": "Verifiable",
+  "saveOnChainFeature3": "Decentralized",
+  "ipfsUploadConfirmTitle": "Upload to IPFS",
+  "ipfsUploadConfirmBody": "This note has local images. Before going on-chain, they need to be uploaded to decentralized storage (IPFS). After upload you can continue to write to the blockchain.\n\nUpload to IPFS and continue?",
+  "saveBadgeSecure": "Secure",
+  "saveDraftTitle": "Save as draft",
+  "saveDraftDescription": "Continue editing later; no chain resources yet.",
+  "saveDraftFeature1": "Edit anytime",
+  "saveDraftFeature2": "Stored locally",
+  "saveDraftFeature3": "Quick save",
+  "saveBadgeRecommended": "Recommended",
+  "saveLocalTitle": "Save locally",
+  "saveLocalDescription": "Keep this note on this device only.",
+  "saveLocalFeature1": "Offline friendly",
+  "saveLocalFeature2": "Instant save",
+  "saveLocalFeature3": "No fees",
+  "saveWillPublishToChain": "Will be saved on {chainName}",
+  "@saveWillPublishToChain": {
+    "placeholders": {
+      "chainName": {
+        "type": "String"
+      }
+    }
+  },
+  "guideWelcomeTitle": "Welcome to On Chain Notes",
+  "guideWelcomeSubtitle": "Before we start, let’s set up your note account.",
+  "guideSecurityTitle": "Your data, your control",
+  "guideSecurityBody": "Your keys stay on your device. We do not store sensitive data on our servers. Keep your recovery phrase and security key safe.",
+  "guideCreateWalletTitle": "Create a new note account",
+  "guideCreateWalletSubtitle": "Start fresh with a new note account address and recovery phrase.",
+  "guideRecommendedNewUser": "Recommended for new users",
+  "guideImportWalletTitle": "Restore existing note account",
+  "guideImportWalletSubtitle": "Restore with your recovery phrase or security key.",
+  "guideTagMnemonic": "Recovery phrase",
+  "guideTagPrivateKey": "Security key",
+  "guideICloudRestoreTitle": "Restore from iCloud",
+  "guideICloudRestoreSubtitle": "If you backed up your note account to iCloud, you can restore it quickly.",
+  "guideBadgeIosOnly": "iOS only",
+  "guideGoogleRestoreTitle": "Restore from Google Drive",
+  "guideGoogleRestoreSubtitle": "If you backed up your note account to Google Drive, you can restore it quickly.",
+  "guideBadgeAllDevices": "All devices",
+  "guideFooterHint": "Choose any option to continue.\nYour keys are stored securely on this device.",
+  "guideProviderICloud": "iCloud",
+  "guideProviderGoogleDrive": "Google Drive",
+  "guideLoadingWalletMessage": "Loading note account…",
+  "googlePlayReviewModeTapHint": "{remaining} more tap(s) to enter review mode",
+  "@googlePlayReviewModeTapHint": {
+    "placeholders": {
+      "remaining": {
+        "type": "int"
+      }
+    }
+  },
+  "helpCenter": "Help Center",
+  "helpCenterSubtitle": "FAQ & user guide",
+  "helpSectionQuickGuide": "Quick guides",
+  "helpSectionFaq": "FAQ",
+  "helpSearchHint": "Search questions…",
+  "helpCategoryAll": "All",
+  "helpCategoryBasics": "Basics",
+  "helpCategoryBlockchain": "Blockchain",
+  "helpCategoryWalletSecurity": "Note account security",
+  "helpCategoryWalletMgmt": "Note account management",
+  "helpCategoryAdvanced": "Advanced",
+  "helpCategoryCommon": "Common issues",
+  "helpComingSoon": "Coming soon",
+  "helpEmptyTitle": "No matching questions",
+  "helpEmptySubtitle": "Try other keywords or contact support",
+  "helpContactTitle": "Contact support",
+  "helpContactSubtitle": "No answer? Email us",
+  "helpContactSendFeedback": "Send feedback",
+  "helpContactYourEmailOptional": "Your email (optional)",
+  "helpContactEmailHint": "",
+  "helpContactMessageLabel": "Message",
+  "helpContactMessageHint": "Describe your issue or suggestion…",
+  "helpContactSending": "Sending…",
+  "helpContactSend": "Send",
+  "helpCopySupportEmail": "Email address copied",
+  "helpFeedbackEmpty": "Please enter your feedback",
+  "helpFeedbackThanks": "Thank you for your feedback!",
+  "helpFeedbackMailFailed": "Could not open email. Try again later.",
+  "helpFeedbackMailSubject": "User feedback",
+  "helpQuickGuide1Title": "Quick start",
+  "helpQuickGuide1Desc": "Learn the basics in 5 minutes",
+  "helpQuickGuide2Title": "Create your first note",
+  "helpQuickGuide2Desc": "Create a note and publish on-chain",
+  "helpQuickGuide3Title": "Back up your recovery phrase",
+  "helpQuickGuide3Desc": "Keep your notes and data safe",
+  "helpQuickGuide4Title": "Manage multiple note accounts",
+  "helpQuickGuide4Desc": "Create, import, and switch note accounts",
+  "helpFaq1Question": "What is On Chain Notes?",
+  "helpFaq1Answer": "On Chain Notes lets you store notes permanently on a blockchain so content stays tamper-evident and traceable. Once published on-chain, it typically cannot be changed or removed.",
+  "helpFaq2Question": "How do I create a note?",
+  "helpFaq2Answer": "You can:\n1. Tap “Create note” on the home screen\n2. Or tap the “+” button on the notes page\n3. Add title, content, and images",
+  "helpFaq3Question": "What save options are available?",
+  "helpFaq3Answer": "There are three options:\n1. Draft: saved locally, editable anytime\n2. Local save: finalized locally\n3. On-chain: permanent on blockchain, not editable\n\nWe recommend using a draft first, then publishing when ready.",
+  "helpFaq4Question": "What is on-chain save? Do I pay?",
+  "helpFaq4Answer": "On-chain save stores your note on-chain permanently. You pay network fees (Gas) charged by the blockchain, not an app fee. Fees vary by network; many L2s are cheaper.",
+  "helpFaq5Question": "Which networks are supported?",
+  "helpFaq5Answer": "The app supports eight mainstream EVM networks, including Ethereum, BSC, Polygon, Arbitrum, Optimism, Avalanche, Fantom, and Base. You can switch networks from the home screen.",
+  "helpFaq6Question": "How do I verify a note is on-chain?",
+  "helpFaq6Answer": "After publishing, you get a transaction hash. In note details you can view the hash, use Verify, or copy the hash to a block explorer for that network.",
+  "helpFaq7Question": "What is a recovery phrase? Why back it up?",
+  "helpFaq7Answer": "A recovery phrase (often 12 English words) is the master key to recover your note account.\n\nIf you lose it, you may lose access forever.\nIf it leaks, your notes may be permanently lost or managed by others.\nThe app cannot recover it for you.\nWrite it on paper and store it safely.",
+  "helpFaq8Question": "How do I back up my recovery phrase?",
+  "helpFaq8Answer": "1. Open Profile\n2. Tap backup recovery phrase\n3. Read the warnings\n4. Write down all words in order\n5. Verify in order\n6. Finish backup\n\nDo this in a private environment.",
+  "helpFaq9Question": "Recovery phrase vs security key?",
+  "helpFaq9Answer": "Both can restore an note account.\n\nRecovery phrase: 12 words, easier to write down, derives keys (recommended backup).\n\nSecurity key: long hex string, harder to handle, single address (advanced users).",
+  "helpFaq10Question": "How do I switch note accounts?",
+  "helpFaq10Answer": "1. Tap the note account address on the home header\n2. Pick another note account in the selector\n3. Or go to Note account management to create/import\n\nYou can manage multiple note accounts.",
+  "helpFaq11Question": "How do I see addresses on other chains?",
+  "helpFaq11Answer": "In My note account:\n1. Expand the card with the arrow\n2. See supported chains and addresses\n3. Tap to copy\n\nFor EVM-compatible chains, the address format is the same.",
+  "helpFaq12Question": "How do I customize an RPC node?",
+  "helpFaq12Answer": "1. Profile → Network settings\n2. Choose a network\n3. Add node\n4. Enter name and RPC URL\n5. Test connection\n6. Set as default\n\nCustom RPC can improve speed and reliability.",
+  "helpFaq13Question": "What rich text formats are supported?",
+  "helpFaq13Answer": "Bold, italic, underline, headings (H1–H3), ordered/bullet lists, quotes, code blocks, and image upload—via the editor toolbar.",
+  "helpFaq14Question": "Can on-chain notes be edited or deleted?",
+  "helpFaq14Answer": "Generally not—that is a property of blockchains.\n\nPublished notes are permanent and tamper-evident.\nUse drafts to iterate, then publish only when sure. Avoid putting highly sensitive data on-chain.",
+  "helpFaq15Question": "Why does on-chain publishing take time?",
+  "helpFaq15Answer": "After fees are accepted, the transaction must be mined. Time depends on congestion and gas speed (fast often ~15–30s, standard ~1–2m, slow longer). Usually under a couple of minutes.",
+  "helpFaq16Question": "What if I forgot my password?",
+  "helpFaq16Answer": "You can re-import the note account with your recovery phrase and set a new password. Local data may be retained depending on your setup.\n\nRemember: password encrypts locally; recovery phrase is the ultimate recovery key—keep it backed up.",
+  "@helpFeedbackMailBody": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      },
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "helpFeedbackMailBody": "Contact email: {email}\n\n{message}",
+  "termsOfServiceLastUpdatedLabel": "Last updated",
+  "termsOfServiceIntroTitle": "Important",
+  "@termsOfServiceIntroBody": {
+    "placeholders": {
+      "privacyDoc": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfServiceIntroBody": "Please read these Terms of Service and {privacyDoc} carefully. By using the service you acknowledge these rules. If you do not agree, please do not use the service.",
+  "termsOfServiceHelpTitle": "Need help?",
+  "termsOfServiceHelpBody": "If you have questions about these terms, open the in-app Help Center or contact us via feedback or email. We will do our best to respond within a reasonable time.",
+  "termsOfServiceHelpMailFeedback": "Email feedback",
+  "@termsOfServiceSection01Body": {
+    "placeholders": {
+      "appTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfServiceSection01Title": "1. Acceptance",
+  "termsOfServiceSection01Body": "Welcome to {appTitle} (“the Service”). Please read these Terms of Service (“the Terms”) before use.\nBy tapping agree, security verification up, security verification in, or using the Service, you agree to be bound by the Terms. If you disagree, stop using the Service.\nWe may update the Terms from time to time. Continued use after notice or updates means you accept the revised Terms.",
+  "termsOfServiceSection02Title": "2. Description of the Service",
+  "termsOfServiceSection02Body": "The Service combines local storage with blockchain-related features: you can create, edit, and manage notes on your device and optionally perform on-chain actions (such as transactions, hashes, or metadata—see in-app flows and prompts).\nCurrent characteristics may evolve with releases:\n• Local storage: note data is mainly stored on your device (e.g. local database); uninstalling the app may erase local data—back up on your own.\n• On-chain features: you may voluntarily submit on-chain operations for proof, sync, or display; on-chain records are often public and hard to delete.\n• Multi-chain: multiple EVM-compatible networks as listed in the app.\n• Note account: keys are generated or imported by you on the device; you are responsible for safeguarding keys and recovery phrases.\nThe Service provides technical tools only and does not warrant the legality, accuracy, completeness, or fitness for a particular purpose of your content.",
+  "termsOfServiceSection03Title": "3. Note account and security",
+  "termsOfServiceSection03Body": "3.1 Note account and credentials: after creating or importing an note account, the app manages addresses and key material on the device. Recovery phrases and security keys are among the only practical ways to recover notes—back them up offline and keep them secret.\n3.2 Your responsibility: actions performed while the app or note account is unlocked on your device are treated as yours or authorized by you. Losses from leaked phrases/keys, lost devices, malware, phishing, or failure to follow prompts are yours to bear.\n3.3 Security tips:\n• Never share your recovery phrase or security key with anyone\n• Use a strong app password and device lock / biometrics where available\n• Back up your phrase in a trusted environment and verify the backup\n• Beware of fake apps and phishing links\n3.4 We and our staff will never ask for your full recovery phrase or security key. Reject such requests and report them through official channels.",
+  "@termsOfServiceSection04Body": {
+    "placeholders": {
+      "appTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfServiceSection04Title": "4. Blockchain transactions and fees",
+  "termsOfServiceSection04Body": "4.1 Gas and network fees: on-chain transactions require fees paid to the network (e.g. gas). Fees are collected by the network, not by {appTitle} as a software provider on your behalf; amounts depend on the network and congestion.\n4.2 Confirmation time: transactions need network confirmation; timing depends on network conditions and your fee settings—we do not guarantee a specific duration.\n4.3 Failures and charges: insufficient balance, RPC errors, user cancellation, or contract reverts may cause failure; network fees already spent may be non-refundable per network rules.\n4.4 Irreversibility: once sufficiently confirmed, on-chain transactions usually cannot be undone. Double-check network, amounts, and contract calls before security verification and broadcasting.\n4.5 You are responsible for all on-chain actions you initiate. To the extent permitted by law, we are not liable for losses from blockchain protocols, nodes, smart contracts, or your own mistakes.",
+  "termsOfServiceSection05Title": "5. Acceptable use",
+  "termsOfServiceSection05Body": "You must not:\n• Create, upload, or distribute illegal, infringing, defamatory, obscene, violent, hateful, or otherwise unlawful content\n• Use the Service for fraud, money laundering, illegal fundraising, IP infringement, or other conduct prohibited by regulators\n• Access, probe, disrupt, or damage the Service or related infrastructure without authorization\n• Scrape, abuse APIs, or harm other users’ normal use (unless we agree in writing)\n• Send bulk harassment or unsolicited commercial messages\nIf you breach the above, we may warn you, restrict features, suspend, or terminate access, and cooperate with lawful or regulatory requests where required.",
+  "termsOfServiceSection06Title": "6. Intellectual property",
+  "termsOfServiceSection06Body": "6.1 The Service itself: client software, UI, branding, and documentation are protected by us or right holders. Without permission, you may not copy, reverse engineer, crack, or commercially redistribute the core software (except as allowed by law).\n6.2 Your content: you retain rights in notes and content you create; the Terms do not transfer those rights to us.\n6.3 License to us: solely to operate and improve the Service (sync, display, backup, on-chain submission, etc.), you grant us a non-exclusive, royalty-free license, revocable as permitted by the Terms.\n6.4 Do not use our trademarks, app name, or logos in a confusing way without written consent.",
+  "termsOfServiceSection07Title": "7. Disclaimers",
+  "termsOfServiceSection07Body": "7.1 “As is”: to the fullest extent permitted by law, the Service is provided “as is” and “as available.” We disclaim warranties of uninterrupted operation, error-free use, suitability for your needs, or compatibility with all devices or software.\n7.2 Data and security: we use reasonable measures but cannot guarantee there will never be data loss, leaks, or outages due to force majeure, lost devices, malware, attacks, or external systems (blockchain / IPFS, etc.).\n7.3 Third parties: the Service may rely on nodes, gateways, decentralized storage, push messaging, etc.; we do not warrant third parties’ availability, accuracy, or compliance—assess risks yourself.\n7.4 On-chain notes and protocol risks: on-chain notes and related protocols involve network issues, contract bugs, forks, and other risks—you assume them.\n7.5 Liability cap: except where law forbids, we are not liable for indirect, incidental, special, or consequential damages; our total liability is capped at fees you actually paid us for the disputed Service (zero if none).",
+  "termsOfServiceSection08Title": "8. Changes, suspension, and termination",
+  "termsOfServiceSection08Body": "8.1 We may change, suspend, or discontinue features for business, compliance, or technical reasons; we will notify you in-app when practicable.\n8.2 You may stop using the Service and uninstall at any time; export or back up important data beforehand.\n8.3 We may suspend or terminate access if you materially breach the Terms.\n8.4 After termination, unless the law requires otherwise, we have no obligation to retain or return data already on-chain, on third-party networks, or locally under your control.",
+  "termsOfServiceSection09Title": "9. Governing law and disputes",
+  "termsOfServiceSection09Body": "9.1 These Terms are governed by the laws of mainland China (for these Terms only, excluding conflict-of-law rules that would select foreign law, unless mandatory law says otherwise).\n9.2 Disputes should first be resolved through good-faith negotiation.\n9.3 If negotiation fails, either party may bring a suit in a court with jurisdiction (e.g. where our principal office is located), subject to mandatory jurisdictional rules.",
+  "@termsOfServiceSection10Body": {
+    "placeholders": {
+      "privacyDoc": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfServiceSection10Title": "10. Miscellaneous",
+  "termsOfServiceSection10Body": "10.1 Entire agreement: these Terms, {privacyDoc}, and in-app rules together govern use of the Service; special rules prevail for their topic if they conflict (without violating mandatory law).\n10.2 Severability: if a provision is invalid, the rest remain in effect and should be interpreted as closely as legally possible to the original intent.\n10.3 No waiver: failure to enforce a right is not a waiver.\n10.4 Contact: unless the law requires another channel, ask about these Terms via the in-app Help Center or feedback.",
+  "@termsOfServiceFooterLine1": {
+    "placeholders": {
+      "appTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfServiceFooterLine1": "Thank you for trusting and using {appTitle}.",
+  "connectEvmAccountFirst": "Connect an EVM note account first",
+  "createAccountFailedRetry": "Failed to create note account. Please try again later.",
+  "@createAccountFailedWithError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "createAccountFailedWithError": "Failed to create note account: {error}",
+  "transactionHistoryConnectEvm": "Select a network and ensure an EVM note account is connected",
+  "transactionHistoryUnsupportedNetwork": "This network does not support note creation records yet. Switch to a common EVM network.",
+  "securityVerificationFailed": "Security verification failed",
+  "walletImportPrivateKeyHint": "Enter your security key. Never share it with anyone.",
+  "walletImportPrivateKeySubmit": "Import security key"
+}

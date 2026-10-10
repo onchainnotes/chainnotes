@@ -1,0 +1,1653 @@
+{
+  "@@locale": "ja",
+  "appTitle": "オンチェーンノート",
+  "tabHome": "ホーム",
+  "tabNotes": "ノート",
+  "tabProfile": "マイページ",
+  "myNotes": "マイノート",
+  "notesCount": "ノート {count} 件",
+  "@notesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "createNote": "ノートを作成",
+  "selectNetwork": "ネットワークを選択",
+  "selectNetworkSubtitle": "使用するブロックチェーンネットワークを選択してください",
+  "chainSelectorMainnetTab": "メインネット",
+  "chainSelectorTestnetTab": "テストネット",
+  "chainSelectorFooterHint": "ネットワークを切り替えると、ノートは対応するブロックチェーン上に保存されます。",
+  "chainSelectorTestnetNoticeTitle": "テストネットについて",
+  "chainSelectorTestnetNoticeBody": "テストネットは開発・検証用です。トークンに実体価値はありません。",
+  "chainSelectorAllChainsTitle": "すべてのチェーン",
+  "chainSelectorAllChainsSubtitle": "すべてのチェーンのノートを表示",
+  "@chainSelectorChainIdLabel": {
+    "placeholders": {
+      "chainId": {
+        "type": "int"
+      }
+    }
+  },
+  "chainSelectorChainIdLabel": "チェーン ID: {chainId}",
+  "chainSelectorCurrentBadge": "現在",
+  "@chainSelectorGasLabel": {
+    "placeholders": {
+      "cost": {
+        "type": "String"
+      }
+    }
+  },
+  "chainSelectorGasLabel": "Gas: {cost}",
+  "chainGasCostLevelMedium": "標準",
+  "chainSelectorTestnetChainWarning": "テストネット · 実価値なし",
+  "viewAll": "すべて表示",
+  "aboutUs": "アプリについて",
+  "aboutPageTagline": "永久保存 · 改ざん不可 · 完全にあなたの手に",
+  "@splashVersionLabel": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "splashVersionLabel": "バージョン {version}",
+  "aboutPageVersionSection": "バージョン情報",
+  "aboutPageCurrentVersion": "現在のバージョン",
+  "photosPermissionDeniedSnack": "フォトライブラリへのアクセスが必要です。設定で有効にしてから再試行してください。",
+  "pressBackAgainToExitApp": "もう一度押すと終了します",
+  "@noteEditorOnChainTypeConfirmedSnack": {
+    "placeholders": {
+      "publishAction": {
+        "type": "String"
+      }
+    }
+  },
+  "noteEditorOnChainTypeConfirmedSnack": "チェーン上の保存を確認しました。ノートを保存するか「{publishAction}」をタップして続行してください。",
+  "actionShow": "表示",
+  "actionHide": "非表示",
+  "actionSaveToFile": "ファイルに保存",
+  "mnemonicExportSecurityConfirmTitle": "安全確認",
+  "mnemonicExportAckSaved": "リカバリーフレーズを安全な場所に保管しました",
+  "mnemonicExportAckUnderstandLoss": "リカバリーフレーズを紛失するとノートアカウントを復元できないことを理解しています",
+  "mnemonicExportAckNoShare": "リカバリーフレーズを誰にも共有しないことを約束します",
+  "mnemonicExportSafetyTipsTitle": "安全のヒント",
+  "mnemonicExportSafetyTipPaper": "リカバリーフレーズを紙に書き、安全な場所に保管してください",
+  "mnemonicExportSafetyTipNoScreenshot": "スクリーンショットやインターネット接続デバイスへの保存は避けてください",
+  "mnemonicExportSafetyTipCheckBackup": "定期的にバックアップが正しいか確認してください",
+  "mnemonicExportFinishCta": "安全にバックアップしました",
+  "aboutPageReleaseDate": "リリース日",
+  "aboutPageBuildNumber": "ビルド番号",
+  "aboutPageCoreFeatures": "主な特徴",
+  "aboutFeatureOnChainTitle": "オンチェーン保存",
+  "aboutFeatureOnChainDesc": "SHA-256 ハッシュをオンチェーンに。恒久的に改ざん不可。",
+  "aboutFeatureSecureTitle": "データの安全",
+  "aboutFeatureSecureDesc": "エンドツーエンド暗号化。鍵はあなたが管理。",
+  "aboutFeatureSyncTitle": "即時同期",
+  "aboutFeatureSyncDesc": "複数端末でリアルタイム同期。どこからでもアクセス。",
+  "aboutFeatureControlTitle": "完全なコントロール",
+  "aboutFeatureControlDesc": "分散型アーキテクチャ。データはあなたのもの。",
+  "aboutPageTechStack": "技術スタック",
+  "aboutPageContactUs": "お問い合わせ",
+  "aboutPageOfficialWebsite": "公式サイト",
+  "aboutPageContactEmail": "連絡先メール",
+  "aboutPageOpenSource": "オープンソース",
+  "aboutPageCreditsMadeWith": "Made with ",
+  "aboutPageCopyrightNotice": "© {yearBrand}。無断複写・転載を禁じます。",
+  "@aboutPageCopyrightNotice": {
+    "placeholders": {
+      "yearBrand": {
+        "type": "String"
+      }
+    }
+  },
+  "walletManagement": "ノートアカウント管理",
+  "walletCannotDeleteSwitchFirst": "使用中のノートアカウントは削除できません。先に別のノートアカウントに切り替えてください。",
+  "walletViewMnemonicCompleteBackupFirst": "リカバリーフレーズまたはセキュリティキーを表示する前に、リカバリーフレーズのバックアップ手順を完了してください。",
+  "walletDemoPrimaryName": "メインノートアカウント",
+  "walletAddressListTitle": "ノートアカウントアドレス一覧",
+  "copyAddressButton": "アドレスをコピー",
+  "labelCopied": "コピー済み",
+  "walletManagementDeleteIrreversible": "この操作は取り消せません。リカバリーフレーズまたはセキュリティキーをバックアップ済みか確認してください。",
+  "walletManagementDeleteWarningTitle": "警告：削除後は復元できません",
+  "walletManagementDeleteAssetsLoss": "リカバリーフレーズまたはセキュリティキーを保管していない場合、ノートへアクセスできなくなる可能性があります。",
+  "walletCreateSystemDescription": "新しいノートアカウントアドレスとリカバリーフレーズが生成されます",
+  "walletCreateBackupReminderBody": "作成後すぐにリカバリーフレーズをバックアップしてください。ノートアカウントを復元できるのはこれだけです。",
+  "walletCreateGenerateSubtitle": "新しいノートアカウントを生成",
+  "walletAddressCopied": "アドレスをコピーしました",
+  "walletNameRequired": "ノートアカウント名を入力してください",
+  "walletNameUpdated": "ノートアカウント名を更新しました",
+  "walletKeepAtLeastOne": "ノートアカウントは1つ以上保持してください",
+  "walletCannotDeleteCurrent": "使用中のノートアカウントは削除できません",
+  "walletDeleted": "ノートアカウントを削除しました",
+  "walletCreated": "ノートアカウントを作成しました",
+  "walletImportMnemonicOrKeyRequired": "シードフレーズまたはセキュリティキーを入力してください",
+  "walletImportSuccess": "ノートアカウントを復元しました",
+  "walletImportedCannotViewMnemonic": "復元したノートアカウントのシードフレーズは表示できません",
+  "walletMarkedBackedUp": "バックアップ済みとしてマークしました",
+  "walletSwitched": "ノートアカウントを切り替えました",
+  "viewMnemonic": "シードフレーズを表示",
+  "viewPrivateKey": "セキュリティキーを表示",
+  "privateKeyExportSelectNetworkHint": "表示するネットワークを選択",
+  "privateKeyExportKeepKeySafeHint": "セキュリティキーは安全に保管してください",
+  "privateKeyExportSecurityWarningTitle": "セキュリティ警告",
+  "privateKeyExportWarnBullet1": "セキュリティキーはノートを管理する最高権限の認証情報です",
+  "privateKeyExportWarnBullet2": "セキュリティキーを入手した者はノートを完全に管理できます",
+  "privateKeyExportWarnBullet3": "周囲が安全で、誰も見ていないことを確認してください",
+  "privateKeyExportWarnBullet4": "スクリーンショット・撮影・ネットワーク送信は絶対にしないでください",
+  "privateKeyExportSupportedNetworksTitle": "対応ネットワーク",
+  "@privateKeyExportNetworkCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "privateKeyExportNetworkCount": "{count} ネットワーク",
+  "privateKeyExportViewSafetyTitle": "セキュリティキーの安全ヒント",
+  "privateKeyExportViewBullet1": "周囲が安全で、画面を覗き見されていないことを確認してください",
+  "privateKeyExportViewBullet2": "公共の場所や信頼できないネットワークでは表示しないでください",
+  "privateKeyExportViewBullet3": "確認が終わったらできるだけ早くこのページを閉じてください",
+  "privateKeyExportKeySectionTitle": "セキュリティキー",
+  "privateKeyExportBip44Hint": "BIP44 イーサリアムパスで派生したセキュリティキーは EVM 各メインネットで同一です。ネットワーク名のみ異なります。",
+  "privateKeyExportMaskedPlaceholder": "0x•••••••••••••••••••••••••••••••••",
+  "privateKeyExportDoNotShareInline": "セキュリティキーを誰にも教えたり、ネットワークで送信したりしないでください",
+  "@privateKeyExportNetworkAddressLabel": {
+    "placeholders": {
+      "networkName": {
+        "type": "String"
+      }
+    }
+  },
+  "privateKeyExportNetworkAddressLabel": "{networkName} ネットワークアドレス",
+  "privateKeyExportImportantReminderTitle": "重要なお知らせ",
+  "privateKeyExportReminderBullet1": "セキュリティキーを持つ = そのアドレスのノートを完全に管理できる",
+  "privateKeyExportReminderBullet2": "漏洩するとノートは永久に失われ、復元できません",
+  "privateKeyExportReminderBullet3": "公式チームがセキュリティキーの提供を求めることはありません",
+  "privateKeyExportReminderBullet4": "セキュリティキーのエクスポートよりリカバリーフレーズでのバックアップを推奨します",
+  "privateKeyExportBackToList": "一覧に戻る",
+  "privateKeyExportCopySecurityKey": "セキュリティキーをコピー",
+  "mnemonicManagePageTitle": "シードフレーズ",
+  "mnemonicManagePageSubtitle": "シードフレーズは安全に保管し、他人に見せないでください",
+  "mnemonicBackupFlowTitle": "シードフレーズをバックアップ",
+  "@mnemonicBackupFlowStepProgress": {
+    "placeholders": {
+      "step": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "mnemonicBackupFlowStepProgress": "ステップ {step} / {total}",
+  "mnemonicBackupFlowLoadFailed": "読み込みに失敗しました",
+  "mnemonicBackupFlowCTAUnderstoodStart": "理解しました。バックアップを開始",
+  "mnemonicBackupFlowCTACopiedContinue": "書き写しました。検証へ",
+  "mnemonicBackupFlowCTAVerifiedContinue": "検証済み。続行",
+  "mnemonicBackupFlowCTAPleaseVerify": "先に検証を完了してください",
+  "mnemonicBackupFlowCTAFinish": "バックアップを完了",
+  "mnemonicBackupFlowCTANext": "次へ",
+  "mnemonicBackupFlowFooterCopyHint": "すべての単語を正しく書き写してから続行してください",
+  "mnemonicBackupFlowStep1Heading": "開始する前に",
+  "mnemonicBackupFlowStep1Subheading": "次のセキュリティ上の注意をよくお読みください",
+  "mnemonicBackupFlowSecurityTipsTitle": "重要な注意事項",
+  "mnemonicBackupFlowSecurityTip1": "シードフレーズはこのノートアカウントを復元する唯一の方法です",
+  "mnemonicBackupFlowSecurityTip2": "リカバリーフレーズを知られると、ノートを管理される可能性があります",
+  "mnemonicBackupFlowSecurityTip3": "シードフレーズを紛失すると、ノートアカウントは二度と復元できません",
+  "mnemonicBackupFlowBackupAdviceTitle": "安全なバックアップのしかた",
+  "mnemonicBackupFlowBackupAdvice1": "紙に書き、安全な場所に保管してください",
+  "mnemonicBackupFlowBackupAdvice2": "スクリーンショットやネット接続端末への保存は避けてください",
+  "mnemonicBackupFlowBackupAdvice3": "ネット越しに送信したり、誰かと共有したりしないでください",
+  "mnemonicBackupFlowBackupAdvice4": "複数箇所に分散して保管することをおすすめします",
+  "mnemonicBackupFlowProcessTitle": "バックアップの流れ",
+  "mnemonicBackupFlowProcess1": "シードフレーズを確認し、書き写す",
+  "mnemonicBackupFlowProcess2": "検証でバックアップが正しいことを確認する",
+  "mnemonicBackupFlowProcess3": "バックアップを完了し、ノートを守る",
+  "mnemonicBackupFlowYourMnemonicTitle": "あなたのシードフレーズ",
+  "mnemonicBackupFlowYourMnemonicSubtitle": "順番どおりに書き写し、大切に保管してください",
+  "@mnemonicBackupFlowWordCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "mnemonicBackupFlowWordCount": "{count} 語",
+  "mnemonicBackupFlowPleaseNoteTitle": "ご注意",
+  "mnemonicBackupFlowStep2NoteBody": "スクリーンショットやコピーではなく、紙への書き写しをおすすめします。目のアイコンで表示・非表示を切り替えられます。",
+  "mnemonicBackupFlowVerifyTitle": "シードフレーズの確認",
+  "mnemonicBackupFlowVerifySubtitle": "正しい単語を選び、バックアップが合っていることを確認してください",
+  "@mnemonicBackupFlowVerifyWordQuestion": {
+    "placeholders": {
+      "position": {
+        "type": "int"
+      }
+    }
+  },
+  "mnemonicBackupFlowVerifyWordQuestion": "{position} 番目の単語はどれですか？",
+  "mnemonicBackupFlowVerifySuccessTitle": "検証に成功しました",
+  "mnemonicBackupFlowVerifySuccessBody": "シードフレーズを正しくバックアップできました",
+  "mnemonicBackupFlowDoneTitle": "バックアップ完了",
+  "mnemonicBackupFlowDoneSubtitle": "シードフレーズは安全にバックアップされています",
+  "mnemonicBackupFlowDoneSectionTitle": "完了した項目",
+  "mnemonicBackupFlowDoneCheck1": "シードフレーズを確認して書き写した",
+  "mnemonicBackupFlowDoneCheck2": "検証テストに合格した",
+  "mnemonicBackupFlowDoneCheck3": "シードフレーズを安全に保管した",
+  "mnemonicBackupFlowDoneSecurityTitle": "セキュリティのリマインダー",
+  "mnemonicBackupFlowDoneSecurity1": "シードフレーズは安全な物理的な場所に保管してください",
+  "mnemonicBackupFlowDoneSecurity2": "誰にもシードフレーズを開示しないでください",
+  "mnemonicBackupFlowDoneSecurity3": "公式がシードフレーズを求めることはありません",
+  "mnemonicBackupFlowDoneSecurity4": "定期的にバックアップが読めるか確認してください",
+  "mnemonicBackupFlowFinalEncouragementTitle": "ノートアカウントを安心してお使いいただけます",
+  "mnemonicBackupFlowFinalEncouragementBody": "あなたのノートはリカバリーフレーズによって保護されています",
+  "switchWallet": "切り替え",
+  "viewAddresses": "アドレスを表示",
+  "cancel": "キャンセル",
+  "save": "保存",
+  "confirmDelete": "削除の確認",
+  "createWallet": "ノートアカウントを作成",
+  "importWallet": "ノートアカウントを復元",
+  "mnemonicOrPrivateKey": "シードフレーズまたはセキュリティキー",
+  "close": "閉じる",
+  "copy": "コピー",
+  "mnemonicCopied": "シードフレーズをコピーしました",
+  "privateKeyCopied": "セキュリティキーをコピーしました",
+  "backedUp": "バックアップ済み",
+  "editWalletName": "ノートアカウント名を編集",
+  "deleteWallet": "ノートアカウントを削除",
+  "confirmDeleteWallet": "ノートアカウントの削除を確認",
+  "newWalletCreated": "新しいノートアカウントを作成しました",
+  "cannotDeleteCurrentWallet": "使用中のノートアカウントは削除できません",
+  "edit": "編集",
+  "createNewWallet": "新しいノートアカウントを作成",
+  "editWalletNameTitle": "ノートアカウント名を変更",
+  "noteNotFoundBack": "ノートが見つかりません。戻ってください",
+  "createNoteNotImplemented": "ノート作成（未実装）",
+  "newWalletCreateSuccess": "新しいノートアカウントの作成に成功しました！",
+  "restoringFromProvider": "{provider} からノートアカウントを復元中...",
+  "@restoringFromProvider": {
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      }
+    }
+  },
+  "restoredFromProvider": "{provider} からノートアカウントを復元しました！",
+  "@restoredFromProvider": {
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      }
+    }
+  },
+  "noBackupFoundProvider": "{provider} のバックアップが見つかりません。別の方法をお試しください",
+  "@noBackupFoundProvider": {
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      }
+    }
+  },
+  "walletAddressCopiedShort": "ノートアカウントアドレスをコピーしました",
+  "switchedToChain": "{chain} に切り替えました",
+  "@switchedToChain": {
+    "placeholders": {
+      "chain": {
+        "type": "String"
+      }
+    }
+  },
+  "fillAllFields": "すべての項目を入力してください",
+  "passwordMismatch": "新しいパスワードが一致しません",
+  "passwordMinLength": "パスワードは6文字以上にしてください",
+  "passwordChangeSuccess": "パスワードを変更しました",
+  "enterValidEmail": "有効なメールアドレスを入力してください",
+  "verificationCodeSent": "認証コードを送信しました",
+  "enterSixDigitCode": "6桁の認証コードを入力してください",
+  "emailBindSuccess": "メールを紐付けました",
+  "emailUnbound": "メールの紐付けを解除しました",
+  "logoutNotConnected": "ログアウト（未接続）",
+  "changePassword": "パスワード変更",
+  "confirm": "確認",
+  "bindEmail": "メールを紐付け",
+  "editNoteOpenByRoute": "ルートから編集ページを開いてください",
+  "imageUploadNotConnected": "画像アップロードはストレージ未接続です",
+  "imageRemoved": "画像を削除しました",
+  "titleContentRequired": "タイトルと内容を入力してください",
+  "submittedToChain": "チェーンに送信しました",
+  "onChainNoteCannotChangeType": "オンチェーンのノートは種類を変更できません",
+  "setToLocalNote": "ローカルノートに設定しました（チェーンに載りません）",
+  "setToDraft": "下書きに設定しました",
+  "editNote": "ノートを編集",
+  "noteDetailEditDisabledOnChain": "オンチェーンのノートは編集できません",
+  "noteTypeDraft": "下書き",
+  "noteTypeLocal": "ローカル",
+  "noteTypeOnChain": "オンチェーン",
+  "blockchainVerify": "ブロックチェーンで検証",
+  "blockchainVerifyTitle": "ブロックチェーン検証",
+  "getGas": "{symbol} のガスを取得",
+  "@getGas": {
+    "placeholders": {
+      "symbol": {
+        "type": "String"
+      }
+    }
+  },
+  "addressCopied": "アドレスをコピーしました",
+  "redirectingToFaucet": "フォーセットサイトに移動します...",
+  "noFaucetForNetwork": "このネットワークにはフォーセットがありません",
+  "loginNotImplemented": "ログイン機能は未実装です",
+  "forgotPassword": "パスワードをお忘れですか？",
+  "forgotPasswordNotImplemented": "パスワード再設定は未実装です",
+  "noAccountYet": "ノートアカウントをお持ちでないですか？",
+  "registerNotImplemented": "登録機能は未実装です",
+  "registerNow": "今すぐ登録",
+  "mnemonicVerifySuccess": "シードフレーズの検証に成功しました。復元は外部で処理されます",
+  "privateKeyVerifySuccess": "セキュリティキーの検証に成功しました。復元は外部で処理されます",
+  "importSuccess": "復元に成功しました！",
+  "cleared": "クリアしました",
+  "back": "戻る",
+  "current": "現在",
+  "imported": "復元済み",
+  "defaultBadge": "デフォルト",
+  "clearSearch": "検索をクリア",
+  "searchNotesHint": "ノートを検索...",
+  "noMatchNotes": "一致するノートがありません",
+  "noOnChainNotes": "オンチェーンのノートはまだありません",
+  "noOffChainNotes": "オフチェーンのノートはまだありません",
+  "noNotes": "ノートはまだありません",
+  "tryOtherSearch": "別のキーワードをお試しください",
+  "startCreateFirstNote": "最初のノートを作成しましょう",
+  "profileNotConnected": "未接続",
+  "profileSectionAccount": "ノートアカウント",
+  "profileNetworkSettingsSubtitle": "RPC とノードの設定",
+  "profileSectionSecurity": "セキュリティ",
+  "profileChangePasswordSubtitle": "ノートアカウントを保護",
+  "profileBindEmailNotBound": "未連携",
+  "profileBindEmailBadgeBound": "連携済み",
+  "profileSectionPreferences": "環境設定",
+  "profileNotifications": "通知",
+  "profileDarkMode": "ダークモード",
+  "profileLanguage": "言語",
+  "profileSectionMore": "その他",
+  "profileTestPage": "テストページ",
+  "profileTestPageSubtitle": "機能テスト",
+  "profileTerms": "利用規約",
+  "profilePrivacy": "プライバシーポリシー",
+  "profileRateUs": "評価する",
+  "profileShare": "友達に共有",
+  "profileShareMessage": "オンチェーンノートアプリを使っています。ぜひ試してください：\n{url}",
+  "@profileShareMessage": {
+    "placeholders": {
+      "url": {
+        "type": "String"
+      }
+    }
+  },
+  "profileLogoutLabel": "ログアウト",
+  "profileLogoutPending": "ログアウト（準備中）",
+  "@profilePageFooter": {
+    "placeholders": {
+      "appTitle": {
+        "type": "String"
+      },
+      "version": {
+        "type": "String"
+      },
+      "year": {
+        "type": "String"
+      }
+    }
+  },
+  "profilePageFooter": "{appTitle} v{version}\n© {year} 無断転載を禁じます。",
+  "profileAvatarFallback": "ME",
+  "profileDefaultWalletName": "マイノートアカウント",
+  "profileUserActive": "アクティブユーザー",
+  "profileUserNormal": "一般ユーザー",
+  "profileStatNotes": "ノート数",
+  "profileStatOnChain": "オンチェーン",
+  "profileStatDays": "日数",
+  "profileBindEmailDialogSubtitle": "メールアドレスと認証コードを入力してください。",
+  "profileBindEmailFieldEmail": "メールアドレス",
+  "profileBindEmailFieldCode": "認証コード",
+  "profileSendVerificationCode": "コードを送信",
+  "profileResendCodeInSeconds": "再送信まで {seconds} 秒",
+  "@profileResendCodeInSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "profileUnbindEmail": "メール連携を解除",
+  "languageSelectTitle": "言語",
+  "languageSelectSubtitle": "表示言語を選択",
+  "languageNoticeHint": "注：",
+  "languageNoticeBody": "簡体中国語・繁体中国語・英語・日本語・韓国語に対応。その他の言語は順次対応予定です。",
+  "languageCurrentBadge": "現在",
+  "languageSnackbarComingSoon": "近日公開",
+  "languageSwitchedTo": "{name} に切り替えました",
+  "@languageSwitchedTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "languageFooterMore": "さらに多くの言語に対応予定",
+  "changePasswordSameAsOld": "新しいパスワードは現在のパスワードと同じにできません",
+  "changePasswordLength632": "新しいパスワードは 6〜32 文字にしてください",
+  "walletNoSavedKey": "保存された鍵が見つかりません。先にノートアカウントを作成してください",
+  "changePasswordWrongOrFailed": "現在のパスワードが違うか、操作に失敗しました",
+  "passwordMaxLength32": "パスワードは最大 32 文字です",
+  "passwordMeetAllRequirements": "すべてのパスワード要件を満たしてください",
+  "encryptionInitFailed": "暗号化の初期化に失敗しました：{error}",
+  "@encryptionInitFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "passwordVerifyForgotGoReset": "パスワードをお忘れですか？リセット",
+  "passwordStrengthWeak": "弱い",
+  "passwordStrengthMedium": "普通",
+  "passwordStrengthStrong": "強い",
+  "changePasswordPageTitle": "パスワード変更",
+  "changePasswordPageSubtitle": "ノートアカウントを保護",
+  "changePasswordSecurityHintTitle": "セキュリティのヒント",
+  "changePasswordSecurityHintBody": "• 定期的にパスワードを変更しましょう\n• 英字・数字を含む強いパスワードを使いましょう\n• 誕生日や電話番号は避けましょう",
+  "changePasswordOldLabel": "現在のパスワード",
+  "changePasswordOldHint": "現在のパスワードを入力",
+  "changePasswordNewLabel": "新しいパスワード",
+  "changePasswordNewHint": "新しいパスワードを入力",
+  "changePasswordStrengthLabel": "パスワード強度：",
+  "changePasswordMatchOk": "一致しています",
+  "changePasswordMatchBad": "一致しません",
+  "changePasswordConfirmLabel": "新しいパスワード（確認）",
+  "changePasswordConfirmHint": "もう一度入力",
+  "changePasswordRuleLength": "6〜32 文字",
+  "changePasswordRuleCase": "大文字と小文字を含む",
+  "changePasswordRuleDigit": "数字を含む",
+  "changePasswordClear": "クリア",
+  "changePasswordSubmit": "変更を確定",
+  "validatorOldPasswordRequired": "現在のパスワードを入力してください",
+  "validatorNewPasswordRequired": "新しいパスワードを入力してください",
+  "validatorNewPasswordMin6": "6 文字以上",
+  "validatorNewPasswordMax32": "32 文字まで",
+  "validatorConfirmRequired": "確認用パスワードを入力してください",
+  "validatorConfirmMismatch": "入力が一致しません",
+  "changePasswordRulesTitle": "パスワード要件",
+  "loginWelcomeTitle": "おかえりなさい",
+  "loginSubtitle": "ノートアカウントにサインイン",
+  "loginEmailOrUsernameLabel": "メールまたはユーザー名",
+  "loginEmailOrUsernameHint": "メールまたはユーザー名を入力",
+  "validatorLoginIdRequired": "メールまたはユーザー名を入力してください",
+  "loginPasswordFieldLabel": "パスワード",
+  "loginPasswordFieldHint": "パスワードを入力",
+  "validatorLoginPasswordRequired": "パスワードを入力してください",
+  "validatorLoginPasswordMin6": "パスワードは6文字以上",
+  "loginButton": "サインイン",
+  "createWalletPasswordPageTitle": "ノートノートアカウントパスワードを設定",
+  "createWalletPasswordSubtitle": "ノートを安全に保護",
+  "createWalletPasswordWhyTitle": "パスワードが必要な理由",
+  "createWalletPasswordWhyBody": "ノートアカウントパスワードでセキュリティキーとリカバリーフレーズを暗号化し、本人だけがノートにアクセスできます。紛失すると復元できないため必ず覚えてください。",
+  "walletPasswordFieldLabel": "ノートノートアカウントパスワード",
+  "walletPasswordFieldHint": "6〜32 文字を入力",
+  "walletConfirmPasswordFieldLabel": "パスワード確認",
+  "walletConfirmPasswordFieldHint": "もう一度入力",
+  "walletPasswordImportantNotice": "重要",
+  "walletPasswordWarnBullets": "• パスワードはノートアカウントを保護します\n• 覚えやすく推測しにくいものを\n• 英数字と記号を混ぜることを推奨\n• 紛失すると復元不可です",
+  "createWalletPasswordSubmitCreate": "確定してノートアカウントを作成",
+  "createWalletPasswordSubmitReset": "確定してパスワードをリセット",
+  "createWalletPasswordFooterAck": "確定することでパスワードの重要性に同意したことになります",
+  "walletPasswordRulesHeader": "要件：",
+  "walletPasswordRuleLength632": "6〜32 文字",
+  "walletPasswordRuleLetter": "英字を含む",
+  "walletPasswordRuleNumberRecommended": "数字を含む（推奨）",
+  "walletPasswordRuleMatch": "2回の入力が一致",
+  "walletBootstrapImporting": "ノートアカウントを復元中...",
+  "walletBootstrapInitializing": "ノートアカウントを初期化中...",
+  "passwordVerifyTitle": "パスワード確認",
+  "passwordVerifyDescription": "安全のため、ノートノートアカウントパスワードを入力してください",
+  "passwordVerifyDescExportMnemonic": "リカバリーフレーズを表示・エクスポートする前にノートノートアカウントパスワードを入力してください",
+  "passwordVerifyDescExportPrivateKey": "セキュリティキーを表示する前にノートノートアカウントパスワードを入力してください",
+  "passwordVerifyDescImportWallet": "ノートアカウントを復元する前にパスワードを確認してください",
+  "passwordVerifyDescBackupMnemonic": "リカバリーフレーズをバックアップする前にノートノートアカウントパスワードを入力してください",
+  "passwordVerifyDescCreateWallet": "ノートアカウントを作成する前にパスワードを確認してください",
+  "passwordVerifyDescDeleteWallet": "ノートアカウントを削除する前にパスワードを確認してください",
+  "passwordVerifyDescMintNft": "NFT をミントするにはノートノートアカウントパスワードが必要です",
+  "passwordVerifyWalletPasswordLabel": "ノートノートアカウントパスワード",
+  "passwordVerifyWalletPasswordHint": "ノートノートアカウントパスワードを入力",
+  "validatorWalletPasswordRequired": "パスワードを入力してください",
+  "passwordVerifyNoEncryptedData": "暗号データが見つかりません。パスワードを設定し直してください",
+  "passwordVerifyFailedWithError": "検証に失敗しました：{error}",
+  "@passwordVerifyFailedWithError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "passwordVerifyLockoutMinutes": "試行回数が多すぎます。{minutes} 分後に再試行してください",
+  "@passwordVerifyLockoutMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "passwordVerifyLockoutHours": "試行回数が多すぎます。{hours} 時間後に再試行してください",
+  "@passwordVerifyLockoutHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "passwordVerifyWrongWithCount": "パスワードが違います（{current}/{max}）",
+  "@passwordVerifyWrongWithCount": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "passwordVerifyAttemptsBanner": "誤り {count} 回。残り {remaining} 回",
+  "@passwordVerifyAttemptsBanner": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "remaining": {
+        "type": "int"
+      }
+    }
+  },
+  "passwordVerifyLockBanner": "試行回数が多すぎます。{time} 後に再試行してください",
+  "@passwordVerifyLockBanner": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "passwordVerifyDurationHoursMinutes": "{hours} 時間 {minutes} 分",
+  "@passwordVerifyDurationHoursMinutes": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "passwordVerifyDurationMinutes": "{minutes} 分",
+  "@passwordVerifyDurationMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "passwordVerifySecurityTipsTitle": "セキュリティのヒント",
+  "passwordVerifySecurityTipsBody": "• パスワードは 6〜32 文字\n• 周囲の安全を確認\n• {maxAttempts} 回誤ると一時ロック",
+  "@passwordVerifySecurityTipsBody": {
+    "placeholders": {
+      "maxAttempts": {
+        "type": "int"
+      }
+    }
+  },
+  "paste": "貼り付け",
+  "loadingDefault": "読み込み中…",
+  "walletLoadingTagline": "BlockNote · 安全 · 信頼 · 永続",
+  "walletLoadingStepConnecting": "ネットワークに接続しています…",
+  "walletLoadingStepVerifying": "ノートアカウントを確認しています…",
+  "walletLoadingStepSyncing": "ノートを同期しています…",
+  "walletLoadingStepComplete": "まもなく完了します",
+  "retry": "再試行",
+  "loadFailedWithError": "読み込みに失敗しました：{error}",
+  "@loadFailedWithError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "selectEvmChainFirst": "まず EVM 対応ネットワークを選択してください",
+  "noteNotFoundShort": "ノートが見つかりません",
+  "createOrSelectWalletFirst": "ノートアカウントを作成または選択してください",
+  "privateKeyDecryptFailedHint": "セキュリティキーを取得できません。パスワードを確認してください。変更した場合はリカバリーフレーズを再復元してください",
+  "uploadingIpfsAndMinting": "IPFS にアップロードしてミント中…",
+  "ipfsFileUploadFailed": "IPFS ファイルのアップロードに失敗しました：{details}",
+  "@ipfsFileUploadFailed": {
+    "placeholders": {
+      "details": {
+        "type": "String"
+      }
+    }
+  },
+  "onChainSuccessTx": "チェーン登録成功：{txHash}",
+  "@onChainSuccessTx": {
+    "placeholders": {
+      "txHash": {
+        "type": "String"
+      }
+    }
+  },
+  "draftSavedIpfsRetry": "下書きとして保存し、IPFS 画像に置き換えました。後で再試行できます",
+  "mintFailedGasDebug": "残高不足（Gas）\n{detail}",
+  "@mintFailedGasDebug": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "mintFailedGasUser": "Gas 支払いのための残高が不足しています。入金してから再試行してください",
+  "mintFailedGeneric": "公開に失敗しました：{error}",
+  "@mintFailedGeneric": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "walletErrNoWalletYet": "先にノートアカウントを作成または復元してください",
+  "walletErrUnrecognizedAccount": "現在のノートアカウントを認識できません",
+  "walletErrWalletDataNotFound": "ノートアカウントデータが見つかりません",
+  "walletErrImportedMnemonicNoExport": "リカバリーフレーズ復元のノートアカウントはここで再度エクスポートできません",
+  "walletErrImportedMnemonicNoBackup": "リカバリーフレーズ復元のノートアカウントはここでバックアップ不要です",
+  "walletErrPrivateKeyWalletNoMnemonic": "セキュリティキー復元のノートアカウントにリカバリーフレーズはありません",
+  "walletErrNoEncryptedMnemonic": "このノートアカウントにローカル暗号化リカバリーフレーズがありません",
+  "walletErrDecryptFailed": "復号に失敗しました。パスワードを確認してください",
+  "walletErrMissingAddress": "ノートアカウントアドレスがありません",
+  "walletErrGetPrivateKeyFailed": "セキュリティキーを取得できません。パスワードを確認してください",
+  "exportMnemonicDocTitle": "オンチェーンノート — リカバリーフレーズバックアップ",
+  "exportMnemonicDocTime": "生成日時：{time}",
+  "@exportMnemonicDocTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "exportMnemonicDocLabel": "リカバリーフレーズ（厳重に保管）：",
+  "exportMnemonicDocSecurity": "⚠️ セキュリティの注意：\n1. 安全な場所に保管してください\n2. 誰とも共有しないでください\n3. 紛失すると復元できません",
+  "exportMnemonicUseCopyOnPlatform": "このプラットフォームではコピーをご利用ください",
+  "exportMnemonicSavedTo": "保存しました：{path}",
+  "@exportMnemonicSavedTo": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "walletBootstrapCreating": "ノートアカウント作成中…",
+  "chainNameEvm": "EVM（Ethereum / BSC / Polygon など）",
+  "chainPkDescEvm": "0x 付き 64 桁の 16 進数、合計 66 文字",
+  "chainNameBitcoin": "Bitcoin",
+  "chainPkDescBitcoin": "WIF 形式、5・K・L で始まり 51〜52 文字",
+  "chainNameSolana": "Solana",
+  "chainPkDescSolana": "Base58、おおよそ 87〜88 文字、0・O・I・l を含まない",
+  "chainNameTron": "Tron",
+  "chainPkDescTronHex": "64 桁の 16 進数（0x なし）",
+  "chainNameCosmos": "Cosmos",
+  "chainPkDescCosmosHex": "64 桁の 16 進数（0x なし）",
+  "walletPkSubtitleLength": "{count} 文字",
+  "@walletPkSubtitleLength": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "walletPkSubtitleStartsWith": "{prefix} で始まる",
+  "@walletPkSubtitleStartsWith": {
+    "placeholders": {
+      "prefix": {
+        "type": "String"
+      }
+    }
+  },
+  "walletImportSelectChainTitle": "ブロックチェーン種別を選択",
+  "walletImportEvmOnlyNotice": "未対応です。EVM セキュリティキー復元をご利用ください",
+  "walletImportPageSubtitle": "リカバリーフレーズまたはセキュリティキーでノートアカウントを復元",
+  "walletImportTabMnemonic": "リカバリーフレーズ",
+  "walletImportTabPrivateKey": "セキュリティキー",
+  "walletImportInputMethod": "入力方法",
+  "walletImportInputSingle": "1 語ずつ",
+  "walletImportInputPasteFull": "全文貼り付け",
+  "walletImportWordCountLabel": "リカバリーフレーズ語数",
+  "walletImportWordCountN": "{n} 語",
+  "@walletImportWordCountN": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "walletImportWordCountDialogTitle": "ニーモニック語数を選択",
+  "walletImportWordCountDialogDesc": "BIP39は複数の語数に対応。語数が多いほど安全性が高まります。",
+  "walletImportWordCountOptionLabel": "{count}語のニーモニック",
+  "@walletImportWordCountOptionLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "walletImportWordCountSecurityLabel": "セキュリティ：",
+  "walletImportWordCountSecurityStandard": "標準",
+  "walletImportWordCountSecurityEnhanced": "強化",
+  "walletImportWordCountSecurityAdvanced": "上級",
+  "walletImportWordCountSecurityProfessional": "プロ",
+  "walletImportWordCountSecurityMaximum": "最高",
+  "walletImportWordCountSwitched": "{n}語に切り替えました",
+  "@walletImportWordCountSwitched": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "walletImportWordCountDialogTip": "多くのウォレットは12語を使用します。不明な場合は12語を選んでください。",
+  "walletImportEnterMnemonic": "リカバリーフレーズを入力",
+  "walletImportMnemonicPasteTip": "ヒント：全文を貼り付け可能です。上の「全文貼り付け」を選択してください",
+  "walletImportPasteMnemonicPrompt": "リカバリーフレーズを貼り付け",
+  "walletImportMnemonicHintWords": "{count} 語をスペース区切りで貼り付け",
+  "@walletImportMnemonicHintWords": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "walletImportMnemonicWordFieldHint": "単語",
+  "walletImportMnemonicParagraphExampleHint": "word1 word2 word3 ...",
+  "walletImportPrivateKeyFieldHint": "0x... または64文字の16進数",
+  "walletImportPrivateKeyFieldHintShort": "0x...",
+  "walletImportWordProgress": "現在の語数：{current} / {total}",
+  "@walletImportWordProgress": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "walletImportMnemonicSecurityTitle": "セキュリティのヒント",
+  "walletImportMnemonicSecurityBody": "• 安全なネットワークで操作してください\n• リカバリーフレーズを失うと復元できません\n• 他人に決して教えないでください\n• 当社はサーバーにリカバリーフレーズを保存しません",
+  "walletImportSelectChainSection": "ブロックチェーン種別を選択",
+  "walletImportTapSwitchChain": "タップしてチェーンを切り替え",
+  "walletImportEnterPrivateKey": "セキュリティキーを入力",
+  "walletImportPkFormatExample": "セキュリティキー形式の例",
+  "walletImportPkSevereTitle": "重大な警告",
+  "walletImportPkSevereBody": "• セキュリティキーはノートアカウントの完全な権限です\n• 入手された者がノートを完全に管理できます\n• 安全でない端末で入力しないでください\n• スクリーンショットやチャット送信は避けてください",
+  "walletImportConfirm": "復元を確定",
+  "walletImportMnemonicNeedCount": "{count} 語すべて入力してください",
+  "@walletImportMnemonicNeedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "walletImportMnemonicWrongCount": "{count} 語必要です（現在 {current} 語）",
+  "@walletImportMnemonicWrongCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "current": {
+        "type": "int"
+      }
+    }
+  },
+  "walletImportMnemonicInvalidWords": "リカバリーフレーズが無効です。小文字の英単語を使用してください",
+  "walletImportPkEmpty": "セキュリティキーを入力してください",
+  "walletImportPkNeed0x": "セキュリティキーは 0x で始まる必要があります",
+  "walletImportPkNeedWif": "セキュリティキーは 5・K・L で始まる必要があります",
+  "walletImportPkWifLength": "セキュリティキーの長さは 51〜52 文字である必要があります",
+  "walletImportPkLengthExpected": "セキュリティキーの長さは {length} 文字である必要があります",
+  "@walletImportPkLengthExpected": {
+    "placeholders": {
+      "length": {
+        "type": "int"
+      }
+    }
+  },
+  "walletImportPkInvalidFormat": "セキュリティキーの形式が無効です",
+  "walletImportEvmOnly": "EVM セキュリティキーの復元のみ対応しています",
+  "walletImportDeriveAddressFailed": "セキュリティキーからアドレスを導出できません。形式を確認してください",
+  "walletImportDuplicatePk": "このアドレスは既に存在します。重複復元はできません",
+  "walletImportDuplicateMnemonic": "このリカバリーフレーズのノートアカウントは既に復元済みです",
+  "walletImportInvalidPrivateKeyRetry": "セキュリティキーが無効です。確認して再試行してください",
+  "walletImportInvalidMnemonicRetry": "リカバリーフレーズが無効です。確認して再試行してください",
+  "clipboardEmpty": "クリップボードが空です",
+  "mnemonicViewLengthTitle": "リカバリーフレーズ長",
+  "mnemonicViewInputMode": "入力モード",
+  "mnemonicViewSingleWord": "1 語ずつ",
+  "mnemonicViewFullPaste": "段落を貼り付け",
+  "mnemonicViewImportCta": "リカバリーフレーズを復元",
+  "mnemonicViewEnterOrdered": "順番に {count} 語入力してください",
+  "@mnemonicViewEnterOrdered": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "mnemonicViewPasteHint": "全文を貼り付け、語の間はスペースで区切ってください",
+  "mnemonicCountMismatch": "{expected} 語必要です（現在 {current} 語）",
+  "@mnemonicCountMismatch": {
+    "placeholders": {
+      "expected": {
+        "type": "int"
+      },
+      "current": {
+        "type": "int"
+      }
+    }
+  },
+  "mnemonicInvalidBip39": "無効なリカバリーフレーズです。綴りを確認してください",
+  "walletSelectorTitle": "マイノートアカウント",
+  "walletSelectorSubtitle": "すべてのノートアカウントを管理",
+  "walletNumberedName": "ノートアカウント {n}",
+  "@walletNumberedName": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "walletDefaultCreatedNameFirst": "マイノートアカウント",
+  "walletDefaultCreatedNameNumbered": "マイノートアカウント {n}",
+  "@walletDefaultCreatedNameNumbered": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "walletDefaultPrivateKeyNameFirst": "セキュリティキーノートアカウント",
+  "walletDefaultPrivateKeyNameNumbered": "セキュリティキーノートアカウント {n}",
+  "@walletDefaultPrivateKeyNameNumbered": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "walletBackupNotYet": "未バックアップ",
+  "walletBackupPromptLine1": "ノートアカウントをバックアップ",
+  "walletBackupPromptLine2": "タップして今すぐリカバリーフレーズをバックアップ",
+  "walletDeleteConfirmTitle": "ノートアカウントを削除しますか？",
+  "walletDeleteConfirmLine1": "元に戻せません。リカバリーフレーズをバックアップ済みか確認してください。",
+  "walletDeleteConfirmLine2Notes": "このノートアカウントに紐づくローカルノートも削除されます。",
+  "walletDeleteCannotCurrent": "⚠️ 使用中のノートアカウントは削除できません",
+  "walletDeleteLastHint": "削除後ノートアカウントがなくなり、オンボーディングに戻ります。",
+  "walletEditNameSubtitle": "わかりやすい名前を設定",
+  "walletNameFieldLabel": "ノートアカウント名",
+  "walletNameFieldHint": "ノートアカウント名を入力",
+  "networkNodeAdd": "ノードを追加",
+  "networkNodeTest": "テスト",
+  "networkNodeSetDefault": "デフォルトに設定",
+  "networkNodeOnline": "オンライン",
+  "networkNodeOffline": "オフライン",
+  "networkNodeConnectionFailed": "ノード接続に失敗しました",
+  "networkRpcUrlInvalid": "有効な HTTP または HTTPS の RPC URL を入力してください。",
+  "networkNodeDuplicate": "この RPC URL は既に一覧にあります。",
+  "networkNodeNameRpcRequired": "ノード名と RPC URL を入力してください",
+  "networkNodeAdded": "ノードを追加しました",
+  "networkRpcCopied": "RPC URL をコピーしました",
+  "networkNodeSwitched": "このノードに切り替えました",
+  "networkNodeDeleted": "ノードを削除しました",
+  "networkSettingsTitle": "ネットワーク設定",
+  "networkSettingsSubtitle": "ブロックチェーン RPC ノードの設定",
+  "networkLoadFailed": "読み込みに失敗しました：{message}",
+  "@networkLoadFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "networkSectionMainnet": "メインネット",
+  "networkSectionTestnet": "テストネット",
+  "networkTestnetListHint": "アプリ内のチェーン一覧で testnet とマークされたネットワークがここに表示されます。",
+  "networkCountNetworks": "{count} ネットワーク",
+  "@networkCountNetworks": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "networkAboutNodesTitle": "RPC ノードについて",
+  "networkAboutNodesBullet1": "RPC ノードはブロックチェーンへの接続窓口です。",
+  "networkAboutNodesBullet2": "速度や安定性のためカスタムノードを追加できます。",
+  "networkAboutNodesBullet3": "信頼できる公開ノードまたは自前のノードを推奨します。",
+  "networkStatusConnectionOk": "接続 OK",
+  "networkStatusConnectionError": "接続エラー",
+  "networkStatusCustomized": "カスタム",
+  "networkNodeCountLabel": "ノード {count} 件",
+  "@networkNodeCountLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "networkAllNodesTitle": "すべてのノード（{count}）",
+  "@networkAllNodesTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "networkDetailHeaderNodeCount": "ノード {count} 件",
+  "@networkDetailHeaderNodeCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "networkQuickAddTitle": "ノードをすばやく追加",
+  "networkQuickAddLine1": "ネットワークをタップして詳細を開き、カスタム RPC を追加できます。",
+  "networkQuickAddLine2": "複数ノードを追加可能です。一覧は今後の機能（最速ノードの選択など）に備えて保持されます。",
+  "networkNodeProbeOk": "ノード接続は正常です",
+  "networkNodeProbeOkLatency": "ノード接続は正常、レイテンシ {ms} ms",
+  "@networkNodeProbeOkLatency": {
+    "placeholders": {
+      "ms": {
+        "type": "int"
+      }
+    }
+  },
+  "networkCurrentNodeTitle": "現在使用中のノード",
+  "networkNodeActiveBadge": "有効",
+  "networkNoNodeSelected": "ノードが未選択です",
+  "networkNodeLatencyMs": "レイテンシ {ms} ms",
+  "@networkNodeLatencyMs": {
+    "placeholders": {
+      "ms": {
+        "type": "int"
+      }
+    }
+  },
+  "networkAddRpcDialogTitle": "RPC ノードを追加",
+  "networkAddRpcDialogSubtitle": "{networkName} ネットワーク用のカスタム RPC ノードを追加",
+  "@networkAddRpcDialogSubtitle": {
+    "placeholders": {
+      "networkName": {
+        "type": "String"
+      }
+    }
+  },
+  "networkNodeNameLabel": "ノード名",
+  "networkNodeNameHint": "例：マイノード 1",
+  "networkRpcUrlLabel": "RPC URL",
+  "networkRpcUrlHint": "https://…",
+  "networkExampleRpcLabel": "RPC URL の例",
+  "networkConfirmAddNode": "追加する",
+  "networkTipsTitle": "ヒント",
+  "networkTipsLine1": "バックアップ用に複数ノードを追加しましょう。",
+  "networkTipsLine2": "テストで接続状態と遅延を確認できます。",
+  "networkTipsLine3": "レイテンシが低いほどトランザクションが速くなることが多いです。",
+  "networkTipsLine4": "プリセットのデフォルトノードは削除できません。",
+  "networkNodeInUseBadge": "使用中",
+  "networkCannotDeleteDefaultNode": "デフォルトノードは削除できません。",
+  "networkDeleteSwitchNodeFirst": "削除する前に別のノードに切り替えてください。",
+  "homeFiatApprox": "≈ {amount}",
+  "@homeFiatApprox": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "homeUnitPrice": "単価: {price}",
+  "@homeUnitPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "homeUnitPriceUnavailable": "単価: --",
+  "homeTransactionHistory": "ノート作成記録",
+  "homeTransactionHistoryNotConfigured": "ノート作成記録は未設定です",
+  "transactionHistorySubtitle": "すべてのノート作成記録を確認",
+  "transactionHistoryStatTotal": "合計",
+  "transactionHistoryStatSuccess": "成功",
+  "transactionHistoryStatPending": "確認待ち",
+  "transactionHistoryStatFailed": "失敗",
+  "transactionHistoryFilterAll": "すべて",
+  "transactionHistoryFilterSend": "ノート作成",
+  "transactionHistoryFilterReceive": "受信",
+  "transactionHistorySelectChain": "ネットワークを選択",
+  "transactionHistoryCopied": "クリップボードにコピーしました",
+  "transactionHistoryExplorerInvalidUrl": "エクスプローラーの URL が無効です",
+  "transactionHistoryExplorerLaunchFailed": "ブラウザを開けません。設定を確認してください",
+  "@transactionHistoryExplorerOpenError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "transactionHistoryExplorerOpenError": "開けませんでした: {error}",
+  "transactionHistoryRefreshed": "ノート作成記録を更新しました",
+  "transactionHistoryTimeJustNow": "たった今",
+  "@transactionHistoryTimeMinutesAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "transactionHistoryTimeMinutesAgo": "{count, plural, other{{count} 分前}}",
+  "@transactionHistoryTimeHoursAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "transactionHistoryTimeHoursAgo": "{count, plural, other{{count} 時間前}}",
+  "@transactionHistoryTimeDaysAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "transactionHistoryTimeDaysAgo": "{count, plural, other{{count} 日前}}",
+  "transactionHistoryEmptyTitle": "ノート作成記録がありません",
+  "transactionHistoryEmptyHintFiltered": "条件に一致するノート作成記録がありません",
+  "transactionHistoryEmptyHintAll": "まだノート作成記録はありません",
+  "transactionHistoryTypeSend": "ノート作成",
+  "transactionHistoryTypeReceive": "受信",
+  "transactionHistoryStatusSuccess": "成功",
+  "transactionHistoryStatusFailed": "失敗",
+  "transactionHistoryStatusPending": "確認待ち",
+  "transactionHistoryDetailFrom": "送信元",
+  "transactionHistoryDetailTo": "送信先",
+  "transactionHistoryDetailTxHash": "オンチェーンハッシュ",
+  "transactionHistoryDetailBlock": "ブロック",
+  "@transactionHistoryGasLine": {
+    "placeholders": {
+      "fee": {
+        "type": "String"
+      },
+      "symbol": {
+        "type": "String"
+      }
+    }
+  },
+  "transactionHistoryGasLine": "Gas: {fee} {symbol}",
+  "homeGasBalanceTitle": "{symbol} ガス残高",
+  "@homeGasBalanceTitle": {
+    "placeholders": {
+      "symbol": {
+        "type": "String"
+      }
+    }
+  },
+  "homeTotalAssets": "総残高",
+  "homeRefreshBalance": "残高を更新",
+  "homeGetGas": "ガスを取得",
+  "homeGasHelp": "ガスはオンチェーン取引の手数料です。残高を十分に確保してください。",
+  "@getGasDialogTitle": {
+    "placeholders": {
+      "symbol": {
+        "type": "String"
+      }
+    }
+  },
+  "getGasDialogTitle": "{symbol} をガス用に取得",
+  "@getGasDialogSubtitle": {
+    "placeholders": {
+      "chainName": {
+        "type": "String"
+      }
+    }
+  },
+  "getGasDialogSubtitle": "{chainName} ノートアカウントへの入金方法を選んでください",
+  "getGasOptionReceiveTitle": "トークンを受け取る",
+  "getGasBadgeRecommended": "おすすめ",
+  "@getGasReceiveHint": {
+    "placeholders": {
+      "symbol": {
+        "type": "String"
+      }
+    }
+  },
+  "getGasReceiveHint": "別のノートアカウントや取引所から {symbol} を送る",
+  "getGasWalletAddressLabel": "ノートアカウントアドレス",
+  "getGasShowQr": "QR",
+  "getGasHideQr": "非表示",
+  "@getGasTransferWarning": {
+    "placeholders": {
+      "chainName": {
+        "type": "String"
+      }
+    }
+  },
+  "getGasTransferWarning": "送金ネットワークが {chainName} であることを確認してください。違うとノートを失う可能性があります",
+  "getGasFaucetTitle": "テストネットのフォーセット",
+  "getGasBadgeFree": "無料",
+  "@getGasFaucetHint": {
+    "placeholders": {
+      "symbol": {
+        "type": "String"
+      }
+    }
+  },
+  "getGasFaucetHint": "フォーセットでテストネットの {symbol} を無料取得",
+  "@getGasFaucetOpen": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "getGasFaucetOpen": "フォーセット {index} を開く",
+  "getGasBuyExchangeTitle": "取引所で購入",
+  "getGasBadgeComingSoon": "近日対応",
+  "@getGasBuyExchangeHint": {
+    "placeholders": {
+      "symbol": {
+        "type": "String"
+      }
+    }
+  },
+  "getGasBuyExchangeHint": "取引所で {symbol} を購入しノートアカウントに出金",
+  "getGasDialogCancel": "キャンセル",
+  "getGasAddressCopied": "アドレスをコピーしました",
+  "getGasInvalidLink": "リンクが無効です",
+  "getGasCouldNotOpenLink": "リンクを開けません。ブラウザを確認してください",
+  "@getGasOpenFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "getGasOpenFailed": "開けませんでした: {error}",
+  "homeRecentNotes": "最近のノート",
+  "homeRefreshRecentNotes": "最近のノートを更新",
+  "homeLoadingOnChainNotes": "オンチェーンノートを読み込み中",
+  "homeSyncingOnChainNotes": "オンチェーンノートを同期中…",
+  "homeNoNotesInLastMonth": "最近1か月はノートがありません",
+  "homeCreateNewNotePrompt": "新しいノートを作成しましょう",
+  "notesAllChains": "すべてのチェーン",
+  "notesSwitchedToAllChains": "すべてのチェーンに切り替えました",
+  "notesFilterAll": "すべて",
+  "notesFilterOnChain": "オンチェーン",
+  "notesFilterOffChain": "オフチェーン",
+  "notesSortNewest": "新しい順",
+  "notesSortUpdated": "更新順",
+  "notesSortOldest": "古い順",
+  "notesSortTitle": "タイトル",
+  "notesTimelineNoteCount": "{count}件",
+  "@notesTimelineNoteCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "noteStatsTotalNotes": "ノート総数",
+  "noteStatsOnChainCount": "オンチェーン",
+  "noteStatsImages": "画像",
+  "noteStatsChars": "文字数",
+  "noteDeleteNote": "ノートを削除",
+  "noteDeleteConfirmTitle": "ノートを削除しますか？",
+  "noteDeleteConfirmBody": "このノートを削除しますか？元に戻せません。",
+  "noteDeletedSnackbar": "ノートを削除しました",
+  "noteDeleteFailed": "削除に失敗しました：{error}",
+  "@noteDeleteFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "noteUpdatedAt": "更新 {date}",
+  "@noteUpdatedAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "noteCreatedAt": "作成 {date}",
+  "@noteCreatedAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "noteNoContent": "内容はまだありません",
+  "noteEditorCreateNewNote": "新しいノートを作成",
+  "noteEditorChainLine": "{chainName} チェーン",
+  "@noteEditorChainLine": {
+    "placeholders": {
+      "chainName": {
+        "type": "String"
+      }
+    }
+  },
+  "noteEditorSelectChainToPublish": "チェーンを選択するとオンチェーン公開できます",
+  "noteEditorSave": "保存",
+  "noteEditorSaving": "保存中…",
+  "noteTitleLabel": "タイトル",
+  "noteTitleHint": "ノートのタイトルを入力…",
+  "noteCoverImages": "カバー画像（任意）",
+  "noteCoverAdd": "カバーを追加",
+  "noteCoverUploading": "アップロード中…",
+  "noteCoverTapUpload": "タップしてカバー画像をアップロード",
+  "noteCoverFormatsHint": "JPG・PNG などに対応",
+  "noteRichTextGuideTitle": "リッチテキスト機能",
+  "noteRichTextHeadingLabel": "見出し：",
+  "noteRichTextHeadingBody": "ツールバーの「見出し」で番号付き見出しを挿入できます。",
+  "noteRichTextListLabel": "リスト：",
+  "noteRichTextListBody": "箇条書きや番号付きリストを挿入できます。",
+  "noteRichTextEmojiLabel": "絵文字：",
+  "noteRichTextEmojiBody": "よく使う絵文字やマーカーを素早く挿入。",
+  "noteRichTextTemplateLabel": "テンプレート：",
+  "noteRichTextTemplateBody": "定型テンプレートですぐに書き始められます。",
+  "noteRichTextImageLabel": "画像：",
+  "noteRichTextImageBody": "ツールバーの画像ボタンで本文に挿入できます。",
+  "noteRichTextPreviewHint": "ヒント:「プレビュー」で整形結果を確認できます。",
+  "noteEditorContentPlaceholder": "アイデアや計画を書き留めましょう…\n\nヒント：ツールバーから素早く挿入できます：\n• 見出しとリスト\n• 絵文字と記号\n• クイックテンプレート\n• 画像\n\nリッチテキスト対応。詳細画面できれいに表示されます。",
+  "noteTipsTitle": "書くときのヒント",
+  "noteTipsBody": "• 分かりやすいタイトルをつける\n• アイデアや予定、重要な情報を記録\n• 画像で内容を豊かに\n• 保存後、オンチェーン公開で永久保存",
+  "noteReadyTitle": "入力完了",
+  "noteReadyBody": "内容が揃いました。右上の「保存」でノートを作成できます。",
+  "noteTypeSectionLabel": "ノートの種類：",
+  "notePublishToChain": "チェーンに公開",
+  "notePublishing": "公開中…",
+  "noteOnChainPublished": "オンチェーン済み",
+  "selectBlockchainFirst": "先にブロックチェーンネットワークを選択してください",
+  "noteImageAdded": "画像を追加しました",
+  "noteImagePickFailed": "画像を選べませんでした",
+  "noteSavedToLocal": "ローカルに保存しました",
+  "notePublishFailedKeptDraft": "公開に失敗しました。下書きとして保存しました",
+  "noteSavedAsDraft": "下書きとして保存しました",
+  "richTextPreviewMode": "プレビューモード",
+  "richTextEditMode": "編集モード",
+  "richTextPreview": "プレビュー",
+  "richTextEdit": "編集",
+  "richTextLineCount": "{count} 行",
+  "@richTextLineCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "richTextCharCount": "{count} 文字",
+  "@richTextCharCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "richTextToolbarBottomHint": "ヒント: ツールバーで整形を挿入するか、絵文字や記号を直接入力できます。",
+  "richTextToolbarHeading": "見出し",
+  "richTextTooltipInsertHeading": "見出しを挿入",
+  "richTextTooltipBulletList": "箇条書きを挿入",
+  "richTextTooltipNumberedList": "番号リストを挿入",
+  "richTextTooltipStatusMarkers": "ステータス記号を挿入",
+  "richTextToolbarEmojiMenu": "絵文字",
+  "richTextTooltipInsertEmoji": "絵文字を挿入",
+  "richTextToolbarTemplate": "テンプレート",
+  "richTextTooltipQuickTemplate": "クイックテンプレート",
+  "richTextTooltipAddImage": "画像を追加",
+  "richTextMdImageAlt": "画像",
+  "richTextInsertNumberedHeading": "\n1️⃣ タイトル\n",
+  "richTextInsertBulletLines": "\n• 項目 1\n• 項目 2\n• 項目 3\n",
+  "richTextInsertNumberedLines": "\n1. 一つ目\n2. 二つ目\n3. 三つ目\n",
+  "richTextInsertStatusMarkers": "\n🟢 完了\n🔵 進行中\n🟡 未対応\n",
+  "richTextEmojiGroupNumberedTitle": "数字見出し",
+  "richTextEmojiGroupStatus": "ステータス",
+  "richTextEmojiGroupSymbols": "よく使う記号",
+  "richTextEmojiGroupEmoji": "絵文字",
+  "richTextEmojiHeadingWord": "タイトル",
+  "richTextEmojiBodyWord": "本文",
+  "richTextTplStandardNoteName": "📝 標準ノート",
+  "richTextTplStandardNoteBody": "タイトル\n\n本文:\n• ポイント 1\n• ポイント 2\n• ポイント 3\n\nまとめ:\n",
+  "richTextTplTaskName": "✅ タスクリスト",
+  "richTextTplTaskBody": "タスクリスト\n\n今日:\n✓ 完了\n✗ 未完了\n→ 進行中\n\nメモ:\n",
+  "richTextTplStudyName": "📚 学習ノート",
+  "richTextTplStudyBody": "学習ノート - テーマ\n\n1️⃣ 重要な概念\n• 概念 1: 説明\n• 概念 2: 説明\n\n2️⃣ まとめ\n• 要点 1\n• 要点 2\n\n3️⃣ 演習\n",
+  "richTextTplIdeaName": "💡 アイデア",
+  "richTextTplIdeaBody": "💡 アイデア\n\n着想:\n🟢 コアアイデア\n\n利点:\n• メリット 1\n• メリット 2\n\n次:\n→ 次のステップ\n",
+  "richTextTplProjectName": "📊 プロジェクト計画",
+  "richTextTplProjectBody": "プロジェクト計画\n\n🎯 目標:\n\n📝 ステップ:\n1. ステップ 1\n2. ステップ 2\n3. ステップ 3\n\n⏰ スケジュール:\n",
+  "gasPreviewTitle": "ガス料金プレビュー",
+  "gasPreviewSubtitle": "ガス速度を選び、オンチェーン公開を確定してください。",
+  "gasPreviewLoading": "ガス料金を取得中…",
+  "gasPreviewPickSpeed": "ガス速度",
+  "gasPreviewLiveRates": "推定レート",
+  "gasSpeedSlow": "低速",
+  "gasSpeedStandard": "標準",
+  "gasSpeedFast": "高速",
+  "gasTimeSlow": "約3–5分",
+  "gasTimeStandard": "約1–2分",
+  "gasTimeFast": "約15–30秒",
+  "gasDescSlow": "baseFee×1.1、優先度手数料 = max(30Gwei, 推奨) + 3Gwei",
+  "gasDescStandard": "baseFee×1.25、優先度手数料 = max(30Gwei, 推奨) + 8Gwei",
+  "gasDescFast": "baseFee×1.5、優先度手数料 = max(30Gwei, 推奨) + 20Gwei",
+  "gasLabelGasPrice": "ガス価格",
+  "gasLabelEstCost": "見積り",
+  "gasRecommendedBadge": "おすすめ",
+  "gasPreviewGweiMax": "{value} Gwei（上限）",
+  "@gasPreviewGweiMax": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "gasFeeBreakdownTitle": "内訳",
+  "gasFeeRowBase": "基本手数料",
+  "gasFeeRowPriority": "優先手数料",
+  "gasFeeRowNoteSize": "ノートサイズ",
+  "gasFeeRowTotal": "合計",
+  "gasFeeNoteSizeKb": "{kb} KB",
+  "@gasFeeNoteSizeKb": {
+    "placeholders": {
+      "kb": {
+        "type": "String"
+      }
+    }
+  },
+  "gasWarningTitle": "ご注意",
+  "gasWarningBody": "• ガスはネットワークへの支払いで、アプリとは無関係です。\n• 混雑により実額が多少変わる場合があります。\n• オンチェーン後は削除・編集できません。",
+  "gasConfirmOnChain": "オンチェーンで確定",
+  "gasOnChainConfirmDialogTitle": "オンチェーン後は変更できません",
+  "gasOnChainConfirmDialogBody": "このノートはブロックチェーン（IPFS + オンチェーン証跡）に書き込まれます。\n送信後は削除・編集できません。内容に問題がないことを確認してから続行してください。",
+  "gasOnChainConfirmDialogQuestion": "オンチェーンに公開しますか？",
+  "onChainConfirmParamSummarySectionTitle": "呼び出しパラメータ",
+  "noteOnChainParamJsonKeyNetwork": "ネットワーク",
+  "noteOnChainParamJsonKeyChainId": "チェーン ID",
+  "noteOnChainParamJsonKeyFeeToken": "ガス支払トークン",
+  "noteOnChainParamJsonKeySender": "送信元（あなたのノートアカウント）",
+  "noteOnChainParamJsonKeyContract": "コントラクトアドレス",
+  "noteOnChainParamJsonKeyContractName": "コントラクト名",
+  "noteOnChainParamJsonKeyFunction": "呼び出し関数",
+  "noteOnChainParamJsonKeyNoteTitle": "ノートタイトル",
+  "noteOnChainParamJsonKeyContentSha256": "本文フィンガープリント SHA-256",
+  "noteOnChainParamJsonGroupMintCall": "オンチェーン呼び出し（コントラクト引数）",
+  "noteOnChainParamJsonGroupContext": "いま確認できる情報",
+  "noteOnChainParamJsonValueUriPending": "セキュリティ認証後に IPFS へアップロードされ、実際の ipfs:// が入ります",
+  "noteOnChainConfirmPageTitle": "オンチェーン公開の確認",
+  "noteOnChainConfirmPageSubtitle": "ノートをブロックチェーンに永久保存します",
+  "noteOnChainConfirmNoExplorer": "このネットワークにはエクスプローラーが設定されていません。コントラクトを開けません。",
+  "noteOnChainConfirmMintStatusUncertain": "オンチェーン状態が不明です。後でノートまたはエクスプローラーで確認してください。",
+  "noteOnChainConfirmSignButton": "確認してセキュリティ認証",
+  "noteOnChainConfirmTipTitle": "公開前の注意",
+  "noteOnChainConfirmTipBody": "• 公開後はノートの編集・削除はできません\n• ノートは永久にオンチェーンとなり、あなたのものになります\n• 少額のガス代が一度だけ必要です",
+  "noteOnChainConfirmNoteContentSection": "ノート内容",
+  "noteOnChainConfirmNoteTitleLabel": "タイトル",
+  "noteOnChainConfirmContentPreview": "本文プレビュー",
+  "noteOnChainConfirmNoteHashLabel": "ノートハッシュ (SHA-256)",
+  "noteOnChainConfirmChainDetailsSection": "オンチェーン詳細",
+  "noteOnChainConfirmMyWallet": "マイノートアカウント",
+  "noteOnChainConfirmTargetContract": "対象コントラクト",
+  "noteOnChainConfirmContractOwnershipHint": "コントラクトがノート（NFT）をミントします。ノート（NFT）はあなたのノートアカウントに帰属し、ノートの永久所有権はあなたにあります。",
+  "noteOnChainConfirmNoteRecipientAddress": "ノート受取アドレス：{address}",
+  "@noteOnChainConfirmNoteRecipientAddress": {
+    "placeholders": {
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "noteOnChainConfirmNetworkFee": "ネットワーク手数料",
+  "noteOnChainConfirmGasPriceLabel": "ガス単価",
+  "noteOnChainConfirmGasLimitLabel": "ガス上限",
+  "noteOnChainConfirmOnChainFee": "オンチェーン手数料",
+  "noteOnChainConfirmGasOnlyHint": "ガスのみ",
+  "noteOnChainConfirmAdvancedSection": "詳細設定",
+  "noteOnChainConfirmNonceLabel": "Nonce",
+  "noteOnChainConfirmNetworkLabel": "ネットワーク",
+  "noteOnChainConfirmGasSlow": "低速",
+  "noteOnChainConfirmGasNormal": "標準",
+  "noteOnChainConfirmGasFast": "高速",
+  "noteOnChainConfirmGasTimeSlow": "約5分",
+  "noteOnChainConfirmGasTimeNormal": "約1分",
+  "noteOnChainConfirmGasTimeFast": "約15秒",
+  "saveOptionsTitle": "保存方法を選択",
+  "saveOptionsSubtitle": "用途に合った保存方法を選んでください。",
+  "saveOnChainTitle": "オンチェーンに保存",
+  "saveOnChainDescription": "ブロックチェーンに永久保存。改ざんに強い",
+  "saveOnChainFeature1": "永続",
+  "saveOnChainFeature2": "検証可能",
+  "saveOnChainFeature3": "分散型",
+  "ipfsUploadConfirmTitle": "IPFS にアップロード",
+  "ipfsUploadConfirmBody": "このノートにローカル画像があります。オンチェーンの前に、分散ストレージ（IPFS）へアップロードする必要があります。アップロード後、ブロックチェーンへの書き込みに進めます。\n\nIPFS にアップロードして続行しますか？",
+  "saveBadgeSecure": "安全",
+  "saveDraftTitle": "下書きで保存",
+  "saveDraftDescription": "あとで編集。チェーンリソースはまだ使いません",
+  "saveDraftFeature1": "いつでも編集",
+  "saveDraftFeature2": "ローカル保存",
+  "saveDraftFeature3": "すばやく保存",
+  "saveBadgeRecommended": "おすすめ",
+  "saveLocalTitle": "ローカルに保存",
+  "saveLocalDescription": "この端末にのみ保存",
+  "saveLocalFeature1": "オフライン向け",
+  "saveLocalFeature2": "即時保存",
+  "saveLocalFeature3": "手数料なし",
+  "saveWillPublishToChain": "{chainName} に保存します",
+  "@saveWillPublishToChain": {
+    "placeholders": {
+      "chainName": {
+        "type": "String"
+      }
+    }
+  },
+  "guideWelcomeTitle": "オンチェーンノートへようこそ",
+  "guideWelcomeSubtitle": "はじめる前に、ノートアカウントを設定しましょう",
+  "guideSecurityTitle": "あなたのデータはあなたのもの",
+  "guideSecurityBody": "セキュリティキーは端末にのみ保存され、当社サーバーに機密情報は保存しません。リカバリーフレーズとセキュリティキーを安全に保管してください。",
+  "guideCreateWalletTitle": "新しいノートアカウントを作成",
+  "guideCreateWalletSubtitle": "新しいアドレスとリカバリーフレーズを生成します",
+  "guideRecommendedNewUser": "初めての方におすすめ",
+  "guideImportWalletTitle": "既存のノートアカウントを復元",
+  "guideImportWalletSubtitle": "リカバリーフレーズまたはセキュリティキーで復元します",
+  "guideTagMnemonic": "リカバリーフレーズ",
+  "guideTagPrivateKey": "セキュリティキー",
+  "guideICloudRestoreTitle": "iCloud から復元",
+  "guideICloudRestoreSubtitle": "iCloud にバックアップしている場合、すばやく復元できます",
+  "guideBadgeIosOnly": "iOS のみ",
+  "guideGoogleRestoreTitle": "Google ドライブから復元",
+  "guideGoogleRestoreSubtitle": "Google ドライブにバックアップしている場合、すばやく復元できます",
+  "guideBadgeAllDevices": "全デバイス対応",
+  "guideFooterHint": "いずれかを選んで続行してください。\nセキュリティキーはこの端末に安全に保存されます。",
+  "guideProviderICloud": "iCloud",
+  "guideProviderGoogleDrive": "Google ドライブ",
+  "guideLoadingWalletMessage": "ノートアカウントを読み込み中…",
+  "googlePlayReviewModeTapHint": "あと {remaining} 回タップで審査モードに入ります",
+  "@googlePlayReviewModeTapHint": {
+    "placeholders": {
+      "remaining": {
+        "type": "int"
+      }
+    }
+  },
+  "helpCenter": "ヘルプセンター",
+  "helpCenterSubtitle": "よくある質問とガイド",
+  "helpSectionQuickGuide": "クイックガイド",
+  "helpSectionFaq": "よくある質問",
+  "helpSearchHint": "質問を検索…",
+  "helpCategoryAll": "すべて",
+  "helpCategoryBasics": "基本操作",
+  "helpCategoryBlockchain": "ブロックチェーン",
+  "helpCategoryWalletSecurity": "ノートアカウントの安全",
+  "helpCategoryWalletMgmt": "ノートアカウント管理",
+  "helpCategoryAdvanced": "高度な機能",
+  "helpCategoryCommon": "よくあるトラブル",
+  "helpComingSoon": "近日公開",
+  "helpEmptyTitle": "該当する質問がありません",
+  "helpEmptySubtitle": "別のキーワードを試すかサポートへ",
+  "helpContactTitle": "サポートに連絡",
+  "helpContactSubtitle": "回答がない場合はメールで",
+  "helpContactSendFeedback": "フィードバックを送る",
+  "helpContactYourEmailOptional": "メール（任意）",
+  "helpContactEmailHint": "",
+  "helpContactMessageLabel": "内容",
+  "helpContactMessageHint": "問題やご提案を入力…",
+  "helpContactSending": "送信中…",
+  "helpContactSend": "送信",
+  "helpCopySupportEmail": "メールアドレスをコピーしました",
+  "helpFeedbackEmpty": "フィードバックを入力してください",
+  "helpFeedbackThanks": "ありがとうございます！",
+  "helpFeedbackMailFailed": "メールを開けませんでした",
+  "helpFeedbackMailSubject": "ユーザーフィードバック",
+  "helpQuickGuide1Title": "クイックスタート",
+  "helpQuickGuide1Desc": "5分で基本機能を把握",
+  "helpQuickGuide2Title": "最初のノートを作成",
+  "helpQuickGuide2Desc": "ノートを作成してオンチェーン保存",
+  "helpQuickGuide3Title": "リカバリーフレーズのバックアップ",
+  "helpQuickGuide3Desc": "ノートとデータを守る",
+  "helpQuickGuide4Title": "複数ノートアカウントの管理",
+  "helpQuickGuide4Desc": "作成・復元・切り替え",
+  "helpFaq1Question": "オンチェーンノートとは？",
+  "helpFaq1Answer": "ブロックチェーン上にノートを永続保存するアプリです。一度オンチェーンに載せると改ざん耐性と追跡性が高まり、原則として変更・削除はできません。",
+  "helpFaq2Question": "ノートの作成方法は？",
+  "helpFaq2Answer": "ホームの「ノート作成」、またはノート一覧の「+」から作成します。タイトル・本文・画像を追加できます。",
+  "helpFaq3Question": "保存方法は？",
+  "helpFaq3Answer": "下書き（いつでも編集）・ローカル保存・オンチェーン保存の3種類です。まず下書きで校正してから公開することをおすすめします。",
+  "helpFaq4Question": "オンチェーン保存と手数料は？",
+  "helpFaq4Answer": "オンチェーン保存はブロックチェーンに永続記録します。ガス代はネットワークが請求し、ネットワークごとに異なります。",
+  "helpFaq5Question": "対応ネットワークは？",
+  "helpFaq5Answer": "Ethereum、BSC、Polygon、Arbitrum、Optimism、Avalanche、Fantom、Base など主要EVMをサポートします。ホームで切り替え可能です。",
+  "helpFaq6Question": "オンチェーンを確認するには？",
+  "helpFaq6Answer": "トランザクションハッシュを詳細画面やブロックエクスプローラーで確認できます。「検証」機能も利用できます。",
+  "helpFaq7Question": "リカバリーフレーズとは？バックアップは？",
+  "helpFaq7Answer": "リカバリーフレーズ（多くは12語の英単語）はノートアカウントを復元するマスターキーです。\n\n紛失すると永久にアクセスできなくなる可能性があります。\n漏洩するとノートが永久に失われたり、他人に管理されたりする可能性があります。\nアプリは復元できません。\n紙に書き、安全な場所に保管してください。",
+  "helpFaq8Question": "リカバリーフレーズのバックアップ手順は？",
+  "helpFaq8Answer": "マイページ→バックアップ→注意事項を読む→順に書き写す→確認→完了。他者が見えない環境で行ってください。",
+  "helpFaq9Question": "リカバリーフレーズとセキュリティキーの違いは？",
+  "helpFaq9Answer": "どちらも復元に使えます。リカバリーフレーズは単語列で扱いやすく推奨。セキュリティキーは長い16進で上級者向けです。",
+  "helpFaq10Question": "ノートアカウントの切り替えは？",
+  "helpFaq10Answer": "ホーム上部のアドレスをタップして選択、またはノートアカウント管理で作成・復元します。複数管理に対応します。",
+  "helpFaq11Question": "チェーンごとのアドレスは？",
+  "helpFaq11Answer": "マイノートアカウントでカードを展開すると各チェーンのアドレスが表示され、タップでコピーできます。EVM互換では同一形式のアドレスになります。",
+  "helpFaq12Question": "RPCをカスタムするには？",
+  "helpFaq12Answer": "マイページ→ネットワーク設定→ネットを選ぶ→ノード追加→URL入力→テスト→既定に設定。安定性向上に役立ちます。",
+  "helpFaq13Question": "リッチテキストの対応は？",
+  "helpFaq13Answer": "太字・斜体・下線、見出し、リスト、引用、コード、画像アップロードなどに対応します。",
+  "helpFaq14Question": "オンチェーン後に編集・削除できる？",
+  "helpFaq14Answer": "原則できません。下書きで十分に推敲してから公開し、機密は載せないようご注意ください。",
+  "helpFaq15Question": "なぜ待ち時間がある？",
+  "helpFaq15Answer": "取引がマイニングされるまで時間がかかります。混雑とガス速度（速/標準/遅）に依存し、多くは数分以内です。",
+  "helpFaq16Question": "パスワードを忘れたら？",
+  "helpFaq16Answer": "リカバリーフレーズで再復元して新パスワードを設定できます。パスワードは端末暗号化、最終的な復元はリカバリーフレーズです。",
+  "@helpFeedbackMailBody": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      },
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "helpFeedbackMailBody": "連絡メール：{email}\n\n{message}",
+  "termsOfServiceLastUpdatedLabel": "最終更新",
+  "termsOfServiceIntroTitle": "重要なお知らせ",
+  "@termsOfServiceIntroBody": {
+    "placeholders": {
+      "privacyDoc": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfServiceIntroBody": "本利用規約と{privacyDoc}をよくお読みください。本サービスを利用することで、関連するルールに同意したものとみなします。同意できない場合はご利用をおやめください。",
+  "termsOfServiceHelpTitle": "サポートが必要ですか？",
+  "termsOfServiceHelpBody": "本規約についてご不明な点がある場合は、アプリ内のヘルプセンターを開くか、設定のフィードバックやメールでお問い合わせください。合理的な期間内にできる限り対応します。",
+  "termsOfServiceHelpMailFeedback": "メールでフィードバック",
+  "@termsOfServiceSection01Body": {
+    "placeholders": {
+      "appTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfServiceSection01Title": "1. 規約への同意",
+  "termsOfServiceSection01Body": "「{appTitle}」（以下「本サービス」）へようこそ。利用前に本利用規約（以下「本規約」）をお読みください。\n同意のタップ、登録、ログイン、または本サービスの利用により、本規約に拘束されることに同意したものとみなします。同意できない場合はご利用を中止してください。\n当社は本規約を随時改定することがあり、アプリ内の通知または更新後も利用を続けると、改定後の規約に同意したものとみなされます。",
+  "termsOfServiceSection02Title": "2. サービス内容",
+  "termsOfServiceSection02Body": "本サービスは、ローカル保存とブロックチェーン関連機能を組み合わせたメモアプリです。端末上でメモの作成・編集・管理ができ、任意でオンチェーン操作（送金、ハッシュ、メタデータなど、アプリ内の手順・案内に従います）を行えます。\n現在の特徴（バージョンにより変更あり）：\n• ローカル保存：メモ等のデータは主に端末内（ローカルDB等）に保存されます。アプリをアンインストールするとローカルデータが失われることがあります。必ずご自身でバックアップしてください。\n• オンチェーン機能：証明、同期、表示等の目的で、任意にオンチェーン操作を送信できます。オンチェーン記録は公開され削除が困難なことが多いです。\n• マルチチェーン：アプリに表示される複数のEVM互換ネットワークに対応します。\n• ノートアカウント：鍵は端末上で生成または復元され、リカバリーフレーズ・セキュリティキーの保管は利用者の責任です。\n本サービスは技術的手段のみを提供し、コンテンツの合法性、正確性、完全性、特定目的への適合性を保証するものではありません。",
+  "termsOfServiceSection03Title": "3. ノートアカウントとセキュリティ",
+  "termsOfServiceSection03Body": "3.1 ノートアカウントと資格情報：ノートアカウントを作成または復元後、アプリは端末側でアドレスと鍵素材を管理します。リカバリーフレーズ・セキュリティキーはノートを復元するための重要な手段の一つです。オフラインでバックアップし、厳重に管理してください。\n3.2 セキュリティ上の責任：端末上でアプリまたはノートアカウントがロック解除されている状態で行われた操作は、利用者またはその許可環境下での行為とみなします。リカバリーフレーズ・セキュリティキーの漏えい、端末紛失、マルウェア、フィッシング、案内に従わない操作等に起因する損害は、利用者が負担します。\n3.3 セキュリティの推奨事項：\n• リカバリーフレーズ・セキュリティキーを第三者に開示しないでください\n• アプリに強力なパスワードを設定し、利用可能な場合は端末ロック・生体認証を有効化してください\n• 信頼できる環境でリカバリーフレーズをバックアップし、内容を検証してください\n• なりすましアプリ・フィッシングに注意してください\n3.4 当社およびスタッフが、いかなる理由でもリカバリーフレーズやセキュリティキーの全体を求めることはありません。そのような要求には応じず、公式経路でご報告ください。",
+  "@termsOfServiceSection04Body": {
+    "placeholders": {
+      "appTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfServiceSection04Title": "4. オンチェーン取引と手数料",
+  "termsOfServiceSection04Body": "4.1 Gas とネットワーク料金：オンチェーン取引には、ネットワークへ支払う手数料（Gas等）が必要です。料金はネットワークが徴収し、ソフトウェア提供者である「{appTitle}」が商業的に代理徴収するものではありません。金額はネットワークと混雑状況によります。\n4.2 確認時間：取引にはネットワーク確認が必要で、所要時間はネットワーク状態と手数料設定によります。特定の所要時間を保証しません。\n4.3 失敗と課金：残高不足、RPC障害、利用者によるキャンセル、コントラクトのrevert等で失敗することがあり、既に消費されたネットワーク料金はネットワーク規則に従い返金されない場合があります。\n4.4 不可逆性：十分に確認されたオンチェーン取引は通常取り消せません。セキュリティ認証・ブロードキャスト前にネットワーク、金額、コントラクト操作内容を再確認してください。\n4.5 利用者が開始したすべてのオンチェーン操作とその結果について、利用者が責任を負います。法令で許される範囲で、ブロックチェーンプロトコル、第三者ノード、スマートコントラクト、または利用者の誤操作に起因する損害について当社は責任を負いません。",
+  "termsOfServiceSection05Title": "5. 利用上の禁止事項",
+  "termsOfServiceSection05Body": "本サービスの利用にあたり、次を行ってはなりません。\n• 違法・侵害・中傷・わいせつ・暴力的・ヘイトその他不法なコンテンツの作成・アップロード・流通\n• 詐欺、マネーロンダリング、違法な資金調達、知的財産権侵害、当局が禁止する行為への利用\n• 許可なく本サービスまたは関連インフラへのアクセス・探査・妨害・破壊\n• スクレイピング、APIの濫用、その他利用者の通常利用を害する行為（書面による許可がある場合を除く）\n• 嫌がらせや無断の商用メッセージの大量送信\n違反があった場合、警告、機能制限、利用停止・終了、その他必要な措置をとることがあり、法令または監督当局の要請に応じて協力することがあります。",
+  "termsOfServiceSection06Title": "6. 知的財産権",
+  "termsOfServiceSection06Body": "6.1 本サービス自体：クライアントソフトウェア、UI、商標、文書等の著作権・商標権等は当社または権利者に帰属します。許可なく、コアソフトの複製・リバースエンジニアリング・クラック・商用再頒布をしてはなりません（法令上許容される範囲を除く）。\n6.2 利用者のコンテンツ：作成したメモ等の権利は利用者に留保され、本規約により当社へ移転するものではありません。\n6.3 当社へのライセンス：同期、表示、バックアップ、オンチェーン送信等、本サービスの運用・改善に必要な範囲で、非独占・ロイヤリティフリー（規約で許される範囲で撤回可能）のライセンスを付与します。\n6.4 書面の許可なく、当社の商標・アプリ名・ロゴを紛らわしい方法で使用しないでください。",
+  "termsOfServiceSection07Title": "7. 免責事項",
+  "termsOfServiceSection07Body": "7.1 「現状有姿」：法令で認められる最大限の範囲で、本サービスは「現状有姿」「提供可能な範囲」で提供されます。継続稼働、無誤動作、ニーズへの適合、すべての機器・ソフトとの互換性について、黙示・明示の保証は行いません。\n7.2 データとセキュリティ：合理的な措置を講じますが、不可抗力、端末紛失、マルウェア、攻撃、ブロックチェーン/IPFS等の外部システムによる漏えい・喪失・停止が永遠に起こらないことは保証できません。\n7.3 第三者：ノード、ゲートウェイ、分散ストレージ、プッシュ通知等の第三者サービスに依存することがあり、その可用性・正確性・コンプライアンスを保証しません。リスクはご自身で評価してください。\n7.4 オンチェーンノートとプロトコルのリスク：オンチェーンノートおよび関連プロトコルには、ネットワーク障害、コントラクトの不具合、フォーク等のリスクがあります。利用者が理解し負担します。\n7.5 責任制限：法令で禁じられる場合を除き、間接・付随・特別・結果的損害について責任を負いません。総賠償額は、当該紛争に関して利用者が当社に実際に支払った金額を上限とします（ゼロの場合はゼロ）。",
+  "termsOfServiceSection08Title": "8. 変更・中止・終了",
+  "termsOfServiceSection08Body": "8.1 事業、コンプライアンス、技術上の理由により、機能の変更・一時停止・終了を行うことがあります。可能な範囲でアプリ内でお知らせします。\n8.2 利用者はいつでも利用を中止しアンインストールできます。重要なデータは事前にエクスポート・バックアップしてください。\n8.3 本規約に重大に違反した場合、利用を停止・終了することがあります。\n8.4 終了後、法令で別段の定めがない限り、オンチェーン、第三者ネットワーク、または利用者が管理するローカルのデータを保存・返還する義務はありません。",
+  "termsOfServiceSection09Title": "9. 準拠法と紛争解決",
+  "termsOfServiceSection09Body": "9.1 本規約の成立、有効性、解釈および履行は、中華人民共和国本土の法律に準拠します（本規約の目的に限り、強行法の別段の定めがある場合を除き、外国法を選ばせる抵触法規則は除外します）。\n9.2 紛争は、まず誠意をもって協議により解決するものとします。\n9.3 協議が整わない場合、管轄権を有する裁判所に訴えを提起することができます（例：当社の主たる事務所所在地を管轄する裁判所）。強行的な管轄規則と抵触する場合は法令に従います。",
+  "@termsOfServiceSection10Body": {
+    "placeholders": {
+      "privacyDoc": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfServiceSection10Title": "10. その他",
+  "termsOfServiceSection10Body": "10.1 完全合意：本規約、{privacyDoc}（該当する場合）、およびアプリ内の個別ルールが、本サービス利用の主たる規律を構成します。抵触する場合、個別ルールが当該事項について優先します（強行法に反しない範囲）。\n10.2 分離可能性：いずれかの条項が無効または執行不能とされた場合でも、残りは有効とし、可能な限り原文の趣旨に沿って解釈されます。\n10.3 権利不放棄：権利を行使しなかったことも、放棄を意味しません。\n10.4 お問い合わせ：法令で別の義務的チャネルがない限り、アプリ内のヘルプセンターまたはフィードバックから本規約に関する質問ができます。",
+  "@termsOfServiceFooterLine1": {
+    "placeholders": {
+      "appTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfServiceFooterLine1": "{appTitle} をご利用いただきありがとうございます。",
+  "connectEvmAccountFirst": "先に EVM ノートアカウントを接続してください",
+  "createAccountFailedRetry": "ノートアカウントの作成に失敗しました。しばらくしてから再試行してください",
+  "@createAccountFailedWithError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "createAccountFailedWithError": "ノートアカウントの作成に失敗しました：{error}",
+  "transactionHistoryConnectEvm": "ネットワークを選択し、EVM ノートアカウントが接続されていることを確認してください",
+  "transactionHistoryUnsupportedNetwork": "このネットワークではノート作成記録一覧に未対応です。一般的な EVM ネットワークに切り替えてください。",
+  "securityVerificationFailed": "セキュリティ認証に失敗しました",
+  "walletImportPrivateKeyHint": "セキュリティキーを入力してください。第三者に共有しないでください。",
+  "walletImportPrivateKeySubmit": "セキュリティキーを復元"
+}

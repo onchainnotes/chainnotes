@@ -1,0 +1,1611 @@
+{
+  "@@locale": "zh",
+  "appTitle": "链上笔记",
+  "tabHome": "首页",
+  "tabNotes": "笔记",
+  "tabProfile": "我的",
+  "myNotes": "我的笔记",
+  "notesCount": "共 {count} 篇笔记",
+  "createNote": "创建笔记",
+  "selectNetwork": "选择网络",
+  "selectNetworkSubtitle": "选择您想要使用的区块链网络",
+  "chainSelectorMainnetTab": "主网",
+  "chainSelectorTestnetTab": "测试网",
+  "chainSelectorFooterHint": "切换网络后，笔记将保存在对应的区块链上",
+  "chainSelectorTestnetNoticeTitle": "测试网说明",
+  "chainSelectorTestnetNoticeBody": "测试网用于开发测试，代币无真实价值",
+  "chainSelectorAllChainsTitle": "全部链",
+  "chainSelectorAllChainsSubtitle": "显示所有链的笔记",
+  "@chainSelectorChainIdLabel": {
+    "placeholders": {
+      "chainId": {
+        "type": "int"
+      }
+    }
+  },
+  "chainSelectorChainIdLabel": "链 ID：{chainId}",
+  "chainSelectorCurrentBadge": "当前",
+  "@chainSelectorGasLabel": {
+    "placeholders": {
+      "cost": {
+        "type": "String"
+      }
+    }
+  },
+  "chainSelectorGasLabel": "Gas：{cost}",
+  "chainGasCostLevelMedium": "中等",
+  "chainSelectorTestnetChainWarning": "测试网络 · 无真实价值",
+  "viewAll": "查看全部",
+  "aboutUs": "关于我们",
+  "aboutPageTagline": "永久保存 · 不可篡改 · 完全掌控",
+  "@splashVersionLabel": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "splashVersionLabel": "版本 {version}",
+  "aboutPageVersionSection": "版本信息",
+  "aboutPageCurrentVersion": "当前版本",
+  "photosPermissionDeniedSnack": "无相册权限，请在系统设置中开启后重试",
+  "pressBackAgainToExitApp": "再次点击退出应用",
+  "@noteEditorOnChainTypeConfirmedSnack": {
+    "placeholders": {
+      "publishAction": {
+        "type": "String"
+      }
+    }
+  },
+  "noteEditorOnChainTypeConfirmedSnack": "已确认上链，请保存或点击「{publishAction}」继续",
+  "actionShow": "显示",
+  "actionHide": "隐藏",
+  "actionSaveToFile": "保存文件",
+  "mnemonicExportSecurityConfirmTitle": "安全确认",
+  "mnemonicExportAckSaved": "我已安全保存恢复短语到可靠位置",
+  "mnemonicExportAckUnderstandLoss": "我理解丢失恢复短语将无法恢复笔记账户",
+  "mnemonicExportAckNoShare": "我承诺不向任何人泄露恢复短语",
+  "mnemonicExportSafetyTipsTitle": "安全建议",
+  "mnemonicExportSafetyTipPaper": "将恢复短语写在纸上，存放在安全的地方",
+  "mnemonicExportSafetyTipNoScreenshot": "不要截图或保存在联网设备上",
+  "mnemonicExportSafetyTipCheckBackup": "定期检查备份的完整性",
+  "mnemonicExportFinishCta": "我已安全保存",
+  "aboutPageReleaseDate": "发布日期",
+  "aboutPageBuildNumber": "构建版本",
+  "aboutPageCoreFeatures": "核心特性",
+  "aboutFeatureOnChainTitle": "链上存储",
+  "aboutFeatureOnChainDesc": "SHA-256 哈希上链，永久不可篡改",
+  "aboutFeatureSecureTitle": "数据安全",
+  "aboutFeatureSecureDesc": "端到端加密，您掌握安全密钥",
+  "aboutFeatureSyncTitle": "即时同步",
+  "aboutFeatureSyncDesc": "多设备实时同步，随时随地访问",
+  "aboutFeatureControlTitle": "完全掌控",
+  "aboutFeatureControlDesc": "去中心化架构，数据完全属于您",
+  "aboutPageTechStack": "技术栈",
+  "aboutPageContactUs": "联系我们",
+  "aboutPageOfficialWebsite": "官方网站",
+  "aboutPageContactEmail": "联系邮箱",
+  "aboutPageOpenSource": "开源代码",
+  "aboutPageCreditsMadeWith": "用心呈现 ",
+  "aboutPageCopyrightNotice": "© {yearBrand}。保留所有权利。",
+  "@aboutPageCopyrightNotice": {
+    "placeholders": {
+      "yearBrand": {
+        "type": "String"
+      }
+    }
+  },
+  "walletManagement": "笔记账户管理",
+  "walletCannotDeleteSwitchFirst": "不能删除当前使用的笔记账户，请先切换",
+  "walletViewMnemonicCompleteBackupFirst": "请先完成恢复短语备份后再查看恢复短语或安全密钥",
+  "walletDemoPrimaryName": "我的主笔记账户",
+  "walletAddressListTitle": "笔记账户地址列表",
+  "copyAddressButton": "复制地址",
+  "labelCopied": "已复制",
+  "walletManagementDeleteIrreversible": "此操作不可撤销。请确保您已经备份了恢复短语或安全密钥。",
+  "walletManagementDeleteWarningTitle": "警告：删除后无法恢复",
+  "walletManagementDeleteAssetsLoss": "请确保您已经妥善保存了笔记账户的恢复短语或安全密钥，否则您的笔记将永久丢失。",
+  "walletCreateSystemDescription": "系统将为您生成一个新的笔记账户地址和恢复短语",
+  "walletCreateBackupReminderBody": "创建后请立即备份恢复短语，恢复短语是恢复笔记账户的唯一凭证。",
+  "walletCreateGenerateSubtitle": "生成新笔记账户",
+  "walletAddressCopied": "地址已复制",
+  "walletNameRequired": "笔记账户名称不能为空",
+  "walletNameUpdated": "笔记账户名称已更新",
+  "walletKeepAtLeastOne": "至少需要保留一个笔记账户",
+  "walletCannotDeleteCurrent": "不能删除当前使用的笔记账户",
+  "walletDeleted": "笔记账户已删除",
+  "walletCreated": "笔记账户创建成功",
+  "walletImportMnemonicOrKeyRequired": "请输入恢复短语或安全密钥",
+  "walletImportSuccess": "笔记账户恢复成功",
+  "walletImportedCannotViewMnemonic": "恢复的笔记账户无法查看恢复短语",
+  "walletMarkedBackedUp": "已标记为已备份",
+  "walletSwitched": "已切换笔记账户",
+  "viewMnemonic": "查看恢复短语",
+  "viewPrivateKey": "查看安全密钥",
+  "privateKeyExportSelectNetworkHint": "选择要查看的网络",
+  "privateKeyExportKeepKeySafeHint": "请妥善保管您的安全密钥",
+  "privateKeyExportSecurityWarningTitle": "安全警告",
+  "privateKeyExportWarnBullet1": "安全密钥是管理笔记的最高权限凭证",
+  "privateKeyExportWarnBullet2": "任何人获得安全密钥即可完全管理您的笔记",
+  "privateKeyExportWarnBullet3": "请确保周围环境安全，无人窥视",
+  "privateKeyExportWarnBullet4": "切勿截图、拍照或通过网络传输安全密钥",
+  "privateKeyExportSupportedNetworksTitle": "支持的网络",
+  "@privateKeyExportNetworkCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "privateKeyExportNetworkCount": "{count} 个网络",
+  "privateKeyExportViewSafetyTitle": "安全密钥安全提示",
+  "privateKeyExportViewBullet1": "确保周围环境安全，无人窥视屏幕",
+  "privateKeyExportViewBullet2": "不要在公共场所或不安全的网络环境下查看",
+  "privateKeyExportViewBullet3": "查看完毕后请尽快关闭此页面",
+  "privateKeyExportKeySectionTitle": "安全密钥",
+  "privateKeyExportBip44Hint": "BIP44 以太坊路径派生的安全密钥在各 EVM 主网相同，仅网络名称不同。",
+  "privateKeyExportMaskedPlaceholder": "0x•••••••••••••••••••••••••••••••••",
+  "privateKeyExportDoNotShareInline": "请勿将安全密钥告知任何人或通过网络传输",
+  "@privateKeyExportNetworkAddressLabel": {
+    "placeholders": {
+      "networkName": {
+        "type": "String"
+      }
+    }
+  },
+  "privateKeyExportNetworkAddressLabel": "{networkName} 网络地址",
+  "privateKeyExportImportantReminderTitle": "重要提醒",
+  "privateKeyExportReminderBullet1": "拥有安全密钥 = 可完全管理该地址下的笔记",
+  "privateKeyExportReminderBullet2": "安全密钥泄露将导致笔记永久丢失，无法找回",
+  "privateKeyExportReminderBullet3": "官方团队永远不会要求您提供安全密钥",
+  "privateKeyExportReminderBullet4": "建议使用恢复短语作为备份方式，而非安全密钥",
+  "privateKeyExportBackToList": "返回列表",
+  "privateKeyExportCopySecurityKey": "复制安全密钥",
+  "mnemonicManagePageTitle": "恢复短语管理",
+  "mnemonicManagePageSubtitle": "请妥善保管恢复短语，切勿泄露",
+  "mnemonicBackupFlowTitle": "备份恢复短语",
+  "@mnemonicBackupFlowStepProgress": {
+    "placeholders": {
+      "step": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "mnemonicBackupFlowStepProgress": "第 {step} 步，共 {total} 步",
+  "mnemonicBackupFlowLoadFailed": "加载失败",
+  "mnemonicBackupFlowCTAUnderstoodStart": "我已了解，开始备份",
+  "mnemonicBackupFlowCTACopiedContinue": "我已抄写，继续验证",
+  "mnemonicBackupFlowCTAVerifiedContinue": "验证通过，继续",
+  "mnemonicBackupFlowCTAPleaseVerify": "请完成验证",
+  "mnemonicBackupFlowCTAFinish": "完成备份",
+  "mnemonicBackupFlowCTANext": "下一步",
+  "mnemonicBackupFlowFooterCopyHint": "请确保已经正确抄写所有恢复短语后再继续",
+  "mnemonicBackupFlowStep1Heading": "开始备份前",
+  "mnemonicBackupFlowStep1Subheading": "请仔细阅读以下安全提示",
+  "mnemonicBackupFlowSecurityTipsTitle": "重要安全提示",
+  "mnemonicBackupFlowSecurityTip1": "恢复短语是恢复笔记账户的唯一凭证",
+  "mnemonicBackupFlowSecurityTip2": "任何人获得恢复短语即可管理您的笔记",
+  "mnemonicBackupFlowSecurityTip3": "丢失恢复短语将永久无法恢复笔记账户",
+  "mnemonicBackupFlowBackupAdviceTitle": "安全备份建议",
+  "mnemonicBackupFlowBackupAdvice1": "将恢复短语写在纸上，存放在安全的地方",
+  "mnemonicBackupFlowBackupAdvice2": "不要截图或保存在联网设备上",
+  "mnemonicBackupFlowBackupAdvice3": "不要通过网络传输或分享给任何人",
+  "mnemonicBackupFlowBackupAdvice4": "建议多处备份，分散保管",
+  "mnemonicBackupFlowProcessTitle": "备份流程",
+  "mnemonicBackupFlowProcess1": "查看并抄写您的恢复短语",
+  "mnemonicBackupFlowProcess2": "通过验证确认备份正确",
+  "mnemonicBackupFlowProcess3": "完成备份，保护您的笔记安全",
+  "mnemonicBackupFlowYourMnemonicTitle": "您的恢复短语",
+  "mnemonicBackupFlowYourMnemonicSubtitle": "请按顺序抄写下来，妥善保管",
+  "@mnemonicBackupFlowWordCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "mnemonicBackupFlowWordCount": "{count} 个恢复短语",
+  "mnemonicBackupFlowPleaseNoteTitle": "请注意",
+  "mnemonicBackupFlowStep2NoteBody": "建议使用纸笔抄写恢复短语，而不是截图或复制到联网设备。点击眼睛图标可以显示/隐藏恢复短语。",
+  "mnemonicBackupFlowVerifyTitle": "验证恢复短语",
+  "mnemonicBackupFlowVerifySubtitle": "请选择正确的单词以确认您已正确备份",
+  "@mnemonicBackupFlowVerifyWordQuestion": {
+    "placeholders": {
+      "position": {
+        "type": "int"
+      }
+    }
+  },
+  "mnemonicBackupFlowVerifyWordQuestion": "第 {position} 个单词是？",
+  "mnemonicBackupFlowVerifySuccessTitle": "验证成功！",
+  "mnemonicBackupFlowVerifySuccessBody": "您已正确备份恢复短语",
+  "mnemonicBackupFlowDoneTitle": "备份完成！",
+  "mnemonicBackupFlowDoneSubtitle": "您的恢复短语已安全备份",
+  "mnemonicBackupFlowDoneSectionTitle": "已完成",
+  "mnemonicBackupFlowDoneCheck1": "查看并抄写恢复短语",
+  "mnemonicBackupFlowDoneCheck2": "通过验证测试",
+  "mnemonicBackupFlowDoneCheck3": "恢复短语已安全保存",
+  "mnemonicBackupFlowDoneSecurityTitle": "安全提醒",
+  "mnemonicBackupFlowDoneSecurity1": "请将恢复短语保存在安全的物理位置",
+  "mnemonicBackupFlowDoneSecurity2": "切勿向任何人透露您的恢复短语",
+  "mnemonicBackupFlowDoneSecurity3": "官方团队永远不会索要您的恢复短语",
+  "mnemonicBackupFlowDoneSecurity4": "定期检查备份是否完整可读",
+  "mnemonicBackupFlowFinalEncouragementTitle": "现在您可以安心使用笔记账户了！",
+  "mnemonicBackupFlowFinalEncouragementBody": "您的笔记受到恢复短语的保护",
+  "switchWallet": "切换",
+  "viewAddresses": "查看地址",
+  "cancel": "取消",
+  "save": "保存",
+  "confirmDelete": "确认删除",
+  "createWallet": "创建笔记账户",
+  "importWallet": "恢复笔记账户",
+  "mnemonicOrPrivateKey": "恢复短语或安全密钥",
+  "close": "关闭",
+  "copy": "复制",
+  "mnemonicCopied": "恢复短语已复制",
+  "privateKeyCopied": "安全密钥已复制",
+  "backedUp": "已备份",
+  "editWalletName": "编辑笔记账户名称",
+  "deleteWallet": "删除笔记账户",
+  "confirmDeleteWallet": "确认删除笔记账户",
+  "newWalletCreated": "新笔记账户已创建",
+  "cannotDeleteCurrentWallet": "无法删除当前使用的笔记账户",
+  "edit": "编辑",
+  "createNewWallet": "创建新笔记账户",
+  "editWalletNameTitle": "修改笔记账户名称",
+  "noteNotFoundBack": "笔记不存在，返回",
+  "createNoteNotImplemented": "创建笔记（待实现）",
+  "newWalletCreateSuccess": "新笔记账户创建成功！",
+  "restoringFromProvider": "正在从{provider}恢复笔记账户...",
+  "restoredFromProvider": "已从{provider}恢复笔记账户！",
+  "noBackupFoundProvider": "未找到{provider}备份，请尝试其他方式",
+  "guideWelcomeTitle": "欢迎使用链上笔记",
+  "guideWelcomeSubtitle": "开始之前，让我们设置您的数字笔记账户",
+  "guideSecurityTitle": "您的数据，您做主",
+  "guideSecurityBody": "笔记账户安全密钥完全由您控制，我们不会在服务器上存储任何敏感信息。请务必妥善保管您的恢复短语和安全密钥。",
+  "guideCreateWalletTitle": "创建新笔记账户",
+  "guideCreateWalletSubtitle": "全新开始，系统将为您生成一个全新的笔记账户地址和恢复短语",
+  "guideRecommendedNewUser": "推荐新用户",
+  "guideImportWalletTitle": "恢复现有笔记账户",
+  "guideImportWalletSubtitle": "使用恢复短语或安全密钥恢复您已有的笔记账户",
+  "guideTagMnemonic": "恢复短语",
+  "guideTagPrivateKey": "安全密钥",
+  "guideICloudRestoreTitle": "从 iCloud 恢复",
+  "guideICloudRestoreSubtitle": "如果您之前在 iCloud 中备份过笔记账户，可以快速恢复",
+  "guideBadgeIosOnly": "仅限 iOS 设备",
+  "guideGoogleRestoreTitle": "从 Google Drive 恢复",
+  "guideGoogleRestoreSubtitle": "如果您之前在 Google Drive 中备份过笔记账户，可以快速恢复",
+  "guideBadgeAllDevices": "支持所有设备",
+  "guideFooterHint": "选择任一方式继续使用链上笔记\n您的安全密钥将安全存储在本地设备中",
+  "guideProviderICloud": "iCloud",
+  "guideProviderGoogleDrive": "Google Drive",
+  "guideLoadingWalletMessage": "加载笔记账户…",
+  "googlePlayReviewModeTapHint": "再点击 {remaining} 次进入审核模式",
+  "@googlePlayReviewModeTapHint": {
+    "placeholders": {
+      "remaining": {
+        "type": "int"
+      }
+    }
+  },
+  "walletAddressCopiedShort": "笔记账户地址已复制",
+  "switchedToChain": "已切换到 {chain}",
+  "fillAllFields": "请填写完整信息",
+  "passwordMismatch": "两次输入的新密码不一致",
+  "passwordMinLength": "密码长度至少6位",
+  "passwordChangeSuccess": "密码修改成功",
+  "enterValidEmail": "请输入有效的邮箱地址",
+  "verificationCodeSent": "验证码已发送",
+  "enterSixDigitCode": "请输入6位验证码",
+  "emailBindSuccess": "邮箱绑定成功",
+  "emailUnbound": "邮箱已解绑",
+  "logoutNotConnected": "退出登录（待接入）",
+  "changePassword": "修改密码",
+  "confirm": "确认",
+  "bindEmail": "绑定邮箱",
+  "editNoteOpenByRoute": "请通过路由打开编辑页",
+  "imageUploadNotConnected": "图片上传待接入存储服务",
+  "imageRemoved": "图片已移除",
+  "titleContentRequired": "标题和内容不能为空",
+  "submittedToChain": "已提交上链",
+  "onChainNoteCannotChangeType": "已上链的笔记无法更改类型",
+  "setToLocalNote": "已设置为本地笔记（不会上链）",
+  "setToDraft": "已设置为草稿",
+  "editNote": "编辑笔记",
+  "noteDetailEditDisabledOnChain": "已上链不可编辑",
+  "noteTypeDraft": "草稿",
+  "noteTypeLocal": "本地",
+  "noteTypeOnChain": "已上链",
+  "blockchainVerify": "验证区块链",
+  "blockchainVerifyTitle": "区块链验证",
+  "getGas": "获取 {symbol} 燃料费",
+  "addressCopied": "地址已复制",
+  "redirectingToFaucet": "正在跳转到水龙头网站",
+  "noFaucetForNetwork": "该网络暂无水龙头",
+  "loginNotImplemented": "登录功能待实现",
+  "forgotPassword": "忘记密码？",
+  "forgotPasswordNotImplemented": "忘记密码功能待实现",
+  "noAccountYet": "还没有笔记账户？",
+  "registerNotImplemented": "注册功能待实现",
+  "registerNow": "立即注册",
+  "mnemonicVerifySuccess": "恢复短语校验通过，导入逻辑由外部实现",
+  "privateKeyVerifySuccess": "安全密钥校验通过，导入逻辑由外部实现",
+  "importSuccess": "笔记账户恢复成功！",
+  "cleared": "已清空",
+  "back": "返回",
+  "current": "当前",
+  "imported": "已恢复",
+  "defaultBadge": "默认",
+  "clearSearch": "清除搜索",
+  "searchNotesHint": "搜索笔记...",
+  "noMatchNotes": "未找到匹配的笔记",
+  "noOnChainNotes": "暂无已上链的笔记",
+  "noOffChainNotes": "暂无未上链的笔记",
+  "noNotes": "暂无笔记",
+  "tryOtherSearch": "试试其他搜索词",
+  "startCreateFirstNote": "开始创建您的第一篇笔记",
+  "profileNotConnected": "未连接",
+  "profileSectionAccount": "笔记账户管理",
+  "profileNetworkSettingsSubtitle": "配置 RPC 与节点",
+  "profileSectionSecurity": "安全",
+  "profileChangePasswordSubtitle": "保护您的笔记账户安全",
+  "profileBindEmailNotBound": "未绑定",
+  "profileBindEmailBadgeBound": "已绑定",
+  "profileSectionPreferences": "偏好设置",
+  "profileNotifications": "通知提醒",
+  "profileDarkMode": "深色模式",
+  "profileLanguage": "语言",
+  "profileSectionMore": "更多",
+  "profileTestPage": "测试页面",
+  "profileTestPageSubtitle": "功能测试入口",
+  "profileTerms": "服务条款",
+  "profilePrivacy": "隐私政策",
+  "profileRateUs": "给我们评分",
+  "profileShare": "分享给朋友",
+  "profileShareMessage": "我正在使用这款链上笔记 App，推荐给你：\n{url}",
+  "@profileShareMessage": {
+    "placeholders": {
+      "url": {
+        "type": "String"
+      }
+    }
+  },
+  "profileLogoutLabel": "退出登录",
+  "profileLogoutPending": "退出登录（待接入）",
+  "@profilePageFooter": {
+    "placeholders": {
+      "appTitle": {
+        "type": "String"
+      },
+      "version": {
+        "type": "String"
+      },
+      "year": {
+        "type": "String"
+      }
+    }
+  },
+  "profilePageFooter": "{appTitle} v{version}\n© {year} 保留所有权利。",
+  "profileAvatarFallback": "ME",
+  "profileDefaultWalletName": "我的笔记账户",
+  "profileUserActive": "活跃用户",
+  "profileUserNormal": "普通用户",
+  "profileStatNotes": "笔记数",
+  "profileStatOnChain": "已上链",
+  "profileStatDays": "天数",
+  "profileBindEmailDialogSubtitle": "请填写您的邮箱地址并获取验证码。",
+  "profileBindEmailFieldEmail": "邮箱地址",
+  "profileBindEmailFieldCode": "验证码",
+  "profileSendVerificationCode": "发送验证码",
+  "profileResendCodeInSeconds": "{seconds} 秒后可重发",
+  "@profileResendCodeInSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "profileUnbindEmail": "解绑邮箱",
+  "languageSelectTitle": "选择语言",
+  "languageSelectSubtitle": "选择您偏好的界面语言",
+  "languageNoticeHint": "提示：",
+  "languageNoticeBody": "已支持简体中文、繁体中文、英语、日语与韩语；其余语言敬请期待。",
+  "languageCurrentBadge": "当前",
+  "languageSnackbarComingSoon": "敬请期待",
+  "languageSwitchedTo": "语言已切换至 {name}",
+  "@languageSwitchedTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "languageFooterMore": "更多语言即将支持",
+  "changePasswordSameAsOld": "新密码不能与旧密码相同",
+  "changePasswordLength632": "新密码长度为 6-32 位",
+  "walletNoSavedKey": "未找到已保存的密钥，请先创建笔记账户",
+  "changePasswordWrongOrFailed": "旧密码错误或操作失败",
+  "passwordMaxLength32": "密码长度最多为 32 位",
+  "passwordMeetAllRequirements": "请满足所有密码要求",
+  "encryptionInitFailed": "加密初始化失败：{error}",
+  "@encryptionInitFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "passwordVerifyForgotGoReset": "忘记密码？去重置密码",
+  "passwordStrengthWeak": "弱",
+  "passwordStrengthMedium": "中等",
+  "passwordStrengthStrong": "强",
+  "changePasswordPageTitle": "修改密码",
+  "changePasswordPageSubtitle": "保护您的笔记账户安全",
+  "changePasswordSecurityHintTitle": "安全提示",
+  "changePasswordSecurityHintBody": "• 定期修改密码可以提高笔记账户安全性\n• 请使用强密码，包含字母、数字和符号\n• 不要使用生日、电话等容易被猜到的密码",
+  "changePasswordOldLabel": "旧密码",
+  "changePasswordOldHint": "请输入旧密码",
+  "changePasswordNewLabel": "新密码",
+  "changePasswordNewHint": "请输入新密码",
+  "changePasswordStrengthLabel": "密码强度：",
+  "changePasswordMatchOk": "密码一致",
+  "changePasswordMatchBad": "密码不一致",
+  "changePasswordConfirmLabel": "确认新密码",
+  "changePasswordConfirmHint": "请再次输入新密码",
+  "changePasswordRuleLength": "6-32 个字符",
+  "changePasswordRuleCase": "包含大小写字母",
+  "changePasswordRuleDigit": "包含数字",
+  "changePasswordClear": "清空",
+  "changePasswordSubmit": "确认修改",
+  "validatorOldPasswordRequired": "请输入旧密码",
+  "validatorNewPasswordRequired": "请输入新密码",
+  "validatorNewPasswordMin6": "至少6个字符",
+  "validatorNewPasswordMax32": "最多32个字符",
+  "validatorConfirmRequired": "请确认新密码",
+  "validatorConfirmMismatch": "两次输入不一致",
+  "changePasswordRulesTitle": "密码要求",
+  "loginWelcomeTitle": "欢迎回来",
+  "loginSubtitle": "请登录您的笔记账户",
+  "loginEmailOrUsernameLabel": "邮箱或用户名",
+  "loginEmailOrUsernameHint": "请输入您的邮箱或用户名",
+  "validatorLoginIdRequired": "请输入邮箱或用户名",
+  "loginPasswordFieldLabel": "密码",
+  "loginPasswordFieldHint": "请输入您的密码",
+  "validatorLoginPasswordRequired": "请输入密码",
+  "validatorLoginPasswordMin6": "密码长度至少为6位",
+  "loginButton": "登录",
+  "createWalletPasswordPageTitle": "设置笔记账户密码",
+  "createWalletPasswordSubtitle": "保护您的笔记安全",
+  "createWalletPasswordWhyTitle": "为什么需要密码？",
+  "createWalletPasswordWhyBody": "笔记账户密码用于加密您的安全密钥和恢复短语，确保只有您能访问您的笔记。请务必牢记此密码，遗失后无法找回。",
+  "walletPasswordFieldLabel": "笔记账户密码",
+  "walletPasswordFieldHint": "请输入6-32位密码",
+  "walletConfirmPasswordFieldLabel": "确认密码",
+  "walletConfirmPasswordFieldHint": "请再次输入密码",
+  "walletPasswordImportantNotice": "重要提示",
+  "walletPasswordWarnBullets": "• 密码用于保护您的笔记账户安全\n• 请使用容易记住但难以猜测的密码\n• 建议混合使用字母、数字和符号\n• 密码遗失后无法找回，请务必牢记",
+  "createWalletPasswordSubmitCreate": "确认并创建笔记账户",
+  "createWalletPasswordSubmitReset": "确认并重置密码",
+  "createWalletPasswordFooterAck": "点击确认即表示您已了解密码的重要性",
+  "walletPasswordRulesHeader": "密码要求：",
+  "walletPasswordRuleLength632": "6-32位字符",
+  "walletPasswordRuleLetter": "包含字母",
+  "walletPasswordRuleNumberRecommended": "包含数字（推荐）",
+  "walletPasswordRuleMatch": "两次密码一致",
+  "walletBootstrapImporting": "恢复笔记账户...",
+  "walletBootstrapInitializing": "初始化笔记账户...",
+  "passwordVerifyTitle": "验证密码",
+  "passwordVerifyDescription": "为了您的安全，请输入笔记账户密码以继续操作",
+  "passwordVerifyDescExportMnemonic": "查看并导出恢复短语前，请输入笔记账户密码",
+  "passwordVerifyDescExportPrivateKey": "查看安全密钥前，请输入笔记账户密码",
+  "passwordVerifyDescImportWallet": "恢复笔记账户前请验证您的笔记账户密码",
+  "passwordVerifyDescBackupMnemonic": "备份恢复短语前，请输入笔记账户密码",
+  "passwordVerifyDescCreateWallet": "创建笔记账户前请验证您的笔记账户密码",
+  "passwordVerifyDescDeleteWallet": "删除笔记账户前请验证您的笔记账户密码",
+  "passwordVerifyDescMintNft": "铸造 NFT 需要验证笔记账户密码",
+  "passwordVerifyWalletPasswordLabel": "笔记账户密码",
+  "passwordVerifyWalletPasswordHint": "请输入笔记账户密码",
+  "validatorWalletPasswordRequired": "请输入密码",
+  "passwordVerifyNoEncryptedData": "未找到加密数据，请重新设置密码",
+  "passwordVerifyFailedWithError": "验证失败：{error}",
+  "@passwordVerifyFailedWithError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "passwordVerifyLockoutMinutes": "密码错误次数过多，请在 {minutes} 分钟后重试",
+  "@passwordVerifyLockoutMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "passwordVerifyLockoutHours": "密码错误次数过多，请在 {hours} 小时后重试",
+  "@passwordVerifyLockoutHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "passwordVerifyWrongWithCount": "密码错误（{current}/{max}）",
+  "@passwordVerifyWrongWithCount": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "passwordVerifyAttemptsBanner": "密码错误 {count} 次，剩余 {remaining} 次机会",
+  "@passwordVerifyAttemptsBanner": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "remaining": {
+        "type": "int"
+      }
+    }
+  },
+  "passwordVerifyLockBanner": "密码错误次数过多，请在 {time} 后重试",
+  "@passwordVerifyLockBanner": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "passwordVerifyDurationHoursMinutes": "{hours}小时{minutes}分钟",
+  "@passwordVerifyDurationHoursMinutes": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "passwordVerifyDurationMinutes": "{minutes}分钟",
+  "@passwordVerifyDurationMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "passwordVerifySecurityTipsTitle": "安全提示",
+  "passwordVerifySecurityTipsBody": "• 密码长度为 6-32 位\n• 请确保周围环境安全\n• 密码错误 {maxAttempts} 次将临时锁定",
+  "@passwordVerifySecurityTipsBody": {
+    "placeholders": {
+      "maxAttempts": {
+        "type": "int"
+      }
+    }
+  },
+  "paste": "粘贴",
+  "loadingDefault": "加载中…",
+  "walletLoadingTagline": "BlockNote · 安全 · 可信 · 永久",
+  "walletLoadingStepConnecting": "连接区块链网络…",
+  "walletLoadingStepVerifying": "验证笔记账户信息…",
+  "walletLoadingStepSyncing": "同步笔记数据…",
+  "walletLoadingStepComplete": "加载完成！",
+  "retry": "重试",
+  "loadFailedWithError": "加载失败：{error}",
+  "@loadFailedWithError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "selectEvmChainFirst": "请先选择支持 EVM 的网络",
+  "noteNotFoundShort": "笔记不存在",
+  "createOrSelectWalletFirst": "请先创建或选择笔记账户",
+  "privateKeyDecryptFailedHint": "获取安全密钥失败，请确认密码正确。若曾更换过密码，请重新导入恢复短语",
+  "uploadingIpfsAndMinting": "上传至 IPFS 并铸造中…",
+  "ipfsFileUploadFailed": "IPFS 文件上传失败：{details}",
+  "@ipfsFileUploadFailed": {
+    "placeholders": {
+      "details": {
+        "type": "String"
+      }
+    }
+  },
+  "onChainSuccessTx": "上链成功：{txHash}",
+  "@onChainSuccessTx": {
+    "placeholders": {
+      "txHash": {
+        "type": "String"
+      }
+    }
+  },
+  "draftSavedIpfsRetry": "已保存为草稿并替换为 IPFS 图片，稍后可直接重试上链",
+  "mintFailedGasDebug": "余额不足（Gas）\n{detail}",
+  "@mintFailedGasDebug": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "mintFailedGasUser": "余额不足，无法支付 Gas，请充值后再试",
+  "mintFailedGeneric": "上链失败：{error}",
+  "@mintFailedGeneric": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "walletErrNoWalletYet": "请先创建或恢复笔记账户",
+  "walletErrUnrecognizedAccount": "无法识别当前笔记账户",
+  "walletErrWalletDataNotFound": "未找到当前笔记账户数据",
+  "walletErrImportedMnemonicNoExport": "恢复短语导入的笔记账户无法在此再次导出恢复短语",
+  "walletErrImportedMnemonicNoBackup": "恢复短语导入的笔记账户无需在此备份",
+  "walletErrPrivateKeyWalletNoMnemonic": "安全密钥导入的笔记账户不包含恢复短语",
+  "walletErrNoEncryptedMnemonic": "当前笔记账户无本地加密的恢复短语数据",
+  "walletErrDecryptFailed": "解密失败，请确认密码正确",
+  "walletErrMissingAddress": "缺少笔记账户地址",
+  "walletErrGetPrivateKeyFailed": "获取安全密钥失败，请确认密码正确",
+  "exportMnemonicDocTitle": "链上笔记 — 恢复短语备份",
+  "exportMnemonicDocTime": "生成时间：{time}",
+  "@exportMnemonicDocTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "exportMnemonicDocLabel": "恢复短语（请妥善保管）：",
+  "exportMnemonicDocSecurity": "⚠️ 安全提示：\n1. 请将此恢复短语保存在安全的地方\n2. 不要与任何人分享\n3. 丢失恢复短语将无法恢复您的笔记账户与数据",
+  "exportMnemonicUseCopyOnPlatform": "当前平台请使用复制",
+  "exportMnemonicSavedTo": "已保存：{path}",
+  "@exportMnemonicSavedTo": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "walletBootstrapCreating": "创建笔记账户中…",
+  "chainNameEvm": "EVM 链（Ethereum/BSC/Polygon 等）",
+  "chainPkDescEvm": "以 0x 开头的 64 位十六进制字符串，总长度 66 个字符",
+  "chainNameBitcoin": "Bitcoin",
+  "chainPkDescBitcoin": "WIF 格式，以 5、K 或 L 开头，长度 51–52 个字符",
+  "chainNameSolana": "Solana",
+  "chainPkDescSolana": "Base58 编码，长度约 87–88 个字符，不含 0、O、I、l",
+  "chainNameTron": "Tron",
+  "chainPkDescTronHex": "64 位十六进制字符串（不含 0x 前缀）",
+  "chainNameCosmos": "Cosmos",
+  "chainPkDescCosmosHex": "64 位十六进制字符串（不含 0x 前缀）",
+  "walletPkSubtitleLength": "{count} 位字符",
+  "@walletPkSubtitleLength": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "walletPkSubtitleStartsWith": "以 {prefix} 开头",
+  "@walletPkSubtitleStartsWith": {
+    "placeholders": {
+      "prefix": {
+        "type": "String"
+      }
+    }
+  },
+  "walletImportSelectChainTitle": "选择区块链类型",
+  "walletImportEvmOnlyNotice": "暂不支持，请使用 EVM 链安全密钥导入",
+  "walletImportPageSubtitle": "使用恢复短语或安全密钥恢复笔记账户",
+  "walletImportTabMnemonic": "恢复短语",
+  "walletImportTabPrivateKey": "安全密钥",
+  "walletImportInputMethod": "输入方式",
+  "walletImportInputSingle": "单个输入",
+  "walletImportInputPasteFull": "整句粘贴",
+  "walletImportWordCountLabel": "恢复短语数量",
+  "walletImportWordCountN": "{n} 个词",
+  "@walletImportWordCountN": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "walletImportWordCountDialogTitle": "选择助记词数量",
+  "walletImportWordCountDialogDesc": "BIP39标准支持多种助记词长度，安全性随词数增加而提升",
+  "walletImportWordCountOptionLabel": "{count}个助记词",
+  "@walletImportWordCountOptionLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "walletImportWordCountSecurityLabel": "安全级别：",
+  "walletImportWordCountSecurityStandard": "标准",
+  "walletImportWordCountSecurityEnhanced": "增强",
+  "walletImportWordCountSecurityAdvanced": "高级",
+  "walletImportWordCountSecurityProfessional": "专业",
+  "walletImportWordCountSecurityMaximum": "极高",
+  "walletImportWordCountSwitched": "已切换到{n}个词",
+  "@walletImportWordCountSwitched": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "walletImportWordCountDialogTip": "大多数钱包使用12个词的助记词。如果您不确定，请选择12个词。",
+  "walletImportEnterMnemonic": "请输入恢复短语",
+  "walletImportMnemonicPasteTip": "提示：支持直接粘贴整句恢复短语，请使用上方「整句粘贴」模式",
+  "walletImportPasteMnemonicPrompt": "请粘贴恢复短语",
+  "walletImportMnemonicHintWords": "请粘贴您的 {count} 个恢复短语，用空格分隔",
+  "@walletImportMnemonicHintWords": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "walletImportMnemonicWordFieldHint": "单词",
+  "walletImportMnemonicParagraphExampleHint": "word1 word2 word3 ...",
+  "walletImportPrivateKeyFieldHint": "0x... 或 64 位十六进制",
+  "walletImportPrivateKeyFieldHintShort": "0x...",
+  "walletImportWordProgress": "当前词数：{current} / {total}",
+  "@walletImportWordProgress": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "walletImportMnemonicSecurityTitle": "安全提示",
+  "walletImportMnemonicSecurityBody": "• 请确保在安全的网络环境中操作\n• 恢复短语一旦丢失将无法找回\n• 切勿向他人透露您的恢复短语\n• 我们不会在服务器上存储您的恢复短语",
+  "walletImportSelectChainSection": "选择区块链类型",
+  "walletImportTapSwitchChain": "点击切换链类型",
+  "walletImportEnterPrivateKey": "请输入安全密钥",
+  "walletImportPkFormatExample": "安全密钥格式示例",
+  "walletImportPkSevereTitle": "严重警告",
+  "walletImportPkSevereBody": "• 安全密钥是您笔记账户的最高权限凭证\n• 任何人获得安全密钥即可完全管理您的笔记\n• 请勿在不安全的设备上输入安全密钥\n• 请勿截图或通过聊天软件发送安全密钥",
+  "walletImportConfirm": "确认恢复",
+  "walletImportMnemonicNeedCount": "请输入完整的 {count} 个恢复短语",
+  "@walletImportMnemonicNeedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "walletImportMnemonicWrongCount": "请输入完整的 {count} 个恢复短语，当前为 {current} 个",
+  "@walletImportMnemonicWrongCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "current": {
+        "type": "int"
+      }
+    }
+  },
+  "walletImportMnemonicInvalidWords": "恢复短语格式不正确，应为小写英文单词",
+  "walletImportPkEmpty": "请输入安全密钥",
+  "walletImportPkNeed0x": "安全密钥应以 0x 开头",
+  "walletImportPkNeedWif": "安全密钥应以 5、K 或 L 开头",
+  "walletImportPkWifLength": "安全密钥长度应为 51–52 个字符",
+  "walletImportPkLengthExpected": "安全密钥长度不正确（应为 {length} 位字符）",
+  "@walletImportPkLengthExpected": {
+    "placeholders": {
+      "length": {
+        "type": "int"
+      }
+    }
+  },
+  "walletImportPkInvalidFormat": "安全密钥格式不正确",
+  "walletImportEvmOnly": "当前仅支持 EVM 安全密钥导入",
+  "walletImportDeriveAddressFailed": "无法从安全密钥推导地址，请检查格式",
+  "walletImportDuplicatePk": "该安全密钥对应的地址已存在，请勿重复恢复",
+  "walletImportDuplicateMnemonic": "该恢复短语对应笔记账户已恢复，请勿重复恢复",
+  "walletImportInvalidPrivateKeyRetry": "安全密钥无效，请检查后重试",
+  "walletImportInvalidMnemonicRetry": "恢复短语无效，请检查后重试",
+  "clipboardEmpty": "剪贴板为空",
+  "mnemonicViewLengthTitle": "恢复短语长度",
+  "mnemonicViewInputMode": "输入方式",
+  "mnemonicViewSingleWord": "单个输入",
+  "mnemonicViewFullPaste": "整段粘贴",
+  "mnemonicViewImportCta": "使用恢复短语",
+  "mnemonicViewEnterOrdered": "请按顺序输入 {count} 个恢复短语",
+  "@mnemonicViewEnterOrdered": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "mnemonicViewPasteHint": "请粘贴完整恢复短语，词与词之间用空格分隔",
+  "mnemonicCountMismatch": "请输入 {expected} 个恢复短语，当前为 {current} 个",
+  "@mnemonicCountMismatch": {
+    "placeholders": {
+      "expected": {
+        "type": "int"
+      },
+      "current": {
+        "type": "int"
+      }
+    }
+  },
+  "mnemonicInvalidBip39": "无效的恢复短语，请检查拼写",
+  "walletSelectorTitle": "我的笔记账户",
+  "walletSelectorSubtitle": "管理您的所有笔记账户",
+  "walletNumberedName": "笔记账户 {n}",
+  "@walletNumberedName": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "walletDefaultCreatedNameFirst": "我的笔记账户",
+  "walletDefaultCreatedNameNumbered": "我的笔记账户{n}",
+  "@walletDefaultCreatedNameNumbered": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "walletDefaultPrivateKeyNameFirst": "我的安全密钥笔记账户",
+  "walletDefaultPrivateKeyNameNumbered": "我的安全密钥笔记账户{n}",
+  "@walletDefaultPrivateKeyNameNumbered": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "walletBackupNotYet": "尚未备份笔记账户",
+  "walletBackupPromptLine1": "尚未备份笔记账户",
+  "walletBackupPromptLine2": "点击立即备份恢复短语",
+  "walletDeleteConfirmTitle": "确认删除笔记账户",
+  "walletDeleteConfirmLine1": "删除后将无法恢复此笔记账户，请确保您已备份恢复短语。",
+  "walletDeleteConfirmLine2Notes": "该笔记账户关联的本地笔记数据也将一并删除。",
+  "walletDeleteCannotCurrent": "⚠️ 无法删除当前使用的笔记账户",
+  "walletDeleteLastHint": "删除后将无笔记账户，将返回引导页重新创建或恢复。",
+  "walletEditNameSubtitle": "为您的笔记账户设置一个易于识别的名称",
+  "walletNameFieldLabel": "笔记账户名称",
+  "walletNameFieldHint": "输入笔记账户名称",
+  "networkNodeAdd": "添加节点",
+  "networkNodeTest": "测试",
+  "networkNodeSetDefault": "设为默认",
+  "networkNodeOnline": "在线",
+  "networkNodeOffline": "离线",
+  "networkNodeConnectionFailed": "节点连接失败",
+  "networkRpcUrlInvalid": "请输入有效的 HTTP 或 HTTPS RPC URL",
+  "networkNodeDuplicate": "该节点已存在",
+  "networkNodeNameRpcRequired": "请输入节点名称和 RPC URL",
+  "networkNodeAdded": "节点添加成功",
+  "networkRpcCopied": "RPC URL 已复制",
+  "networkNodeSwitched": "已切换到该节点",
+  "networkNodeDeleted": "节点已删除",
+  "networkSettingsTitle": "网络设置",
+  "networkSettingsSubtitle": "配置区块链网络节点",
+  "networkLoadFailed": "加载失败：{message}",
+  "@networkLoadFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "networkSectionMainnet": "主网",
+  "networkSectionTestnet": "测试网络",
+  "networkTestnetListHint": "应用内数据源（ChainDatas）中标记为 testnet 的网络均会出现在此列表。",
+  "networkCountNetworks": "{count} 个网络",
+  "@networkCountNetworks": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "networkAboutNodesTitle": "关于网络节点",
+  "networkAboutNodesBullet1": "RPC 节点是连接区块链网络的入口",
+  "networkAboutNodesBullet2": "您可以添加自定义节点以提高速度或可靠性",
+  "networkAboutNodesBullet3": "建议使用知名的公共节点或自建节点",
+  "networkStatusConnectionOk": "连接正常",
+  "networkStatusConnectionError": "连接异常",
+  "networkStatusCustomized": "已自定义",
+  "networkNodeCountLabel": "{count} 个节点",
+  "@networkNodeCountLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "networkAllNodesTitle": "所有节点（{count}）",
+  "@networkAllNodesTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "networkDetailHeaderNodeCount": "共有 {count} 个节点",
+  "@networkDetailHeaderNodeCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "networkQuickAddTitle": "快速添加节点",
+  "networkQuickAddLine1": "点击任意网络进入详情页，即可添加自定义 RPC 节点。",
+  "networkQuickAddLine2": "支持添加多个节点，系统会保留列表供后续扩展（如优选最快节点）。",
+  "networkNodeProbeOk": "节点连接正常",
+  "networkNodeProbeOkLatency": "节点连接正常，延迟 {ms} ms",
+  "@networkNodeProbeOkLatency": {
+    "placeholders": {
+      "ms": {
+        "type": "int"
+      }
+    }
+  },
+  "networkCurrentNodeTitle": "当前使用的节点",
+  "networkNodeActiveBadge": "活跃",
+  "networkNoNodeSelected": "未选择节点",
+  "networkNodeLatencyMs": "延迟 {ms} ms",
+  "@networkNodeLatencyMs": {
+    "placeholders": {
+      "ms": {
+        "type": "int"
+      }
+    }
+  },
+  "networkAddRpcDialogTitle": "添加 RPC 节点",
+  "networkAddRpcDialogSubtitle": "为 {networkName} 网络添加自定义 RPC 节点",
+  "@networkAddRpcDialogSubtitle": {
+    "placeholders": {
+      "networkName": {
+        "type": "String"
+      }
+    }
+  },
+  "networkNodeNameLabel": "节点名称",
+  "networkNodeNameHint": "例如：自定义节点 1",
+  "networkRpcUrlLabel": "RPC URL",
+  "networkRpcUrlHint": "https://…",
+  "networkExampleRpcLabel": "示例 RPC URL",
+  "networkConfirmAddNode": "确认添加",
+  "networkTipsTitle": "使用提示",
+  "networkTipsLine1": "建议添加多个节点作为备份",
+  "networkTipsLine2": "测试节点以查看连接状态和延迟",
+  "networkTipsLine3": "选择延迟低的节点可提高交易速度",
+  "networkTipsLine4": "默认节点（预设）不可删除",
+  "networkNodeInUseBadge": "使用中",
+  "networkCannotDeleteDefaultNode": "默认节点不能删除",
+  "networkDeleteSwitchNodeFirst": "请先切换到其他节点再删除",
+  "homeFiatApprox": "≈ {amount}",
+  "@homeFiatApprox": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "homeUnitPrice": "单价：{price}",
+  "@homeUnitPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "homeUnitPriceUnavailable": "单价：--",
+  "homeTransactionHistory": "创建笔记记录",
+  "homeTransactionHistoryNotConfigured": "创建笔记记录功能未配置",
+  "transactionHistorySubtitle": "查看您的所有创建笔记记录",
+  "transactionHistoryStatTotal": "总计",
+  "transactionHistoryStatSuccess": "成功",
+  "transactionHistoryStatPending": "待确认",
+  "transactionHistoryStatFailed": "失败",
+  "transactionHistoryFilterAll": "全部",
+  "transactionHistoryFilterSend": "创建笔记",
+  "transactionHistoryFilterReceive": "接收",
+  "transactionHistorySelectChain": "选择网络",
+  "transactionHistoryCopied": "已复制到剪贴板",
+  "transactionHistoryExplorerInvalidUrl": "无效的浏览器链接",
+  "transactionHistoryExplorerLaunchFailed": "无法打开浏览器，请检查系统设置",
+  "@transactionHistoryExplorerOpenError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "transactionHistoryExplorerOpenError": "打开失败：{error}",
+  "transactionHistoryRefreshed": "创建笔记记录已更新",
+  "transactionHistoryTimeJustNow": "刚刚",
+  "@transactionHistoryTimeMinutesAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "transactionHistoryTimeMinutesAgo": "{count, plural, other{{count}分钟前}}",
+  "@transactionHistoryTimeHoursAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "transactionHistoryTimeHoursAgo": "{count, plural, other{{count}小时前}}",
+  "@transactionHistoryTimeDaysAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "transactionHistoryTimeDaysAgo": "{count, plural, other{{count}天前}}",
+  "transactionHistoryEmptyTitle": "暂无创建笔记记录",
+  "transactionHistoryEmptyHintFiltered": "没有找到匹配的创建笔记记录",
+  "transactionHistoryEmptyHintAll": "当前没有任何创建笔记记录",
+  "transactionHistoryTypeSend": "创建笔记",
+  "transactionHistoryTypeReceive": "接收",
+  "transactionHistoryStatusSuccess": "成功",
+  "transactionHistoryStatusFailed": "失败",
+  "transactionHistoryStatusPending": "待确认",
+  "transactionHistoryDetailFrom": "发送方",
+  "transactionHistoryDetailTo": "接收方",
+  "transactionHistoryDetailTxHash": "上链哈希",
+  "transactionHistoryDetailBlock": "区块高度",
+  "@transactionHistoryGasLine": {
+    "placeholders": {
+      "fee": {
+        "type": "String"
+      },
+      "symbol": {
+        "type": "String"
+      }
+    }
+  },
+  "transactionHistoryGasLine": "Gas: {fee} {symbol}",
+  "homeGasBalanceTitle": "{symbol} 燃料费余额",
+  "@homeGasBalanceTitle": {
+    "placeholders": {
+      "symbol": {
+        "type": "String"
+      }
+    }
+  },
+  "homeTotalAssets": "总余额",
+  "homeRefreshBalance": "刷新余额",
+  "homeGetGas": "获取燃料费",
+  "homeGasHelp": "燃料费用于支付交易上链的 Gas 费用，请确保余额充足",
+  "@getGasDialogTitle": {
+    "placeholders": {
+      "symbol": {
+        "type": "String"
+      }
+    }
+  },
+  "getGasDialogTitle": "获取 {symbol} 燃料费",
+  "@getGasDialogSubtitle": {
+    "placeholders": {
+      "chainName": {
+        "type": "String"
+      }
+    }
+  },
+  "getGasDialogSubtitle": "选择一种方式为您的 {chainName} 笔记账户充值",
+  "getGasOptionReceiveTitle": "接收代币",
+  "getGasBadgeRecommended": "推荐",
+  "@getGasReceiveHint": {
+    "placeholders": {
+      "symbol": {
+        "type": "String"
+      }
+    }
+  },
+  "getGasReceiveHint": "从其他笔记账户或交易所转入 {symbol}",
+  "getGasWalletAddressLabel": "笔记账户地址",
+  "getGasShowQr": "二维码",
+  "getGasHideQr": "隐藏",
+  "@getGasTransferWarning": {
+    "placeholders": {
+      "chainName": {
+        "type": "String"
+      }
+    }
+  },
+  "getGasTransferWarning": "请确保转账网络为 {chainName}，否则笔记可能丢失",
+  "getGasFaucetTitle": "测试网水龙头",
+  "getGasBadgeFree": "免费",
+  "@getGasFaucetHint": {
+    "placeholders": {
+      "symbol": {
+        "type": "String"
+      }
+    }
+  },
+  "getGasFaucetHint": "从水龙头免费领取测试网 {symbol}",
+  "@getGasFaucetOpen": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "getGasFaucetOpen": "跳转到水龙头网址 {index}",
+  "getGasBuyExchangeTitle": "从交易所购买",
+  "getGasBadgeComingSoon": "即将推出",
+  "@getGasBuyExchangeHint": {
+    "placeholders": {
+      "symbol": {
+        "type": "String"
+      }
+    }
+  },
+  "getGasBuyExchangeHint": "通过交易所购买 {symbol} 并提现到笔记账户",
+  "getGasDialogCancel": "取消",
+  "getGasAddressCopied": "地址已复制",
+  "getGasInvalidLink": "无效的链接",
+  "getGasCouldNotOpenLink": "无法打开链接，请检查是否已安装浏览器",
+  "@getGasOpenFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "getGasOpenFailed": "打开失败：{error}",
+  "homeRecentNotes": "最近笔记",
+  "homeRefreshRecentNotes": "刷新最近笔记",
+  "homeLoadingOnChainNotes": "正在加载链上笔记",
+  "homeSyncingOnChainNotes": "正在同步链上笔记…",
+  "homeNoNotesInLastMonth": "最近一个月都没有笔记了",
+  "homeCreateNewNotePrompt": "快来创建您的新笔记",
+  "notesAllChains": "全部链",
+  "notesSwitchedToAllChains": "已切换到全部链",
+  "notesFilterAll": "全部",
+  "notesFilterOnChain": "已上链",
+  "notesFilterOffChain": "未上链",
+  "notesSortNewest": "最新",
+  "notesSortUpdated": "更新",
+  "notesSortOldest": "最早",
+  "notesSortTitle": "标题",
+  "notesTimelineNoteCount": "{count} 篇",
+  "@notesTimelineNoteCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "noteStatsTotalNotes": "总笔记",
+  "noteStatsOnChainCount": "已上链",
+  "noteStatsImages": "图片数",
+  "noteStatsChars": "总字数",
+  "noteDeleteNote": "删除笔记",
+  "noteDeleteConfirmTitle": "删除笔记？",
+  "noteDeleteConfirmBody": "确认删除这条笔记吗？删除后不可恢复。",
+  "noteDeletedSnackbar": "笔记已删除",
+  "noteDeleteFailed": "删除失败：{error}",
+  "@noteDeleteFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "noteUpdatedAt": "更新于 {date}",
+  "@noteUpdatedAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "noteCreatedAt": "创建于 {date}",
+  "@noteCreatedAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "noteNoContent": "暂无内容",
+  "noteEditorCreateNewNote": "创建新笔记",
+  "noteEditorChainLine": "{chainName} 链",
+  "@noteEditorChainLine": {
+    "placeholders": {
+      "chainName": {
+        "type": "String"
+      }
+    }
+  },
+  "noteEditorSelectChainToPublish": "选择链后可上链",
+  "noteEditorSave": "保存",
+  "noteEditorSaving": "保存中",
+  "noteTitleLabel": "标题",
+  "noteTitleHint": "给你的笔记起个标题…",
+  "noteCoverImages": "封面图片（可选）",
+  "noteCoverAdd": "添加封面",
+  "noteCoverUploading": "上传中",
+  "noteCoverTapUpload": "点击上传封面图片",
+  "noteCoverFormatsHint": "支持 JPG、PNG 等格式",
+  "noteRichTextGuideTitle": "富文本编辑功能",
+  "noteRichTextHeadingLabel": "标题：",
+  "noteRichTextHeadingBody": "点击工具栏「标题」按钮插入数字标题。",
+  "noteRichTextListLabel": "列表：",
+  "noteRichTextListBody": "插入项目符号或编号列表。",
+  "noteRichTextEmojiLabel": "Emoji：",
+  "noteRichTextEmojiBody": "快速插入常用表情和状态标记。",
+  "noteRichTextTemplateLabel": "模板：",
+  "noteRichTextTemplateBody": "选择预设模板快速开始创作。",
+  "noteRichTextImageLabel": "图片：",
+  "noteRichTextImageBody": "点击工具栏图片按钮，直接插入到正文中。",
+  "noteRichTextPreviewHint": "提示：切换到「预览」可查看排版效果。",
+  "noteEditorContentPlaceholder": "在这里记录你的想法、灵感、计划…\n\n提示：使用工具栏可快速插入：\n• 标题和列表\n• Emoji 和特殊符号\n• 快速模板\n• 图片\n\n支持富文本格式，详情页会自动美化显示！",
+  "noteTipsTitle": "创作提示",
+  "noteTipsBody": "• 给笔记起个有意义的标题\n• 记录你的想法、计划或重要信息\n• 可以添加图片让内容更丰富\n• 保存后可选择上链，永久存储",
+  "noteReadyTitle": "准备就绪",
+  "noteReadyBody": "内容已填写，点击右上角「保存」即可创建笔记。",
+  "noteTypeSectionLabel": "笔记类型：",
+  "notePublishToChain": "发布到链上",
+  "notePublishing": "上链中…",
+  "noteOnChainPublished": "已上链",
+  "selectBlockchainFirst": "请先选择区块链网络",
+  "noteImageAdded": "图片已添加",
+  "noteImagePickFailed": "选择图片失败",
+  "noteSavedToLocal": "已保存到本地",
+  "notePublishFailedKeptDraft": "上链失败，已保存为草稿",
+  "noteSavedAsDraft": "已保存为草稿",
+  "richTextPreviewMode": "预览模式",
+  "richTextEditMode": "编辑模式",
+  "richTextPreview": "预览",
+  "richTextEdit": "编辑",
+  "richTextLineCount": "{count} 行",
+  "@richTextLineCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "richTextCharCount": "{count} 字符",
+  "@richTextCharCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "richTextToolbarBottomHint": "提示：使用工具栏快速插入格式，或手动输入 emoji 和特殊符号。",
+  "richTextToolbarHeading": "标题",
+  "richTextTooltipInsertHeading": "插入标题",
+  "richTextTooltipBulletList": "插入列表",
+  "richTextTooltipNumberedList": "插入编号列表",
+  "richTextTooltipStatusMarkers": "插入状态标记",
+  "richTextToolbarEmojiMenu": "表情",
+  "richTextTooltipInsertEmoji": "插入表情",
+  "richTextToolbarTemplate": "模板",
+  "richTextTooltipQuickTemplate": "快速模板",
+  "richTextTooltipAddImage": "添加图片",
+  "richTextMdImageAlt": "图片",
+  "richTextInsertNumberedHeading": "\n1️⃣ 标题\n",
+  "richTextInsertBulletLines": "\n• 列表项 1\n• 列表项 2\n• 列表项 3\n",
+  "richTextInsertNumberedLines": "\n1. 第一项\n2. 第二项\n3. 第三项\n",
+  "richTextInsertStatusMarkers": "\n🟢 已完成\n🔵 进行中\n🟡 待处理\n",
+  "richTextEmojiGroupNumberedTitle": "数字标题",
+  "richTextEmojiGroupStatus": "状态标记",
+  "richTextEmojiGroupSymbols": "常用符号",
+  "richTextEmojiGroupEmoji": "表情",
+  "richTextEmojiHeadingWord": "标题",
+  "richTextEmojiBodyWord": "内容",
+  "richTextTplStandardNoteName": "📝 标准笔记",
+  "richTextTplStandardNoteBody": "标题\n\n主要内容：\n• 要点 1\n• 要点 2\n• 要点 3\n\n总结：\n",
+  "richTextTplTaskName": "✅ 任务清单",
+  "richTextTplTaskBody": "任务清单\n\n今日任务：\n✓ 已完成的任务\n✗ 未完成的任务\n→ 进行中的任务\n\n备注：\n",
+  "richTextTplStudyName": "📚 学习笔记",
+  "richTextTplStudyBody": "学习笔记 - 主题\n\n1️⃣ 关键概念\n• 概念 1：说明\n• 概念 2：说明\n\n2️⃣ 重点总结\n• 要点 1\n• 要点 2\n\n3️⃣ 实践应用\n",
+  "richTextTplIdeaName": "💡 灵感记录",
+  "richTextTplIdeaBody": "💡 灵感记录\n\n想法：\n🟢 核心想法描述\n\n优势：\n• 优点 1\n• 优点 2\n\n下一步：\n→ 行动计划\n",
+  "richTextTplProjectName": "📊 项目规划",
+  "richTextTplProjectBody": "项目规划\n\n🎯 目标：\n\n📝 计划：\n1. 第一步\n2. 第二步\n3. 第三步\n\n⏰ 时间线：\n",
+  "gasPreviewTitle": "Gas 费用预览",
+  "gasPreviewSubtitle": "请选择 Gas 速度并确认上链。",
+  "gasPreviewLoading": "正在获取 Gas 费用…",
+  "gasPreviewPickSpeed": "选择 Gas 速度",
+  "gasPreviewLiveRates": "实时费率",
+  "gasSpeedSlow": "慢速",
+  "gasSpeedStandard": "标准",
+  "gasSpeedFast": "快速",
+  "gasTimeSlow": "约 3–5 分钟",
+  "gasTimeStandard": "约 1–2 分钟",
+  "gasTimeFast": "约 15–30 秒",
+  "gasDescSlow": "baseFee×1.1；小费 = max(30 Gwei, 网络建议) + 3 Gwei",
+  "gasDescStandard": "baseFee×1.25；小费 = max(30 Gwei, 网络建议) + 8 Gwei",
+  "gasDescFast": "baseFee×1.5；小费 = max(30 Gwei, 网络建议) + 20 Gwei",
+  "gasLabelGasPrice": "Gas 价格",
+  "gasLabelEstCost": "预计费用",
+  "gasRecommendedBadge": "推荐",
+  "gasPreviewGweiMax": "{value} Gwei（上限）",
+  "@gasPreviewGweiMax": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "gasFeeBreakdownTitle": "费用明细",
+  "gasFeeRowBase": "基础费用",
+  "gasFeeRowPriority": "优先费用",
+  "gasFeeRowNoteSize": "笔记大小",
+  "gasFeeRowTotal": "总费用",
+  "gasFeeNoteSizeKb": "{kb} KB",
+  "@gasFeeNoteSizeKb": {
+    "placeholders": {
+      "kb": {
+        "type": "String"
+      }
+    }
+  },
+  "gasWarningTitle": "温馨提示",
+  "gasWarningBody": "• Gas 费用由区块链网络收取，与应用无关\n• 实际费用可能因网络拥堵略有浮动\n• 上链后的笔记无法删除或修改",
+  "gasConfirmOnChain": "确认上链",
+  "gasOnChainConfirmDialogTitle": "上链后不可修改",
+  "gasOnChainConfirmDialogBody": "当前笔记将被写入区块链（IPFS + 链上存证），\n一旦提交将无法删除或修改，请确认内容无误后再继续。",
+  "gasOnChainConfirmDialogQuestion": "是否确认上链？",
+  "onChainConfirmParamSummarySectionTitle": "参数摘要",
+  "noteOnChainParamJsonKeyNetwork": "网络",
+  "noteOnChainParamJsonKeyChainId": "链 ID",
+  "noteOnChainParamJsonKeyFeeToken": "Gas 支付代币",
+  "noteOnChainParamJsonKeySender": "发起地址（你的笔记账户）",
+  "noteOnChainParamJsonKeyContract": "合约地址",
+  "noteOnChainParamJsonKeyContractName": "合约名称",
+  "noteOnChainParamJsonKeyFunction": "调用方法",
+  "noteOnChainParamJsonKeyNoteTitle": "笔记标题",
+  "noteOnChainParamJsonKeyContentSha256": "正文指纹 SHA-256",
+  "noteOnChainParamJsonGroupMintCall": "上链调用（合约参数）",
+  "noteOnChainParamJsonGroupContext": "当前可核对信息",
+  "noteOnChainParamJsonValueUriPending": "安全验证确认并上传至 IPFS 后填入实际 ipfs:// 地址",
+  "noteOnChainConfirmPageTitle": "确认笔记上链",
+  "noteOnChainConfirmPageSubtitle": "将笔记永久保存到区块链",
+  "noteOnChainConfirmNoExplorer": "当前网络未配置区块浏览器，无法查看合约",
+  "noteOnChainConfirmMintStatusUncertain": "上链状态异常，请稍后在笔记或浏览器中核对",
+  "noteOnChainConfirmSignButton": "确认并安全验证",
+  "noteOnChainConfirmTipTitle": "上链提示",
+  "noteOnChainConfirmTipBody": "• 上链后无法修改或删除笔记\n• 笔记将永久上链，归你所有\n• 需要支付少量 Gas 费用，仅一次",
+  "noteOnChainConfirmNoteContentSection": "笔记内容",
+  "noteOnChainConfirmNoteTitleLabel": "标题",
+  "noteOnChainConfirmContentPreview": "内容预览",
+  "noteOnChainConfirmNoteHashLabel": "笔记哈希 (SHA-256)",
+  "noteOnChainConfirmChainDetailsSection": "上链详情",
+  "noteOnChainConfirmMyWallet": "我的笔记账户",
+  "noteOnChainConfirmTargetContract": "目标合约",
+  "noteOnChainConfirmContractOwnershipHint": "合约负责铸造笔记（NFT），笔记（NFT）最终归属于你的笔记账户，你拥有笔记的永久所有权",
+  "noteOnChainConfirmNoteRecipientAddress": "笔记接收地址：{address}",
+  "@noteOnChainConfirmNoteRecipientAddress": {
+    "placeholders": {
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "noteOnChainConfirmNetworkFee": "网络费用",
+  "noteOnChainConfirmGasPriceLabel": "Gas 单价",
+  "noteOnChainConfirmGasLimitLabel": "Gas 上限",
+  "noteOnChainConfirmOnChainFee": "上链费用",
+  "noteOnChainConfirmGasOnlyHint": "仅需支付 Gas",
+  "noteOnChainConfirmAdvancedSection": "高级详情",
+  "noteOnChainConfirmNonceLabel": "Nonce",
+  "noteOnChainConfirmNetworkLabel": "网络",
+  "noteOnChainConfirmGasSlow": "慢速",
+  "noteOnChainConfirmGasNormal": "标准",
+  "noteOnChainConfirmGasFast": "快速",
+  "noteOnChainConfirmGasTimeSlow": "约 5 分钟",
+  "noteOnChainConfirmGasTimeNormal": "约 1 分钟",
+  "noteOnChainConfirmGasTimeFast": "约 15 秒",
+  "saveOptionsTitle": "选择保存方式",
+  "saveOptionsSubtitle": "根据您的需求选择合适的保存方式",
+  "saveOnChainTitle": "上链保存",
+  "saveOnChainDescription": "永久存储在区块链，不可篡改",
+  "saveOnChainFeature1": "永久保存",
+  "saveOnChainFeature2": "可验证",
+  "saveOnChainFeature3": "去中心化",
+  "ipfsUploadConfirmTitle": "上传到 IPFS",
+  "ipfsUploadConfirmBody": "当前笔记含有本地图片，上链前需先上传到去中心化存储（IPFS）。上传后可在后续步骤写入区块链。\n\n是否将相关内容上传到 IPFS 并继续？",
+  "saveBadgeSecure": "安全",
+  "saveDraftTitle": "保存为草稿",
+  "saveDraftDescription": "稍后继续编辑，不占用链资源",
+  "saveDraftFeature1": "随时编辑",
+  "saveDraftFeature2": "本地存储",
+  "saveDraftFeature3": "快速保存",
+  "saveBadgeRecommended": "推荐",
+  "saveLocalTitle": "保存到本地",
+  "saveLocalDescription": "完成编辑，仅保存在设备上",
+  "saveLocalFeature1": "离线可用",
+  "saveLocalFeature2": "即时保存",
+  "saveLocalFeature3": "零费用",
+  "saveWillPublishToChain": "将保存到 {chainName}",
+  "@saveWillPublishToChain": {
+    "placeholders": {
+      "chainName": {
+        "type": "String"
+      }
+    }
+  },
+  "helpCenter": "帮助中心",
+  "helpCenterSubtitle": "常见问题与使用指南",
+  "helpSectionQuickGuide": "快速指南",
+  "helpSectionFaq": "常见问题",
+  "helpSearchHint": "搜索问题…",
+  "helpCategoryAll": "全部",
+  "helpCategoryBasics": "基础使用",
+  "helpCategoryBlockchain": "区块链",
+  "helpCategoryWalletSecurity": "笔记账户安全",
+  "helpCategoryWalletMgmt": "笔记账户管理",
+  "helpCategoryAdvanced": "高级功能",
+  "helpCategoryCommon": "常见问题",
+  "helpComingSoon": "敬请期待",
+  "helpEmptyTitle": "没有找到相关问题",
+  "helpEmptySubtitle": "试试其他关键词或联系客服",
+  "helpContactTitle": "联系客服",
+  "helpContactSubtitle": "没有找到答案？发送邮件给我们",
+  "helpContactSendFeedback": "发送反馈",
+  "helpContactYourEmailOptional": "您的邮箱（选填）",
+  "helpContactEmailHint": "",
+  "helpContactMessageLabel": "反馈内容",
+  "helpContactMessageHint": "请描述您遇到的问题或建议…",
+  "helpContactSending": "发送中…",
+  "helpContactSend": "发送",
+  "helpCopySupportEmail": "邮箱地址已复制",
+  "helpFeedbackEmpty": "请输入反馈内容",
+  "helpFeedbackThanks": "感谢您的反馈！",
+  "helpFeedbackMailFailed": "打开邮件失败，请稍后重试",
+  "helpFeedbackMailSubject": "用户反馈",
+  "helpQuickGuide1Title": "快速入门",
+  "helpQuickGuide1Desc": "5分钟了解链上笔记的基本功能",
+  "helpQuickGuide2Title": "创建第一条笔记",
+  "helpQuickGuide2Desc": "手把手教您创建并上链保存笔记",
+  "helpQuickGuide3Title": "备份恢复短语",
+  "helpQuickGuide3Desc": "确保您的笔记和数据安全",
+  "helpQuickGuide4Title": "管理多个笔记账户",
+  "helpQuickGuide4Desc": "创建、恢复和切换笔记账户",
+  "helpFaq1Question": "什么是链上笔记？",
+  "helpFaq1Answer": "链上笔记是一个基于区块链技术的笔记应用。您可以将笔记永久保存到区块链上，实现数据的不可篡改和永久保存。笔记一旦上链，任何人都无法修改或删除，确保内容的真实性和可追溯性。",
+  "helpFaq2Question": "如何创建一条新笔记？",
+  "helpFaq2Answer": "您可以通过以下方式创建笔记：\n1. 在首页点击“创建笔记”按钮\n2. 在笔记页面点击右下角的“+”按钮\n3. 创建后可以添加标题、内容和图片",
+  "helpFaq3Question": "笔记有哪些保存方式？",
+  "helpFaq3Answer": "系统提供三种保存方式：\n1. 保存为草稿：本地保存，可随时编辑\n2. 保存到本地：完成编辑，本地存储\n3. 上链保存：永久保存到区块链，不可修改\n\n建议先保存为草稿，确认内容无误后再选择上链保存。",
+  "helpFaq4Question": "什么是上链保存？需要付费吗？",
+  "helpFaq4Answer": "上链保存是指将笔记内容通过区块链技术永久存储。上链需要支付 Gas 费用（网络手续费），这是由区块链网络收取的，并非应用费用。不同区块链网络的 Gas 费用不同，通常 L2 网络（如 Arbitrum、Optimism）的费用更低。",
+  "helpFaq5Question": "支持哪些区块链网络？",
+  "helpFaq5Answer": "目前支持 8 条主流区块链：\n• Ethereum（以太坊主网）\n• BSC（币安智能链）\n• Polygon（马蹄链）\n• Arbitrum（L2 网络）\n• Optimism（L2 网络）\n• Avalanche（雪崩链）\n• Fantom（FTM 链）\n• Base（Base 链）\n\n您可以在首页随时切换网络。",
+  "helpFaq6Question": "如何验证笔记是否真的上链了？",
+  "helpFaq6Answer": "笔记上链后会生成区块链哈希值（Hash），您可以：\n1. 在笔记详情页查看哈希值\n2. 点击“验证”按钮查看完整的区块链信息\n3. 复制哈希值到对应链的区块链浏览器查询\n\n系统会显示该笔记在区块链上的完整记录。",
+  "helpFaq7Question": "什么是恢复短语？为什么要备份？",
+  "helpFaq7Answer": "恢复短语是恢复笔记账户的唯一凭证，通常由 12 个英文单词组成。它是您笔记账户的“主密钥”。\n\n重要性：\n• 恢复短语丢失 = 笔记账户永久丢失\n• 恢复短语泄露 = 笔记可能永久丢失或被他人管理\n• 应用无法帮您找回恢复短语\n\n务必妥善保管，建议抄写在纸上保存在安全的地方。",
+  "helpFaq8Question": "如何备份恢复短语？",
+  "helpFaq8Answer": "备份恢复短语的步骤：\n1. 进入“我的”页面\n2. 点击“备份恢复短语”\n3. 阅读安全提示\n4. 抄写 12 个恢复短语\n5. 按顺序验证恢复短语\n6. 完成备份\n\n注意：请在安全的环境下备份，确保无人窥视。",
+  "helpFaq9Question": "安全密钥和恢复短语有什么区别？",
+  "helpFaq9Answer": "恢复短语和安全密钥都可以恢复笔记账户，但有所不同：\n\n恢复短语：\n• 12 个英文单词\n• 易于抄写和记忆\n• 可以派生多个安全密钥\n• 推荐的备份方式\n\n安全密钥：\n• 64 位十六进制字符串\n• 难以记忆\n• 对应单个地址\n• 适合高级用户",
+  "helpFaq10Question": "如何切换笔记账户？",
+  "helpFaq10Answer": "切换笔记账户的方法：\n1. 点击首页顶部的笔记账户地址\n2. 在弹出的笔记账户选择器中选择要切换的笔记账户\n3. 或点击“笔记账户管理”创建/恢复新笔记账户\n\n系统支持管理多个笔记账户，可随时切换。",
+  "helpFaq11Question": "如何查看不同链的地址？",
+  "helpFaq11Answer": "在“我的笔记账户”页面：\n1. 点击笔记账户卡片右侧的下拉箭头\n2. 会展开显示所有支持的 8 条链\n3. 每条链都显示对应的地址\n4. 点击地址可以快速复制\n\n注意：同一个笔记账户在不同链上的地址是相同的（EVM 兼容链）。",
+  "helpFaq12Question": "如何自定义 RPC 节点？",
+  "helpFaq12Answer": "自定义 RPC 节点的步骤：\n1. 进入“我的”→“网络设置”\n2. 选择要配置的网络\n3. 点击“添加节点”按钮\n4. 输入节点名称和 RPC URL\n5. 测试连接\n6. 设为默认节点\n\n自定义节点可以提高连接速度和稳定性。",
+  "helpFaq13Question": "富文本编辑器支持哪些格式？",
+  "helpFaq13Answer": "富文本编辑器支持多种格式：\n• 粗体、斜体、下划线\n• 标题（H1-H3）\n• 有序列表、无序列表\n• 引用块\n• 代码块\n• 图片上传\n\n使用工具栏按钮即可快速格式化文本。",
+  "helpFaq14Question": "上链后的笔记可以修改或删除吗？",
+  "helpFaq14Answer": "不可以。这正是区块链技术的特点：\n\n上链后：\n• 内容永久保存\n• 无法修改\n• 无法删除\n• 任何人都无法篡改\n\n因此建议：\n1. 先保存为草稿反复修改\n2. 确认无误后再上链\n3. 敏感信息不要上链",
+  "helpFaq15Question": "为什么上链需要等待？",
+  "helpFaq15Answer": "Gas 费用确认后，笔记会提交到区块链网络。等待时间取决于：\n\n1. 网络拥堵程度\n2. 您选择的 Gas 速度\n   • 快速：15-30 秒\n   • 标准：1-2 分钟\n   • 慢速：3-5 分钟\n3. 区块确认时间\n\n通常 1-2 分钟即可完成。",
+  "helpFaq16Question": "忘记密码怎么办？",
+  "helpFaq16Answer": "如果忘记密码：\n\n1. 可以使用恢复短语重新恢复笔记账户\n2. 恢复后重新设置密码\n3. 原有的笔记数据会保留\n\n重要提醒：\n• 密码用于本地加密\n• 恢复短语是最终凭证\n• 务必备份恢复短语",
+  "@helpFeedbackMailBody": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      },
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "helpFeedbackMailBody": "联系邮箱：{email}\n\n{message}",
+  "termsOfServiceLastUpdatedLabel": "最近更新",
+  "termsOfServiceIntroTitle": "重要提示",
+  "@termsOfServiceIntroBody": {
+    "placeholders": {
+      "privacyDoc": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfServiceIntroBody": "请仔细阅读本服务条款及{privacyDoc}。使用本服务即表示您理解并同意相关规则。若不同意，请勿使用本服务。",
+  "termsOfServiceHelpTitle": "需要帮助？",
+  "termsOfServiceHelpBody": "若对本条款有疑问，请前往应用内帮助中心或通过设置中的反馈、邮件联系我们。我们将在合理时间内尽力答复。",
+  "termsOfServiceHelpMailFeedback": "邮件反馈",
+  "@termsOfServiceSection01Body": {
+    "placeholders": {
+      "appTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfServiceSection01Title": "1. 服务条款的接受",
+  "termsOfServiceSection01Body": "欢迎使用「{appTitle}」（以下简称「本服务」）。在使用前请仔细阅读本服务条款（以下简称「本条款」）。\n您点击同意、注册、登录或实际使用本服务，即视为已阅读并同意受本条款约束。若不同意，请停止使用本服务。\n我们可能适时修订本条款，修订后经应用内公告或更新后继续使用视为接受修订版本。",
+  "termsOfServiceSection02Title": "2. 服务说明",
+  "termsOfServiceSection02Body": "本服务为结合本地存储与区块链能力的笔记类应用：您可在设备上创建、编辑与管理笔记，并可按自身选择进行与链上相关的操作（例如交易、哈希或元数据等，具体以应用内流程与提示为准）。\n当前实现特点包括（可能随版本更新）：\n• 本地存储：笔记等数据主要保存在您的设备（如本地数据库）；卸载应用可能导致本地数据丢失，请自行备份。\n• 链上相关能力：您可自愿发起链上操作以实现存证、同步或展示等目的；链上记录通常公开且难以删除。\n• 多链支持：支持多条 EVM 兼容网络，具体以应用内列表为准。\n• 笔记账户：由您在设备内生成或导入密钥材料；密钥与恢复短语由您本人保管。\n本服务仅提供技术工具与中立的软件能力，不对您笔记内容的合法性、准确性、完整性或适用于任何特定目的作担保。",
+  "termsOfServiceSection03Title": "3. 用户笔记账户与安全",
+  "termsOfServiceSection03Body": "3.1 笔记账户与凭证：创建或恢复笔记账户后，系统会在设备侧管理地址与密钥材料。恢复短语、安全密钥是恢复笔记的唯一有效凭据之一，请务必离线备份并妥善保密。\n3.2 安全责任：凡使用您设备上已解锁的应用与笔记账户所进行之操作，均视为由您或您授权环境下进行；因泄露恢复短语/安全密钥、设备丢失、恶意软件、钓鱼或您未按提示操作导致的损失，由您自行承担。\n3.3 安全建议：\n• 切勿向任何人泄露恢复短语或安全密钥\n• 为应用设置高强度密码并启用系统提供的锁屏/生物识别（若可用）\n• 在可信网络环境下备份恢复短语，并验证备份正确性\n• 警惕仿冒应用与钓鱼链接\n3.4 我们及工作人员不会以任何理由向您索要完整恢复短语或安全密钥。如遇此类请求，请拒绝并通过官方渠道反馈。",
+  "@termsOfServiceSection04Body": {
+    "placeholders": {
+      "appTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfServiceSection04Title": "4. 区块链交易与费用",
+  "termsOfServiceSection04Body": "4.1 Gas 与网络费：在链上发起交易需向区块链网络支付手续费（Gas 等）。费用由网络收取，与「{appTitle}」作为软件提供方无商业上的代收关系；费率与额度由网络与当时拥堵情况决定。\n4.2 确认时间：交易需经网络确认，时间取决于网络状态与您选择的费率策略；我们不保证具体确认时长。\n4.3 失败与扣费：因余额不足、RPC 异常、用户撤销、合约回滚等原因可能导致交易失败；部分情况下已消耗的网络费仍无法退还，以网络规则为准。\n4.4 不可逆性：链上交易一经足够确认，通常不可撤销或篡改。请在安全验证与广播前核对网络、金额与合约交互内容。\n4.5 您对您主动发起的全部链上操作及相应后果自行负责。因区块链协议、第三方节点、智能合约或您自身操作失误造成的损失，我们在法律法规允许范围内不承担责任。",
+  "termsOfServiceSection05Title": "5. 用户行为规范",
+  "termsOfServiceSection05Body": "使用本服务时，您不得：\n• 制作、上传、传播违法违规、侵权、诽谤、淫秽、暴力、仇恨或侵害他人合法权益的内容\n• 利用本服务从事欺诈、洗钱、非法募资、侵犯知识产权或其他监管机构禁止的行为\n• 对本服务或相关基础设施进行未经授权的访问、探测、干扰或破坏\n• 批量爬取、滥用接口或影响其他用户正常使用（除非我们书面允许）\n• 利用本服务大量发送骚扰或未经授权的商业信息\n若您违反前款，我们有权视情节采取警示、限制功能、中止或终止向您提供服务等措施，并可在依法或依监管部门要求时配合提供必要信息。",
+  "termsOfServiceSection06Title": "6. 知识产权",
+  "termsOfServiceSection06Body": "6.1 本服务本身：包括但不限于客户端软件、界面设计、标识与文档的著作权、商标权等归我们或权利人所有。未经许可，您不得复制、反向工程、破解或商业性再分发本服务核心代码（法律允许的合理使用除外）。\n6.2 您的内容：您对自行创作的笔记等内容保留权利；本条款不转移该等权利予我们。\n6.3 为向您提供同步、展示、备份、链上提交等技术实现所必要的范围内，您授予我们非独占、可撤回（在服务条款允许终止使用的范围内）、免许可费的使用许可，仅限于运行与改进本服务之目的。\n6.4 未经书面许可，您不得以容易引起混淆的方式使用我们的商标、应用名称或图标。",
+  "termsOfServiceSection07Title": "7. 免责声明",
+  "termsOfServiceSection07Body": "7.1 「现状」提供：在适用法律允许的最大范围内，本服务按「现状」及「可用」基础提供。我们不对服务持续不间断、无错误、满足您所有需求或与其他软硬件完全兼容作明示或默示担保。\n7.2 数据与安全：我们会采取合理技术与管理措施，但无法保证因不可抗力、设备遗失、病毒、第三方攻击或区块链/IPFS 等外部系统导致的数据泄露、丢失或服务中断不会发生。\n7.3 第三方：本服务可能依赖区块链节点、网关、去中心化存储、消息推送等第三方服务；对其可用性、准确性或合规性我们不作担保，相关风险由您自行评估。\n7.4 链上笔记与协议风险：链上笔记及相关协议具有网络异常、合约漏洞、治理分叉等固有风险；您应自行了解并承担。\n7.5 责任限制：除法律强制规定外，我们对任何间接、附带、惩罚性或后果性损害不承担责任；我们的总赔偿额以您就争议服务向我们已实际支付的金额为上限（若为零则以零为限）。",
+  "termsOfServiceSection08Title": "8. 服务变更、中止与终止",
+  "termsOfServiceSection08Body": "8.1 我们有权因业务调整、合规要求或技术原因修改、暂停或终止部分或全部功能；将在可行时通过应用内提示等方式告知。\n8.2 您可随时停止使用并卸载本服务；重要数据请务必提前自行导出或备份。\n8.3 若您严重违反本条款，我们可中止或终止向您提供服务。\n8.4 服务终止后，除法律另有要求外，我们没有义务继续保存或向您返还已存储在链上、第三方网络或您本地已由您处置的数据。",
+  "termsOfServiceSection09Title": "9. 法律适用与争议解决",
+  "termsOfServiceSection09Body": "9.1 本条款的订立、效力、解释与履行适用中华人民共和国大陆地区法律（仅为本条款目的，不包括冲突法规则导致适用域外法的情形，法律法规另有规定的除外）。\n9.2 因本条款引起的争议，双方应先行友好协商。\n9.3 协商不成的，任何一方可向有管辖权的人民法院提起诉讼（可约定为我们主要办事机构所在地法院，如与强制性管辖规则冲突，以法律为准）。",
+  "@termsOfServiceSection10Body": {
+    "placeholders": {
+      "privacyDoc": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfServiceSection10Title": "10. 其他",
+  "termsOfServiceSection10Body": "10.1 完整协议：本条款与{privacyDoc}（如有）及应用内专项规则共同构成您使用本服务的主要规则；冲突时，就专项事项以专项规则为准（不得违反强制性法律）。\n10.2 可分割：若某条款被认定无效或不可执行，其余条款仍然有效，且应在合法范围内尽可能接近原意作出解释。\n10.3 不弃权：我们未及时行使权利不构成对该权利的放弃。\n10.4 联系我们：除法律法规另有强制性渠道外，您可通过应用内「帮助中心」或反馈就本条款提出询问。",
+  "@termsOfServiceFooterLine1": {
+    "placeholders": {
+      "appTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfServiceFooterLine1": "感谢您信任并使用{appTitle}。",
+  "connectEvmAccountFirst": "请先连接 EVM 笔记账户",
+  "createAccountFailedRetry": "创建笔记账户失败，请稍后重试",
+  "@createAccountFailedWithError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "createAccountFailedWithError": "创建笔记账户失败：{error}",
+  "transactionHistoryConnectEvm": "请选择网络并确保已连接 EVM 笔记账户",
+  "transactionHistoryUnsupportedNetwork": "当前网络暂不支持创建笔记记录列表（请切换至常见 EVM 网络）",
+  "securityVerificationFailed": "安全验证失败",
+  "walletImportPrivateKeyHint": "请输入您的安全密钥，请勿泄露给他人",
+  "walletImportPrivateKeySubmit": "导入安全密钥"
+}

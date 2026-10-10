@@ -1,0 +1,5 @@
+/* Match Android values-zh-rTW */
+CFBundleDisplayName = "鏈上筆記";
+NSCameraUsageDescription = "用於拍攝照片並插入到筆記中。";
+NSPhotoLibraryAddUsageDescription = "用於儲存圖片到相簿。";
+NSPhotoLibraryUsageDescription = "用於選擇照片作為筆記封面或插入圖片。";
