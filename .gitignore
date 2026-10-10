@@ -1,3 +1,6 @@
+# Always version the project license
+!/LICENSE
+
 # Miscellaneous
 *.class
 *.log
